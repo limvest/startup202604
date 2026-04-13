@@ -11,3 +11,4 @@ __pycache__/
 venv/
 env/
 .env
+data/raw/기억장치관리전략-0408.ini
