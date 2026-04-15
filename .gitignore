@@ -12,3 +12,7 @@ venv/
 env/
 .env
 data/raw/기억장치관리전략-0408.ini
+data/raw/tmp_motie/
+data/raw/playwright_batch_capture/*.html
+data/raw/playwright_batch_capture/*.png
+data/raw/institution_requests_by_owner/

@@ -1,0 +1,41 @@
+﻿priority,category,dataset_name,claim_link,access_type,landing_url,download_ready,playwright_needed,owner,notes
+1,grid,KPX_출력제어_공지_리스트_상세,"주장1,3",playwright,https://www.kpx.or.kr/board.es?mid=a10109050000&bid=0216,yes,yes,KPX,list+detail 다단 수집 필요
+1,grid,EPSIS_전력수급_시간별_통계,"주장1,3,4",playwright,https://epsis.kpx.or.kr/,yes,yes,EPSIS,수급/순부하 관련 핵심
+1,grid,EPSIS_SMP_시간별_통계,"주장3,4",playwright,https://epsis.kpx.or.kr/,yes,yes,EPSIS,손실액 환산 단가
+1,grid,EPSIS_발전원별_출력_통계,"주장1,3",playwright,https://epsis.kpx.or.kr/,yes,yes,EPSIS,태양광 비중 및 덕커브 검증
+1,grid,한국전력거래소_시간별전국전력수요량,"주장1,5",direct_or_button,https://www.data.go.kr/data/15065266/fileData.do,yes,yes,data.go.kr,연도별 파일 버튼 자동화 필요 가능성 있음
+2,grid,계통_고장_제약_이벤트로그,"주장1,5",institution_request,협조요청,no,no,KPX/KEPCO,고장 및 제한운전 이벤트
+2,grid,예비력_유연성자원_가동로그,"주장1,4",institution_request,협조요청,no,no,KPX,제약 원인 분해용
+1,generation,발전소별_실발전량_계량데이터,"주장3,4",institution_request,협조요청,no,no,발전사업자/KPX,손실 실측 핵심
+1,generation,발전소별_잠재발전량_추정데이터,"주장3,4",institution_request,협조요청,no,no,발전사업자/EMS,못판전력량 산정 핵심
+1,generation,발전소_메타데이터_용량위치접속점,주장5,institution_request,협조요청,no,no,발전사업자/개발사,자산 단위 리스크 분석
+2,generation,고장정지_유지보수_이력,"주장3,4",institution_request,협조요청,no,no,발전사업자_O&M,원인 분리 통제변수
+2,generation,인버터_PCS_제한설정로그,"주장3,4",institution_request,협조요청,no,no,발전사업자/제조사,인위 제한 구간 식별
+1,market,발전사업자_정산원장_SMP_REC_계약단가,"주장3,4",institution_request,협조요청,no,no,발전사업자/중개사,매출손실 정량화 핵심
+1,market,REC_가격_월별시계열,"주장3,4",playwright,https://rps.kemco.or.kr/,yes,yes,REC시장/신재생센터,시장가격 수집
+1,market,SMP_정산단가_시간별시계열,"주장3,4",playwright,https://epsis.kpx.or.kr/,yes,yes,KPX/EPSIS,시간축 단가 정렬
+1,market,PPA_계약조건_단가시간대패널티,주장4,institution_request,협조요청,no,no,PPA중개사/사업자,대체수익 시나리오 핵심
+2,market,보조서비스_DR_참여정산자료,"주장4,6",institution_request,협조요청,no,no,KPX/중개사,다중 수익원 모델링
+1,flexibility,ESS_운영로그_SOC_충방전_효율,주장4,institution_request,협조요청,no,no,ESS운영사/EMS/BMS,수익화 실증 핵심
+1,flexibility,DR_호출_참여_이행로그,"주장4,6",institution_request,협조요청,no,no,DR사업자/KPX,피크 완화 효과 검증
+2,flexibility,EV_충전부하_시간대별,주장6,institution_request,협조요청,no,no,충전사업자,유연성 수요 후보
+2,flexibility,열저장_냉동부하_제어로그,주장6,institution_request,협조요청,no,no,산업체/빌딩,산업 유연성 모델링
+1,connection,접속신청_대기_반려_지연이력,"주장5,6",institution_request,협조요청,no,no,KEPCO/개발사,입지 리스크 검증 핵심
+1,connection,변전소_선로_혼잡_역송전_이벤트,주장5,institution_request,협조요청,no,no,KEPCO,지역 제약 스코어 핵심
+1,connection,송배전_보강계획_착공준공증설용량,"주장5,6",playwright,https://www.motie.go.kr/,yes,yes,산업부/KEPCO,전기본 및 계획 문서 크롤링
+2,connection,전력수급기본계획_원문_부속자료,"주장5,6",playwright,https://www.motie.go.kr/,yes,yes,산업부,정책방향 시나리오
+2,connection,인허가_파이프라인_착공준공_지연이력,"주장5,6",institution_request,협조요청,no,no,지자체/개발사,공급 증가 시점 예측
+2,connection,토지_입지제약_GIS_환경민원연계거리,"주장5,6",direct_or_button,https://www.data.go.kr/,yes,yes,data.go.kr/공공GIS,입지 필터링
+1,demand_policy,한국전력거래소_행정구역별_에너지사용량,"주장5,6",direct_or_button,https://www.data.go.kr/data/15156136/fileData.do,yes,yes,data.go.kr,지역별 전기/가스/열 사용량
+1,demand_policy,KOSIS_지역별_산업전력소비_통계,주장6,direct_or_button,https://kosis.kr/,yes,yes,KOSIS,지역별 수요 구조 비교
+1,demand_policy,산단공_산업단지_통계DB,주장6,direct_or_button,https://www.kicox.or.kr/,yes,yes,산단공,산단 단위 수요/입지 데이터
+1,demand_policy,산업단지_공장_시간대별부하,주장6,institution_request,협조요청,no,no,KEPCO/산단공/수요기업,정책형 밸런싱 검증 핵심
+2,demand_policy,지역별_요금인센티브세제_정책DB,주장6,playwright,https://www.motie.go.kr/,yes,yes,산업부/지자체,정책효과 분석용
+2,demand_policy,입지이동_신규공장_증설_위치이력,주장6,institution_request,협조요청,no,no,산업부/지자체,인센티브 실효성 검증
+2,demand_policy,탄소비용_RE100_조달비용_기업공시,"주장6,7",playwright,https://dart.fss.or.kr/,yes,yes,DART/기업공시,기업 의사결정 연계
+1,product_roi,한국전력공사_EDS_OPEN_API_서비스목록,"주장6,7",direct_or_button,https://www.data.go.kr/data/15131481/fileData.do,yes,yes,data.go.kr,목록은 파일로 확보 실제 API는 별도 키 필요
+1,product_roi,고객_제품사용로그_조회경보실행,주장7,institution_request,내부시스템,no,no,내부데이터,행동 데이터 핵심
+1,product_roi,고객_KPI_전후_손실률매출대응시간,주장7,institution_request,내부시스템,no,no,고객협업데이터,ROI 증명 핵심
+2,product_roi,계약전환율_이탈률_ARPA_월별,주장7,institution_request,내부시스템,no,no,CRM/Billing,사업성 검증
+2,meta,데이터수집_출처메타_기관URL담당자,전주장,internal_template,내부템플릿,yes,no,데이터팀,수집 메타 표준 필수
+2,meta,시간공간해상도_단위_결측보정_규칙,전주장,internal_template,내부템플릿,yes,no,데이터팀,정합성 및 재현성 확보
