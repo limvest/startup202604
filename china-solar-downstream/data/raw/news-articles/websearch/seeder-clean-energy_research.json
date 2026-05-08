@@ -1,0 +1,31 @@
+{
+  "company_slug": "seeder-clean-energy",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 2,
+  "key_facts": [
+    "Founded circa 2015 in Shanghai",
+    "Foreign-run solar fintech operating inside China's distributed solar market",
+    "Connects multinational factory-owners in China with solar project investors via PPA",
+    "Delivers 10–15% electricity savings for industrial building customers",
+    "Raised $438K seed funding (disclosed on Crunchbase)",
+    "Described as 'analogous to early SolarCity but focused on industrial buildings'",
+    "Model: C&I rooftop PPA for foreign-owned factories"
+  ],
+  "financial_metrics": {
+    "seed_funding_usd_k": 438,
+    "customer_electricity_savings_pct_low": 10,
+    "customer_electricity_savings_pct_high": 15
+  },
+  "funding_history": [
+    {
+      "event": "Seed round",
+      "year_approx": 2015,
+      "amount_usd_k": 438,
+      "notes": "Small seed; limited public information on subsequent rounds or revenue"
+    }
+  ],
+  "business_model_notes": "Niche C&I solar PPA focusing on foreign-owned factories in China. Connects investors (ROI-seeking capital) with factory-owner customers (electricity cost savings). Very small scale ($438K seed) vs Asia Clean Capital which secured EDF institutional capital. Likely operates as intermediary/broker rather than balance-sheet asset owner.",
+  "competitive_position": "Extremely niche. Low public profile. Appears to have remained small relative to Asia Clean Capital and domestic PPA operators. The model requires access to both corporate treasury decision-makers (for factory PPAs) and institutional investors (for project capital) — a narrow Venn diagram.",
+  "research_notes": "LOW CONFIDENCE. Minimal English-language press coverage. Crunchbase entry confirms existence and seed funding. energystartups.org profile provides model description. No subsequent funding rounds found; may have remained boutique or shut down. Status as of 2026 unclear."
+}

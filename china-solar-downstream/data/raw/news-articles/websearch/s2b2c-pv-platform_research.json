@@ -1,0 +1,19 @@
+{
+  "company_slug": "s2b2c-pv-platform",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 1,
+  "key_facts": [
+    "Representative of China's S2B2C solar marketplace model that emerged 2016–2018",
+    "S2B2C model: platforms aggregate solar component supply chains + provide installers (B) with tools to sell to consumers (C)",
+    "Offered 'one-stop display, sales, and after-sales' with online consultation",
+    "Multiple such platforms emerged in the 2016–2018 wave; this specific entity has very low confidence",
+    "No verifiable data found for '光伏行家 (PV Expert Shanghai) Tech Co., Ltd.'",
+    "The S2B2C model as a category was widely described in Chinese trade press 2016–2018"
+  ],
+  "financial_metrics": {},
+  "funding_history": [],
+  "business_model_notes": "S2B2C (Supplier-to-Business-to-Consumer) solar marketplace: aggregates panel/inverter/mounting suppliers at the 'S' layer; provides digital tools to installers at the 'B' layer (quote generation, design tools, order management); enables installers to present professional purchasing experience to homeowners at the 'C' layer. This model was popularized in China solar around 2016–2018 as installer digitalization became a category. The specific company (光伏行家) is one of many anonymous entrants in this wave with low public profile.",
+  "structural_finding": "The S2B2C model for solar installers in China was a structural innovation of 2016–2018, enabling the fragmented installer base (10,000+ small EPC firms) to professionalize. However, no dominant single platform emerged — instead, general B2B procurement tools (JD Industrial, Alibaba 1688) and segment-specific tools (Zheguyun) captured portions of this market. The S2B2C solar-specific wave largely failed to produce a standalone winner.",
+  "research_notes": "Lowest confidence (★1). Agent search found zero verifiable data for this specific entity. The S2B2C solar model as a category is well-documented but this particular company (光伏行家) does not appear in accessible Chinese corporate databases or media. Recommend: remove from company list or re-categorize as 'structural model example' rather than specific company entry."
+}

@@ -1,0 +1,77 @@
+{
+  "document_type": "korea_market_context",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+
+  "installed_capacity": {
+    "cumulative_gw_end2024_estimate": 32,
+    "cumulative_gw_march2025": 28.15,
+    "note": "Discrepancy between sources — likely different counting methodology (gross vs net, connected vs commissioned). Use 28–32 GW range.",
+    "new_additions_gw_2024": 3.1,
+    "source": "PV Magazine April 17 2025"
+  },
+
+  "residential_market": {
+    "residential_additions_gw_2024": 2.5,
+    "share_of_total_2024_pct": 8,
+    "net_metering_cap_residential_kw": 50,
+    "net_metering_cap_commercial_mw": 1,
+    "government_subsidy_per_kw_krw": 500000,
+    "example_6kw_subsidy_krw_m": 3,
+    "example_6kw_max_subsidy_with_local_krw_m": 4.5,
+    "note": "Government subsidy for 3–10 kW residential systems. Local (city/county) supplements available. Budget exhausted by May each year (2024: May)"
+  },
+
+  "rps_system": {
+    "rps_quota_2024_pct": 17,
+    "rps_quota_2025_pct": 20.5,
+    "rps_quota_2026_pct": 25,
+    "rps_quota_2030_pct": 25,
+    "irec_introduced_date": "2025-04",
+    "rec_spot_market_status": "under review — potential phase-out due to price volatility",
+    "source": "IEA, CMS Expert Guides, IEEFA"
+  },
+
+  "grid_curtailment_crisis": {
+    "status": "severe and accelerating",
+    "key_events": [
+      "May 30 2024: KEPCO designated 103 substations in Gwangju/Jeonnam, 61 in Jeonbuk, 25 East Coast, 16 Jeju as 'system management substations' with saturated access capacity",
+      "April 2025: Korea MOTIE fined 8 solar operators and cancelled 11 projects totaling 347.4 MW for violating output curtailment orders (Jeollanam province)",
+      "2040 projection: up to 32% of solar/wind curtailed as VRE exceeds 20% penetration (Energy power model)"
+    ],
+    "compensation_framework": "None — generators bear all curtailment losses. No systematic compensation system exists.",
+    "china_parallel": "IDENTICAL to China's 2023-2024 grid restriction zones where 20+ provinces suspended or limited new distributed solar connections",
+    "source": "IEEFA June 2025, PV Magazine April 2025, S&P Global March 2025"
+  },
+
+  "kepco_distributed_solar_plans": {
+    "substation_solar_target_mw": 95,
+    "substation_solar_completion_year": 2030,
+    "distribution_grid_investment_2026_krw_b": 321,
+    "distribution_grid_investment_2026_usd_m": 222.6,
+    "bess_deployment_2026_count": 85,
+    "source": "PV Magazine May 2026, PV Magazine February 2026"
+  },
+
+  "monitoring_saas_landscape": {
+    "domestic_korean_platforms_found": [],
+    "note": "WebSearch returned ZERO Korean domestic solar monitoring SaaS startups. Global platforms (SOLARMAN, iSolarCloud) serve Korean installers but no Korean-specific monitoring platform competitor identified. This is an analytically significant gap vs China's rich monitoring SaaS ecosystem.",
+    "implication": "Korean monitoring SaaS market appears underdeveloped — opportunity for Chinese platforms (white-label) or Korean startup entry"
+  },
+
+  "solar_leasing_market": {
+    "domestic_zero_upfront_leasing_companies_found": [],
+    "note": "No Korean equivalent of Huaxia Financial Leasing found. Current Korean model is government subsidy (50% of installation cost) + private loan, not pure lease. The 'zero-capex rooftop' model does not appear to exist in Korea as of May 2026.",
+    "opportunity": "First-mover opportunity for a Korean bank subsidiary or state-backed finance vehicle to launch residential solar leasing product, analogous to Huaxia's 2015 launch"
+  },
+
+  "structural_comparison_china_korea": {
+    "grid_curtailment": "CONVERGENT — both China (2023-24) and Korea (2024-25) face identical grid saturation crisis; Korea designated 205+ system-management substations in May 2024",
+    "financing_model": "DIVERGENT — China developed institutional leasing at scale; Korea relies on government subsidy + private loan; no Korean Huaxia equivalent exists",
+    "monitoring_saas": "DIVERGENT — China has rich competitive monitoring SaaS ecosystem; Korea is early-stage",
+    "installation_market": "DIVERGENT — China's residential market is consolidating at 50+ GW/year scale; Korea at 2.5 GW/year residential additions is 20x smaller",
+    "policy_direction": "CONVERGENT — both China and Korea are shifting from FIT/subsidy to market-based compensation; both face grid integration challenges at scale",
+    "consumer_electronics_entry": "UNEXPLORED in Korea — Hyundai, Samsung, LG have not entered residential solar the way Skyworth/TCL did in China"
+  }
+}

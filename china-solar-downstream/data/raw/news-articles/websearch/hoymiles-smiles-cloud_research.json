@@ -1,0 +1,38 @@
+{
+  "company_slug": "hoymiles-smiles-cloud",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Founded 2012 by engineers from Zhejiang University's national power-electronics lab — no parent conglomerate",
+    "Listed on Shanghai STAR Market (688032.SH) December 2021",
+    "IPO: CNY 5.58B raised at China's highest-ever IPO price at the time",
+    "2023 revenue: CNY 2.03B",
+    "461x oversubscribed at IPO",
+    "World's leading microinverter (MLPE) manufacturer",
+    "S-Miles Cloud platform: launched 2021 for module-level real-time monitoring",
+    "S-Miles Cloud features: parallel-computing cloud, open API, real-time module-level data",
+    "Serves 1M+ microinverter systems across 100+ countries",
+    "Microinverters = module-level power electronics (MLPE) — each module has its own inverter",
+    "Key distinction: MLPE provides module-level monitoring data vs string inverter (aggregate only)"
+  ],
+  "financial_metrics": {
+    "ipo_raise_cny_b": 5.58,
+    "revenue_cny_b_2023": 2.03,
+    "ipo_oversubscription_factor": 461,
+    "systems_served_min": 1000000,
+    "countries_served": 100
+  },
+  "funding_history": [
+    {
+      "event": "STAR Market IPO (688032.SH)",
+      "year": 2021,
+      "month": 12,
+      "amount_cny_b": 5.58,
+      "notes": "Highest-ever IPO price in China at the time. Pure engineering startup with no conglomerate backing — funded entirely through business operations and IPO."
+    }
+  ],
+  "business_model_notes": "Hardware-enabled monitoring SaaS: microinverter hardware (per-module DC→AC conversion) bundled with S-Miles Cloud monitoring subscription. Every Hoymiles microinverter sold includes S-Miles Cloud activation, creating organic SaaS user base growth proportional to hardware sales. Revenue: hardware margin + recurring cloud service fees. Key advantage over string-inverter OEMs: microinverter generates module-level granular data that string inverters cannot, making the monitoring layer inherently more valuable.",
+  "competitive_position": "Global microinverter leader; directly competes with Enphase (US, global #1), SolarEdge (US), and domestic players. In China: unique microinverter position in residential rooftop market where string inverters dominate. S-Miles Cloud competes with SOLARMAN and OEM monitoring platforms but differentiated by module-level granularity.",
+  "research_notes": "Highest confidence (★5). IPO documents publicly filed with STAR Market. Revenue from official annual report. S-Miles Cloud launch and features documented in PRNewswire 2021 press releases. Founded by ZJU engineers with no parent — confirmed by STAR Market IPO prospectus which discloses founding history."
+}

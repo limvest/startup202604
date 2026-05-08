@@ -1,0 +1,776 @@
+# China Solar Downstream — Seed Company List
+# Collected: 2026-05-08
+# Selection criteria: founded 2012+, new market entrant, downstream/consumer-facing, verifiable growth signal
+
+companies:
+
+  # ─── SEGMENT 1: RESIDENTIAL INSTALLATION & SALES ──────────────────────────
+
+  - slug: chint-anneng
+    legal_name_cn: 正泰安能数字能源（浙江）股份有限公司
+    legal_name_en: Chint Anneng Digital Power (Zhejiang) Co., Ltd.
+    founded_year: 2015
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Hangzhou
+    website: https://www.chintanneng.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.chintanneng.com/about/index.html
+      - https://equalocean.com/news/2023092020234
+      - https://app.dealroom.co/companies/chint_anneng
+    initial_notes: >
+      China's #1 residential rooftop solar installer by cumulative users (2M+ households
+      across 29 provinces by 2024). Spun out of Chint Group in 2015 to capture the
+      rural household solar wave; filed for SSE main-board IPO at CNY 36B valuation in 2023,
+      making it the most-watched downstream listing in China.
+    confidence_in_entry: high
+
+  - slug: trinapower-richome
+    legal_name_cn: 天合富家能源股份有限公司
+    legal_name_en: Trinapower Co., Ltd. (Trina Richome)
+    founded_year: 2016
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Changzhou
+    website: https://www.trinapower.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.trinapower.com/static/upload-trina_power/2024-05-22/Trinapower%20Co.,%20Ltd%20Intro%20202407_1719909008778.pdf
+      - https://www.trinasolar.com/cn/solution/trinahome
+    initial_notes: >
+      Founded in October 2016 as Trina Solar's residential-solar spinout under the "天合富家"
+      brand. Reached 1.2M+ cumulative users and 3.2 GW distributed in H1 2024, ranking
+      second in China. Positioned as "China's first original residential PV system brand,"
+      it built a digital omni-channel ecosystem integrating product R&D, installation,
+      after-sales, and O&M.
+    confidence_in_entry: high
+
+  - slug: skyworth-solar
+    legal_name_cn: 深圳创维光伏科技有限公司
+    legal_name_en: Shenzhen Skyworth Photovoltaic Technology Co., Ltd.
+    founded_year: 2020
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Shenzhen
+    website: https://www.skyworth-pv.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.skyworth-pv.com/about-us
+      - https://solar.ofweek.com/2023-03/ART-260009-8420-30592045.html
+    initial_notes: >
+      Consumer-electronics giant Skyworth entered residential solar in 2020 and grew from
+      ~$10M in PV revenue (2020) to $3B by 2024—a 300x jump in four years. Now the #2
+      distributed PV brand in China with 25 GW cumulative installations and 600K+ power
+      stations, demonstrating how late entrants from adjacent consumer markets can disrupt
+      incumbent solar specialists.
+    confidence_in_entry: high
+
+  - slug: tcl-solar-tech
+    legal_name_cn: TCL光伏科技有限公司
+    legal_name_en: TCL Photovoltaic Technology Co., Ltd.
+    founded_year: 2021
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Huizhou
+    website: https://www.tcl.com/global/en/photovoltaic
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.tcl.com/global/en/photovoltaic/about-us
+      - https://www.vzkoo.com/read/20230410c22ef206d50bcbd9e965b91b.html
+    initial_notes: >
+      TCL Group's dedicated photovoltaic subsidiary, established in December 2021 after
+      TCL acquired Tianjin Zhonghuan semiconductor. Accumulated ~1.891 GW of residential
+      and commercial distributed solar by end-2022, primarily through financing-lease models.
+      Its "光富宝" brand targets rural household solar. Represents big-tech cross-industry
+      disruption backed by TCL's consumer-brand reach and supply-chain ownership.
+    confidence_in_entry: high
+
+  - slug: qingtian-solar
+    legal_name_cn: 浙江晴天太阳能科技股份有限公司
+    legal_name_en: Zhejiang Qingtian Solar Technology Co., Ltd.
+    founded_year: 2015
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Jinhua
+    website: https://www.solarqt.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.solarqt.com/about.php
+      - https://m.21jingji.com/article/20230920/92bdcbec02e40c7b01d542fa56a0feda.html
+    initial_notes: >
+      Founded January 2015 by 22-year-old dropout Ding Yibo; grew from CNY 100M revenue
+      (2015) to CNY 300M (2016). Filed for Shenzhen Stock Exchange IPO in February 2023,
+      with O&M services covering 4.5 GW across 19 provinces. Notable pure-play independent
+      distributed solar EPC + O&M startup without a large parent conglomerate.
+    confidence_in_entry: high
+
+  - slug: sungrow-new-energy
+    legal_name_cn: 阳光新能源开发股份有限公司
+    legal_name_en: Sungrow New Energy Development Co., Ltd.
+    founded_year: 2014
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Hefei
+    website: https://www.sungrowplant.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://baike.baidu.com/item/%E9%98%B3%E5%85%89%E6%96%B0%E8%83%BD%E6%BA%90%E5%BC%80%E5%8F%91%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/59181130
+      - https://www.sungrowplant.com/about.html
+    initial_notes: >
+      Established December 23, 2014 as Sungrow Power's (300274.SZ) downstream development
+      platform. Operates across residential, C&I, and utility segments, covering PV, wind,
+      and multi-energy integration. Claims status as the world's largest PV power station
+      developer. Represents the inverter-manufacturer vertical-integration model—using
+      inverter market position to cross-sell EPC and O&M to homeowners.
+    confidence_in_entry: high
+
+  # ─── SEGMENT 2: SOLAR FINANCING & LEASING ────────────────────────────────
+
+  - slug: huaxia-financial-leasing-solar
+    legal_name_cn: 华夏金融租赁股份有限公司
+    legal_name_en: Huaxia Financial Leasing Co., Ltd.
+    founded_year: 2013
+    primary_segment: financing_leasing
+    status: active
+    headquarters_city: Beijing
+    website: https://www.huaxia-leasing.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.clba.org.cn/newsinfo/7078011.html
+      - http://www.flleasing.com/onews.asp?id=32439
+      - https://solar.in-en.com/html/solar-2438468.shtml
+    initial_notes: >
+      Founded April 2013 by Huaxia Bank; launched green solar leasing strategy in 2015 and
+      aggressively scaled household solar financing from 2020. By Q2 2023, cumulative
+      solar investment exceeded CNY 39B across 22 provinces and 400K+ household stations,
+      holding the #1 market position among financial lessors in China. Pioneered the
+      "zero-capex rooftop" financing model that unlocked rural solar adoption at scale.
+    confidence_in_entry: high
+
+  - slug: yuexiu-new-energy
+    legal_name_cn: 广州越秀新能源投资有限公司
+    legal_name_en: Guangzhou Yuexiu New Energy Investment Co., Ltd.
+    founded_year: 2022
+    primary_segment: financing_leasing
+    status: active
+    headquarters_city: Guangzhou
+    website: https://www.yuexiuleasing.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://solar.ofweek.com/2024-06/ART-260003-8460-30636812.html
+      - https://www.clba.org.cn/newsinfo/7222880.html
+    initial_notes: >
+      Established June 2022 as a wholly-owned subsidiary of Yuexiu Capital (backed by
+      Guangzhou city SASAC) to act as a "new energy industrial platform" in solar and
+      storage. In 2023 alone it deployed CNY 161B in new energy, reaching 4.25 GW
+      distributed PV; announced plans for CNY 200B investment over three years. Represents
+      the state-backed financial capital entering distributed solar via purpose-built
+      leasing vehicles rather than traditional project finance.
+    confidence_in_entry: high
+
+  - slug: solarbao-spi
+    legal_name_cn: 绿能宝融资租赁有限公司
+    legal_name_en: SPI Green Energy Bao (Solarbao.com)
+    founded_year: 2014
+    primary_segment: financing_leasing
+    status: defunct
+    headquarters_city: Suzhou
+    website: http://www.solarbao.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.prnewswire.com/news-releases/spi-announces-launch-of-solarbaocom-online-investment-platform-300022753.html
+      - https://pitchhub.36kr.com/project/2370596664842112
+      - http://paper.people.com.cn/zgnyb/html/2018-08/20/content_1876280.htm
+    initial_notes: >
+      Launched January 2015 by SPI Energy (NASDAQ: SPI) as China's first solar-focused
+      online investment/leasing platform; let retail investors buy solar modules that
+      were then leased to PV projects. By 2017 overdue repayments hit CNY 220M and the
+      founder Peng Xiaofeng fled overseas under fraud investigation. Classic case of
+      internet-finance enthusiasm colliding with solar asset risks—75% of project lessees
+      were SPI-affiliated entities (related-party self-dealing).
+    confidence_in_entry: high
+
+  - slug: asia-clean-capital
+    legal_name_cn: 亚洲清洁资本
+    legal_name_en: Asia Clean Capital (ACC)
+    founded_year: 2007
+    primary_segment: financing_leasing
+    status: active
+    headquarters_city: Beijing
+    website: http://www.asiacleancapital.com
+    entrant_type: independent
+    discovery_sources:
+      - http://www.asiacleancapital.com/aboutacc-en/
+      - https://www.pv-tech.org/edf-asia-clean-capital-announce-joint-venture-for-rooftop-solar-in-china/
+    initial_notes: >
+      Founded 2007 but entered China distributed solar PPA in late 2014 as the first
+      wholly foreign-owned enterprise to develop distributed solar business in China.
+      Serves Fortune 500 multinationals (P&G, Danone, Nestlé, VW, Unilever) with
+      zero-upfront rooftop solar PPA contracts. Partnered with EDF for a China JV in 2016.
+      Notable as the template for commercial-rooftop PPA in China before the model was
+      widely copied by domestic players.
+    confidence_in_entry: high
+
+  - slug: seeder-clean-energy
+    legal_name_cn: 种子清洁能源
+    legal_name_en: Seeder Clean Energy
+    founded_year: 2015
+    primary_segment: financing_leasing
+    status: active
+    headquarters_city: Shanghai
+    website: https://seederenergy.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.energystartups.org/startup/seederenergy/
+      - https://www.crunchbase.com/organization/seeder
+    initial_notes: >
+      Small but notable C&I rooftop solar financing platform connecting multinational
+      factory-owners in China with solar project investors via PPA contracts delivering
+      10-15% electricity savings. Raised $438K seed funding. Founded circa 2015. Occupies
+      a niche as a foreign-run solar fintech operating inside China's distributed solar
+      market—the model is analogous to early SolarCity but focused on industrial buildings.
+    confidence_in_entry: medium
+
+  # ─── SEGMENT 3: ONLINE MARKETPLACE & E-COMMERCE ──────────────────────────
+
+  - slug: solarbe-global
+    legal_name_cn: 索比光伏网
+    legal_name_en: Solarbe Global
+    founded_year: 2013
+    primary_segment: ecommerce_marketplace
+    status: active
+    headquarters_city: Beijing
+    website: https://www.solarbeglobal.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.crunchbase.com/organization/solarbe
+      - https://www.solarbeglobal.com/
+    initial_notes: >
+      China's largest PV industry portal and marketplace with B2B supplier directories,
+      price quotation tools, news, and a transactions platform connecting solar installers
+      with component manufacturers and distributors. Significant traffic and deep indexing
+      of Chinese solar supply chain. While primarily B2B, serves as the main industry
+      discovery layer through which residential and C&I projects are sourced in China.
+    confidence_in_entry: medium
+
+  - slug: enf-solar-china
+    legal_name_cn: 易恩孚太阳能光伏网
+    legal_name_en: ENF Solar (China Directory)
+    founded_year: 2013
+    primary_segment: ecommerce_marketplace
+    status: active
+    headquarters_city: Chengdu
+    website: https://www.enf.com.cn
+    entrant_type: independent
+    discovery_sources:
+      - https://www.enf.com.cn/
+      - https://www.enfsolar.com/directory/installer/China
+    initial_notes: >
+      Largest multilingual online directory and comparison platform for solar companies
+      and products in China; used by project developers, installers, and buyers globally
+      to identify and vet Chinese suppliers. Lists thousands of Chinese PV manufacturers,
+      installers, and distributors. Operates the ENF installer directory which is the
+      primary B2B marketplace for matching solar buyers with Chinese suppliers. The
+      Chinese-language ENF.com.cn serves the domestic market.
+    confidence_in_entry: medium
+
+  - slug: jnengyun-jinengcloud
+    legal_name_cn: 鲸能云（杭州）科技有限公司
+    legal_name_en: JinengYun (Whale Energy Cloud)
+    founded_year: 2016
+    primary_segment: ecommerce_marketplace
+    status: active
+    headquarters_city: Hangzhou
+    website: https://www.jnengyun.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.jnengyun.com/pc/aboutus/
+      - https://m.tech.china.com/digi/articles/20251120/202511201768303.html
+    initial_notes: >
+      "7+ years" clean energy digitalization company (implies ~2016-2018 founding) serving
+      500+ enterprise customers including TCL PV, Huarun Leasing, and State Power
+      Investment Group. Platform connects solar asset owners, EPC firms, and O&M service
+      providers through SaaS tools covering monitoring, work-order management, and revenue
+      tracking. Spans the marketplace/O&M boundary—included here for its platform-aggregator
+      role matching solar service buyers with providers.
+    confidence_in_entry: medium
+
+  - slug: s2b2c-pv-platform
+    legal_name_cn: 光伏行家（上海）科技有限公司
+    legal_name_en: PV Expert (Shanghai) Tech Co., Ltd.
+    founded_year: 2017
+    primary_segment: ecommerce_marketplace
+    status: unknown
+    headquarters_city: Shanghai
+    website: null
+    entrant_type: unknown
+    discovery_sources:
+      - https://m.linkseeks.com/article-1878.html
+    initial_notes: >
+      Representative of China's S2B2C solar marketplace model that emerged 2016-2018:
+      platforms aggregating solar component supply chains and providing installers
+      (B) with tools to sell to consumers (C). The linkseeks article on S2B2C solar
+      ecommerce describes how these platforms offered "one-stop display, sales, and
+      after-sales" with online consultation. Multiple such platforms emerged in this wave;
+      confidence is low on this specific entity as Chinese-language business name search
+      was limited.
+    confidence_in_entry: low
+
+  # ─── SEGMENT 4: SOLAR O&M & MONITORING SERVICES ─────────────────────────
+
+  - slug: solarman-igen-tech
+    legal_name_cn: 无锡英臻科技股份有限公司
+    legal_name_en: IGEN Tech Co., Ltd. (SOLARMAN)
+    founded_year: 2013
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Wuxi
+    website: https://www.solarmanpv.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.solarmanpv.com/corporate/about-us/
+      - https://www.solarman.cn/
+    initial_notes: >
+      The global leader in distributed PV monitoring software; 2.5M+ systems deployed
+      across 190+ countries. Founded 2013 (though parent entity traces to 2009), SOLARMAN's
+      cloud platform is the de-facto industry standard for residential and C&I solar
+      monitoring in China and exports globally. IoT-based with hardware data loggers plus
+      cloud analytics. Competitors include SolisCloud (Ginlong) and Sungrow iSolarCloud.
+      Represents the dominant pure-play monitoring SaaS winner in China.
+    confidence_in_entry: high
+
+  - slug: uper-energy
+    legal_name_cn: 优得新能源技术（宁波）有限公司
+    legal_name_en: Uper Energy Technology (Ningbo) Co., Ltd.
+    founded_year: 2018
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Ningbo
+    website: https://www.uper-energy.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.uper-energy.com/about
+      - https://tracxn.com/d/companies/liansheng-new-energy/__XVXjvj3WNV8RSyi2hcwxLO-tmN9ulmpZhWM9_jZyXqQ
+    initial_notes: >
+      Core O&M subsidiary of Unisun New Energy Group (联盛新能源, founded 2013), formally
+      established 2018. Operates 100+ county-level O&M centers in China plus service networks
+      in SE Asia, Middle East, and Europe; 1000+ engineers servicing 2,000+ stations totaling
+      10+ GW under management. Notable for being a dedicated third-party O&M provider—
+      not tied to a single panel or inverter brand—serving both domestic and international markets.
+    confidence_in_entry: high
+
+  - slug: sungrow-isolarcloud
+    legal_name_cn: 阳光电源 iSolarCloud
+    legal_name_en: Sungrow iSolarCloud Platform
+    founded_year: 2015
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Hefei
+    website: https://cn.sungrowpower.com/solution/11.html
+    entrant_type: large_corp
+    discovery_sources:
+      - https://caijing.chinadaily.com.cn/a/202204/02/WS6247be67a3101c3ee7aceb88.html
+      - https://cn.sungrowpower.com/solution/11.html
+    initial_notes: >
+      Sungrow's (300274.SZ) cloud monitoring and O&M platform, commercialized from 2015
+      through its 阳光云/阳光智维 brand built on Alibaba Cloud. Revenue-sharing model
+      with asset owners ("收益共享") disrupted the traditional time-and-materials O&M
+      market. Managing millions of residential and utility-scale plants globally.
+      Included as a downstream service layer despite Sungrow being primarily an inverter
+      maker (founded 1997); this specific platform represents a genuinely new business model.
+    confidence_in_entry: high
+
+  - slug: soliscloud-ginlong
+    legal_name_cn: 锦浪科技 SolisCloud
+    legal_name_en: Ginlong Technologies SolisCloud
+    founded_year: 2018
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Ningbo
+    website: https://www.ginlong.com/accessories6/SolisCloud.html
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.ginlong.com/accessories6/SolisCloud.html
+      - https://tracxn.com/d/companies/solis-cloud-monitoring/__3ZyQq9MA0IB1HqE4UT7IRlRM8sSjEm6h3nWG_omHU5k
+    initial_notes: >
+      SolisCloud is Ginlong Technologies' (605118.SH) cloud monitoring platform,
+      launched 2018. Provides real-time monitoring, smart alarms, remote upgrades,
+      and O&M work-orders for Solis inverter users. As Ginlong is the world's #3 PV
+      inverter manufacturer with 600K+ units installed globally, SolisCloud has organic
+      distribution to hundreds of thousands of rooftop system owners. Represents the
+      inverter-OEM bundled monitoring model that competes with independent SaaS players.
+    confidence_in_entry: high
+
+  - slug: getech-pvom
+    legal_name_cn: 格创东智科技有限公司
+    legal_name_en: GE Technology (Getech) Industrial AI
+    founded_year: 2018
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Shenzhen
+    website: https://www.getech.cn
+    entrant_type: large_corp
+    discovery_sources:
+      - https://baike.baidu.com/item/%E6%A0%BC%E5%88%9B%E4%B8%9C%E6%99%BA%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%80%E5%85%AC%E5%8F%B8/24234754
+      - https://36kr.com/p/1773000930951553
+      - https://getech.cn/newdetail-151.html
+    initial_notes: >
+      TCL-incubated industrial AI company founded 2018; launched a dedicated photovoltaic
+      smart monitoring and O&M platform covering real-time analytics, predictive fault
+      detection, and digital-twin power station management. Primarily an industrial IoT
+      company but its solar O&M product directly addresses distributed plant monitoring.
+      Backed by TCL's manufacturing credibility and reached dozens of enterprise clients.
+    confidence_in_entry: medium
+
+  - slug: guoneng-rixin
+    legal_name_cn: 国能日新科技股份有限公司
+    legal_name_en: State Power Rixin Technology Co., Ltd.
+    founded_year: 2008
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Beijing
+    website: https://www.sprixin.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.investing.com/equities/state-power-rixin-tech
+      - https://www.sprixin.com/Smart/Distributed/monitoring/
+    initial_notes: >
+      Founded 2008; listed on ChiNext (301162.SZ). Specializes in wind/solar power
+      forecasting SaaS and distributed PV monitoring management systems for grid operators
+      and asset managers. Its distributed monitoring product manages provincial and
+      prefecture-level new energy portfolios. Included because its SaaS offering (growing
+      primarily post-2016) directly competes with private monitoring startups in managing
+      distributed residential/C&I rooftop assets for large portfolios.
+    confidence_in_entry: medium
+
+  # ─── ADDITIONAL / CROSS-SEGMENT ENTRIES ──────────────────────────────────
+
+  - slug: jinko-power-technology
+    legal_name_cn: 晶科科技股份有限公司
+    legal_name_en: Jinko Power Technology Co., Ltd.
+    founded_year: 2011
+    primary_segment: om_monitoring
+    status: ipo
+    headquarters_city: Shanghai
+    website: https://www.jinkopower.com/en
+    entrant_type: large_corp
+    discovery_sources:
+      - https://www.jinkopower.com/en
+      - https://www.crunchbase.com/organization/jinko-power-technology
+    initial_notes: >
+      Spun off from JinkoSolar in late 2016 and listed on Shanghai Stock Exchange (601778.SH)
+      in 2020. Operates distributed solar EPC, O&M, power station asset management,
+      and energy services (PPA, EMC contracts). Despite 2011 founding, the downstream
+      O&M/energy-services strategy developed primarily post-2016 spinoff. Manages tens
+      of GW across utility and distributed assets; a key indicator of how O&M is becoming
+      a standalone financial product in China.
+    confidence_in_entry: high
+
+  - slug: zhonglai-solar-distributed
+    legal_name_cn: 苏州中来光伏新材股份有限公司
+    legal_name_en: Suzhou Zhonglai Photovoltaic New Materials Co., Ltd.
+    founded_year: 2008
+    primary_segment: residential_installation
+    status: ipo
+    headquarters_city: Suzhou
+    website: https://www.zhonglai.com
+    entrant_type: independent
+    discovery_sources:
+      - https://pitchhub.36kr.com/organization/1679802187141895
+      - https://baike.eastmoney.com/item/%E8%8B%8F%E5%B7%9E%E4%B8%AD%E6%9D%A5%E5%85%89%E4%BC%8F%E6%96%B0%E6%9D%90%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8
+    initial_notes: >
+      Listed on ChiNext (300393.SZ) in 2014 as a PV backsheet manufacturer; pivoted
+      aggressively into distributed residential installation post-2019. By 2023 its
+      household PV business covered 28 provinces and ~1000 districts, with capacity to
+      design/develop 3-5 GW of household PV stations per year. Interesting hybrid:
+      upstream materials manufacturer that remade itself into a downstream installer
+      platform—a rare vertical-integration story going the other direction.
+    confidence_in_entry: medium
+
+  - slug: hanergy-mobile-energy
+    legal_name_cn: 汉能移动能源控股集团有限公司
+    legal_name_en: Hanergy Mobile Energy Holding Group
+    founded_year: 2015
+    primary_segment: residential_installation
+    status: defunct
+    headquarters_city: Beijing
+    website: null
+    entrant_type: independent
+    discovery_sources:
+      - https://en.wikipedia.org/wiki/Hanergy
+      - https://www.pv-magazine.com/2019/12/16/hanergy-from-thin-film-solar-savior-to-mass-lay-offs-at-miasole-alta-solibro-and-global-solar/
+      - https://baike.baidu.com/item/%E6%B1%89%E8%83%BD%E7%A7%BB%E5%8A%A8%E8%83%BD%E6%BA%90%E6%8E%A7%E8%82%A1%E9%9B%86%E5%9B%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/23233809
+    initial_notes: >
+      Hanergy Holding's consumer-facing unit for thin-film solar products (solar tiles,
+      backpacks, phone chargers) launched ~2015 under founder Li Hejun. Hanergy Thin Film
+      Power's stock crashed 47% and was suspended in May 2015 after regulators found
+      inflated financials; by 2020 its global subsidiaries (Alta Devices, MiaSolé, Solibro)
+      were shuttered and founder Li Hejun was detained in 2022. A cautionary tale of
+      over-leveraged solar dreams: the "building-integrated" residential BIPV model
+      collapsed under governance failures.
+    confidence_in_entry: high
+
+  - slug: chint-power-oem-platform
+    legal_name_cn: 正泰电源科技有限公司
+    legal_name_en: Chint Power Systems (Smart O&M Platform)
+    founded_year: 2013
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Hangzhou
+    website: https://en.chintpower.com
+    entrant_type: large_corp
+    discovery_sources:
+      - https://en.chintpower.com/product/detail/id/10017.html
+    initial_notes: >
+      Chint Group's inverter and power-systems arm; launched a Smart PV O&M Platform
+      that manages residential and C&I distributed systems. The platform integrates with
+      Chint Anneng's 2M+ installed systems, giving it one of the largest proprietary
+      datasets for residential solar monitoring in China. Important as the tech stack
+      underpinning the Chint residential solar ecosystem.
+    confidence_in_entry: medium
+
+  - slug: liansheng-unisun
+    legal_name_cn: 联盛新能源集团有限公司
+    legal_name_en: Unisun New Energy Group
+    founded_year: 2013
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Suzhou
+    website: https://www.unisun-energy.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.unisun-energy.com/about/about-us
+      - https://tracxn.com/d/companies/liansheng-new-energy/__XVXjvj3WNV8RSyi2hcwxLO-tmN9ulmpZhWM9_jZyXqQ
+    initial_notes: >
+      Founded 2013 by Han Xu; parent of Uper Energy (优得运维), China's largest
+      third-party O&M service provider. The group expanded from Chinese roots into SE Asia,
+      Middle East, and Europe and is one of the few Chinese O&M firms with serious
+      international O&M operations. Its distributed platform model—detached from any
+      single OEM—mirrors the SolarWinds/ServiceMax model in energy services.
+    confidence_in_entry: medium
+
+  - slug: geothermal-solarman-cn
+    legal_name_cn: 无锡英臻科技（SOLARMAN中国）
+    legal_name_en: SOLARMAN China (Domestic Platform)
+    founded_year: 2013
+    primary_segment: ecommerce_marketplace
+    status: active
+    headquarters_city: Wuxi
+    website: https://www.solarman.cn
+    discovery_sources:
+      - https://www.solarman.cn/
+    initial_notes: >
+      The domestic-market Chinese-language version of the SOLARMAN platform (solarman.cn)
+      functions as both an O&M monitoring tool AND a marketplace connecting solar installers,
+      hardware suppliers, and end-users. The installer portal enables channel sales of
+      monitoring hardware + software subscriptions to China's fragmented installation
+      ecosystem of 10,000+ small EPC firms. Listing separately from the global SOLARMAN
+      brand because the domestic channel/marketplace function is distinct from the
+      international monitoring SaaS positioning.
+    confidence_in_entry: medium
+
+  # ─── INDEPENDENT / STARTUP NEW ENTRANTS (added 2026-05-08) ──────────────────
+
+  - slug: hoymiles-smiles-cloud
+    legal_name_cn: 禾迈股份（无锡英臻科技 / 禾迈电力电子）
+    legal_name_en: Hoymiles Power Electronics Inc. (S-Miles Cloud)
+    founded_year: 2012
+    primary_segment: om_monitoring
+    status: ipo
+    headquarters_city: Hangzhou
+    website: https://www.hoymiles.com
+    entrant_type: independent
+    hardware_enabled: true
+    discovery_sources:
+      - https://www.prnewswire.com/news-releases/microinverter-manufacturer-hoymiles-debuts-on-shanghai-stock-exchange-star-market-301448062.html
+      - https://www.hoymiles.com/smiles-cloud.html
+      - https://www.prnewswire.com/news-releases/hoymiles-launches-s-miles-cloud-new-powerful-real-time-solar-power-station-monitoring-platform-on-mobile-app-and-browser-301199603.html
+    initial_notes: >
+      Founded 2012 by engineers from Zhejiang University's national power-electronics lab —
+      no parent conglomerate. Built the world's leading microinverter brand (MLPE) and
+      launched S-Miles Cloud in 2021 for real-time distributed PV monitoring (module-level
+      data, parallel-computing cloud, open API). Listed on Shanghai STAR Market (688032.SH)
+      in December 2021, raising CNY 5.58B at China's highest-ever IPO price at that time.
+      Serves 1M+ microinverter systems across 100+ countries; S-Miles Cloud is the monitoring
+      layer embedded in every Hoymiles residential installation — making it a pure-play
+      independent monitoring SaaS competitor to SOLARMAN.
+    confidence_in_entry: high
+
+  - slug: growatt-shinephone
+    legal_name_cn: 深圳古瑞瓦特新能源有限公司
+    legal_name_en: Shenzhen Growatt New Energy Technology Co., Ltd. (ShinePhone)
+    founded_year: 2011
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Shenzhen
+    website: https://en.growatt.com
+    entrant_type: independent
+    hardware_enabled: true
+    discovery_sources:
+      - https://en.growatt.com/about/our-story
+      - https://en.growatt.com/products/growatt-monitoring-platform
+      - https://www.crunchbase.com/organization/growatt-new-energy-technology-co-ltd
+    initial_notes: >
+      Founded May 2011 by David Ding and a group of PV industry pioneers — independent
+      company with no conglomerate backing. Reached global #1 residential inverter position
+      and launched ShinePhone, a proprietary monitoring SaaS serving millions of rooftop
+      solar owners worldwide. Its online service system (OSS) enables remote diagnostics,
+      improving operational efficiency by 60%+. By 2023 ranked 5th globally in PV inverter
+      shipments (Wood Mackenzie). ShinePhone is the monitoring layer for Growatt's massive
+      residential install base in China and internationally — an independent rival to
+      Sungrow's iSolarCloud and SOLARMAN. Bootstrapped growth; no disclosed VC rounds.
+    confidence_in_entry: high
+
+  - slug: sigenergy-technology
+    legal_name_cn: 思格新能源技术有限公司
+    legal_name_en: Sigenergy Technology Co., Ltd.
+    founded_year: 2022
+    primary_segment: om_monitoring
+    status: ipo
+    headquarters_city: Shanghai
+    website: https://www.sigenergy.com
+    entrant_type: independent
+    hardware_enabled: true
+    discovery_sources:
+      - https://asiabits.com/insights/sigenergy-562-million-hk-ipo-for-the-ex-huawei-solar-chiefs-energy-storage
+      - https://thebambooworks.com/sigenergy-charges-into-ipo-just-two-years-after-inception/
+      - https://www.scmp.com/tech/tech-trends/article/3350082/how-chinese-energy-storage-firms-sigenergy-guoxia-excited-investors-leveraging-ai-boom
+    initial_notes: >
+      Founded 2022 by Xu Yingtong (23 yrs at Huawei, led Huawei's PV business and Ascend
+      AI chip business) and Zhang Xianmao (11 yrs at Huawei, led PV inverter division) —
+      a pure-play tech-entrepreneur spinout with no parent conglomerate. Within one month
+      of founding raised a seed round; completed Series A1-A3 totalling ~CNY 540M by end-2022
+      (Hillhouse Capital, Walden International, Yunhui Capital). Listed on HKEX (6656.HK)
+      in April 2026, raising HK$4.4B with 1,000x oversubscription. Product: SigenStor
+      all-in-one stackable distributed energy storage + solar system for residential/C&I;
+      #1 globally in stackable all-in-one DESS with 24% market share. Revenue grew 22.8x
+      year-over-year in 2024 to USD 180M. Landmark example of ex-tech-giant founders
+      disrupting established inverter/storage OEMs.
+    confidence_in_entry: high
+
+  - slug: guoxia-technology
+    legal_name_cn: 江苏国侠科技有限公司
+    legal_name_en: Guoxia Technology Co., Ltd.
+    founded_year: 2019
+    primary_segment: om_monitoring
+    status: ipo
+    headquarters_city: Wuxi
+    website: https://www.guoxiatech.hk
+    entrant_type: independent
+    hardware_enabled: true
+    discovery_sources:
+      - https://www.energy-storage.news/system-integrator-guoxia-technology-to-go-public-in-hong-kong-on-16-december/
+      - https://thebambooworks.com/guoxia-tech-banks-on-ai-for-energy-storage-boost/
+      - https://baike.baidu.com/en/item/Guoxia%20Technology%20Co.,%20Ltd./66699
+    initial_notes: >
+      Founded January 4, 2019 in Wuxi, Jiangsu as an independent energy storage system
+      integrator — not a subsidiary of any panel or inverter manufacturer. Grew from
+      CNY 142M revenue in 2022 to CNY 2.057B in 2025 (~15x in 3 years). Listed on HKEX
+      main board (2655.HK) in December 2025 after 1,800x oversubscription. Integrates
+      large-scale, C&I, and residential BESS solutions with AI-powered platform (Guoxia AI
+      + HANCHU assistant). Ranked among top-10 global energy storage system suppliers in
+      2024 (3% market share by new installed capacity). Represents the independent systems
+      integrator model — aggregating cells from suppliers like CALB while providing
+      platform-level AI and O&M services to end users.
+    confidence_in_entry: high
+
+  - slug: sunpure-technology
+    legal_name_cn: 合肥人机智能科技有限公司
+    legal_name_en: Sunpure Intelligent Technology Co., Ltd.
+    founded_year: 2019
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Hefei
+    website: https://en.sunpuretech.com
+    entrant_type: independent
+    discovery_sources:
+      - https://en.sunpuretech.com/about.html
+      - https://www.mercomindia.com/robotic-solar-module-million-in-series-a-funding
+      - https://tracxn.com/d/companies/sunpure/__zPPxqN93KZt8yauCfFwmHQAvf1Ws3vzxF09CxKQ0rFA
+    initial_notes: >
+      Founded 2019 in Hefei as an independent robotics + O&M platform startup — no parent
+      conglomerate. Developed autonomous PV cleaning robots (railed, trackless, multi-terrain)
+      plus a smart energy management SaaS platform for power-plant detection and operations.
+      Completed Series A in January 2024 exceeding CNY 100M, led by Hengxu Capital with
+      participation from Hillhouse Ventures, Guoyuan Fund, and Yuantai Investment Partners.
+      Has contracted over 13 GW capacity and deployed in 14 countries; won "Top 10 PV O&M
+      Brands 2023" award. Holds 330+ patents and co-drafted China's first PV dry-cleaning
+      robot product specification standard. Represents the hardware-enabled O&M startup
+      model — using robotics to enter the distributed PV maintenance market independently.
+    confidence_in_entry: high
+
+  - slug: cyberlink-iot
+    legal_name_cn: 北京赛博联物科技有限公司
+    legal_name_en: Beijing CyberLink-IoT Technology Co., Ltd.
+    founded_year: 2020
+    primary_segment: om_monitoring
+    status: active
+    headquarters_city: Beijing
+    website: null
+    entrant_type: independent
+    discovery_sources:
+      - https://solar.in-en.com/html/solar-2427977.shtml
+      - https://36kr.com/p/2410386077688580
+      - https://finance.sina.com.cn/tech/roll/2023-09-05/doc-imzkrexh3478977.shtml
+    initial_notes: >
+      Founded 2020 by a team with 15+ years in electrical measurement technology; pivoted
+      from industrial energy management into distributed photovoltaic monitoring and
+      household energy management. Provides "sensors + monitoring + intelligent energy
+      management" product suite combining high-precision electrical measurement with cloud
+      analytics. Completed Angel+ round of tens-of-millions of yuan in September 2023, led
+      by Seven Seas Partners (七海资本), with Deep Ventures (深创投) as follow-on. Partners
+      include State Grid, China Electrical Equipment Group, Huaneng Group, and Tongwei Inc.
+      for developing smarter PV station standards. Represents the independent tech-team
+      (non-solar-background) entry model into the distributed solar monitoring niche.
+    confidence_in_entry: medium
+
+  - slug: zhongling-xingneng
+    legal_name_cn: 中瓴星能（北京）科技有限公司
+    legal_name_en: Zhongling Xingneng (Beijing) Technology Co., Ltd.
+    founded_year: 2023
+    primary_segment: residential_installation
+    status: active
+    headquarters_city: Beijing
+    website: null
+    entrant_type: independent
+    discovery_sources:
+      - https://36kr.com/p/2307838351486208
+      - https://pitchhub.36kr.com/project/2307968564529667
+    initial_notes: >
+      Founded March 2023 in Beijing as a pure independent residential solar platform — no
+      panel/inverter parent. Raised nearly CNY 100M angel round at founding, led by
+      Xinmingzhu Group with follow-on from Insurtech Long Green and Xuannis Industrial.
+      Provides full-lifecycle residential rooftop PV solutions: investment consulting, design,
+      EPC installation, O&M, and energy storage integration. Plans to expand into storage
+      and wind post-solar. Management team cited nationwide residential PV penetration of
+      only ~3.5% across 100M+ rooftop resources as the whitespace opportunity. Reported by
+      36Kr as a first-disclosed angel round for a pure-play residential distributed solar
+      platform in 2023's funding landscape.
+    confidence_in_entry: medium
+
+  - slug: zheguyun-solar-saas
+    legal_name_cn: 鹧鸪云（光伏开发设计施工一体化平台）
+    legal_name_en: Zhegu Yun (Partridge Cloud Solar SaaS Platform)
+    founded_year: unknown
+    primary_segment: ecommerce_marketplace
+    status: active
+    headquarters_city: unknown
+    website: https://www.zheguyun.com
+    entrant_type: independent
+    discovery_sources:
+      - https://www.zheguyun.com/
+      - https://blog.csdn.net/zheguyun/article/details/135917438
+      - https://blog.csdn.net/zheguyun/article/details/136558438
+    initial_notes: >
+      Independent SaaS platform for China's residential and distributed solar installers,
+      integrating design (AI satellite-map surveying, drone surveying, PV yield simulation),
+      marketplace (dealer/supplier management, B2C residential promotion with viral-sharing
+      tools for farmer recruitment), construction management (electronic contracts, warehouse,
+      work-order tracking), and O&M (real-time monitoring, power generation data analytics).
+      Provides a fully-localizable system with 100% source-code delivery option. Targets
+      the 10,000+ small EPC firms in China's fragmented installation market, providing
+      them with digitalization tools equivalent to those used by large platforms. Website
+      active as of 2026. Founding team and investment history undiscovered but company
+      operates independently of any panel or inverter OEM.
+    confidence_in_entry: low

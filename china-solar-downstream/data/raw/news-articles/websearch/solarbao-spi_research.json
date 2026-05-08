@@ -1,0 +1,31 @@
+{
+  "company_slug": "solarbao-spi",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Launched January 2015 by SPI Energy (NASDAQ: SPI) as China's first solar-focused online investment/leasing platform",
+    "Retail investors could buy solar modules that were then leased to PV projects, receiving yields of 6–8% annually",
+    "By 2017: overdue repayments hit CNY 220M",
+    "75% of project lessees were SPI-affiliated entities (related-party self-dealing)",
+    "Founder Peng Xiaofeng fled overseas under fraud investigation",
+    "Platform shut down circa 2018",
+    "Classic internet-finance (P2P) model applied to solar assets",
+    "Peaked during P2P internet finance boom (2015–2017)"
+  ],
+  "financial_metrics": {
+    "overdue_repayments_cny_m_2017": 220,
+    "related_party_lessee_pct": 75,
+    "yield_promised_to_investors_pct": 6
+  },
+  "failure_analysis": {
+    "primary_cause": "Related-party self-dealing: 75% of leased assets went to SPI's own affiliated entities, masking non-performing loans",
+    "secondary_cause": "Internet-finance regulatory crackdown (2018 P2P regulations eliminated the business model)",
+    "tertiary_cause": "Solar project cash-flows insufficient to service investor yields during subsidy delays",
+    "governance_failure": "Founder Peng Xiaofeng used retail investor capital to prop up SPI's own project pipeline; fled when enforcement came",
+    "outcome": "Platform shut down; investors suffered significant losses; SPI Energy stock collapsed; founder abroad as fugitive"
+  },
+  "business_model_notes": "P2P solar finance platform: aggregate retail investor savings → deploy into SPI solar projects → return fixed yield + principal. Structurally identical to a Ponzi scheme when 75% of the 'independent' lessees were SPI affiliates. The model was commercially viable in theory (solar assets DO generate long-term cashflows) but governance failure destroyed it. Analogous to early LendingClub-style marketplace but without the credit separation.",
+  "historical_significance": "First mover in China's solar-fintech space. Its collapse contributed to China's 2018 P2P regulatory crackdown that effectively wiped out online lending platforms. Documented warning case for: (1) related-party transactions in solar finance, (2) solar asset liquidity mismatch with short-term retail funding, (3) regulatory risk of P2P solar models.",
+  "research_notes": "Highest confidence (★5). Fully documented in PRNewswire (2015 launch), 36Kr (platform collapse), People's Energy News (fraud investigation 2018-08-20). Wikipedia entry on SPI Energy documents corporate outcomes. Multiple independent sources with corroborating detail."
+}

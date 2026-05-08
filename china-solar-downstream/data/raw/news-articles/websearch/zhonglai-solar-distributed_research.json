@@ -1,0 +1,28 @@
+{
+  "company_slug": "zhonglai-solar-distributed",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Listed on ChiNext (300393.SZ) in 2014 as a PV backsheet manufacturer",
+    "Pivoted aggressively into distributed residential installation post-2019",
+    "2023: residential brand grid-connected 1.5 GW EPC for household solar",
+    "Covers 28 provinces, 1,100+ counties",
+    "Net profit up 31.18% in 2023",
+    "2024: facing industry cycle compression (overcapacity + falling panel prices)",
+    "Has capacity to design/develop 3–5 GW of household PV per year",
+    "Rare hybrid: upstream materials manufacturer that remade itself into downstream installer platform"
+  ],
+  "financial_metrics": {
+    "gw_epc_residential_2023": 1.5,
+    "provinces_covered": 28,
+    "counties_covered_min": 1100,
+    "net_profit_yoy_pct_2023": 31.18,
+    "annual_design_capacity_gw_low": 3,
+    "annual_design_capacity_gw_high": 5
+  },
+  "funding_history": [],
+  "business_model_notes": "Reverse vertical integration: typically solar companies integrate upstream (panel manufacturer buys EPC). Zhonglai went the other direction — a materials company (backsheet) integrated downstream into EPC and O&M. This gives it unique cost visibility across the value chain. Revenue: EPC margin on 1.5 GW/year household installs + O&M recurring fees. 2024 pressure from industry cycle: falling residential installation prices erode EPC margin.",
+  "competitive_position": "Mid-tier residential installer. 1.5 GW/year EPC is substantial (compare: Chint Anneng 2M cumulative users). The 28-province coverage shows national scale but net profit growth slowing (31.18% in 2023, likely declining in 2024). Interesting archetype: the materials-to-installer pivot is unusual and represents opportunistic business model adaptation.",
+  "research_notes": "Medium confidence. 36Kr pitchhub and eastmoney baike provide operational data. 2023 net profit figure from ChiNext (300393.SZ) annual disclosure. 2024 industry cycle pressure documented in Chinese solar industry media. The backsheet-to-installer transformation is analytically interesting for the report narrative on business model evolution."
+}

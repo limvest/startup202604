@@ -1,0 +1,23 @@
+{
+  "company_slug": "zheguyun-solar-saas",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 2,
+  "key_facts": [
+    "Active website as of 2026 (zheguyun.com)",
+    "Full SaaS suite for solar installers: AI satellite-map design, drone survey, PV yield simulation",
+    "B2C viral sharing tools for farmer/homeowner recruitment by installers",
+    "Construction management: electronic contracts, warehouse management, work-order tracking",
+    "O&M module: real-time monitoring, power generation analytics",
+    "Free version launched December 2023",
+    "100% source-code delivery option offered to enterprise customers",
+    "Targets China's 10,000+ small EPC firms with comprehensive digitalization toolkit",
+    "Founding team and investment history undiscovered",
+    "Not tied to any panel or inverter OEM"
+  ],
+  "financial_metrics": {},
+  "funding_history": [],
+  "business_model_notes": "Full-stack installer SaaS platform. Revenue model: freemium (free basic monitoring → paid full suite); enterprise tier with source-code delivery option for large installers who want customization. The free version launch (December 2023) was likely a market capture play — get small installers onto the platform then upsell. B2C viral sharing tools (QR code referral for farmer neighbors) differentiate from pure O&M tools by addressing customer acquisition for the installer. Satellite map design tool (AI-powered) automates the time-consuming preliminary design phase.",
+  "competitive_position": "Positions as a more comprehensive alternative to SOLARMAN (monitoring-only) or Zhonglai's internal tools. The all-in-one workflow approach targets the fragmented small installer market that cannot afford enterprise software. Direct competitor: Zheguyun's closest competitor is possibly Jinengyun (JinengCloud) for SMB solar management, and PV-master/PV-ware for design tools. The 100% source-code delivery option is unusual — suggests targeting installers who want to white-label the platform.",
+  "research_notes": "LOW confidence. Website confirmed active. Product features from CSDN blog posts (zheguyun CSDN account, articles from Jan/Feb 2024). No funding data found. Founding year, team, and investors remain unknown — opaque even for Chinese tech companies. The CSDN presence suggests technical community engagement. Product is real and functional based on feature documentation, but commercial scale unknown."
+}

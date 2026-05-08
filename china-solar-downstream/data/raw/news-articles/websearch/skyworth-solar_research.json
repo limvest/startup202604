@@ -1,0 +1,34 @@
+{
+  "company_slug": "skyworth-solar",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Revenue CNY 23.4B with 29.3 GW cumulative installations as of reporting date",
+    "600K+ power stations managed",
+    "Entered residential solar in 2020 as consumer-electronics brand diversification",
+    "300x revenue growth from ~CNY 100M (2020) to ~CNY 23B+ (2024) in 4 years",
+    "Now the #2 distributed PV brand in China by installed capacity",
+    "Parent: Skyworth Group (0751.HK), China's top-3 consumer TV brand",
+    "No VC financing — funded by Skyworth Group's balance sheet"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_approx": 23.4,
+    "cumulative_gw_installed": 29.3,
+    "power_stations_managed": 600000,
+    "rank_by_installed_capacity": 2,
+    "revenue_cny_m_2020_estimated": 100,
+    "revenue_growth_4yr_factor": 300
+  },
+  "funding_history": [
+    {
+      "event": "Corporate subsidiary setup",
+      "year": 2020,
+      "amount_cny_b": null,
+      "notes": "Internal corporate capital from Skyworth Group (0751.HK); no external VC"
+    }
+  ],
+  "business_model_notes": "Consumer-electronics-to-energy pivot. Skyworth leverages its nationwide dealer network (TV/appliance stores) as solar sales channels, lowering customer acquisition cost. Offers residential solar + storage packages. O&M via proprietary monitoring app. Key competitive advantage: 30+ year brand recognition in Chinese rural and suburban households.",
+  "competitive_position": "#2 distributed PV brand in China. Disruptive entrant from adjacent consumer electronics sector — entered after 整县推进 (2021) policy opened rural market. Shows how consumer-brand trust transfers to solar purchase decisions.",
+  "research_notes": "High confidence. Revenue and installation figures from OFWeek Solar (March 2023) and company website. 300x growth claim from investor materials. The 29.3 GW figure makes Skyworth one of the larger downstream platforms by total managed capacity even ahead of some OEM monitoring platforms."
+}

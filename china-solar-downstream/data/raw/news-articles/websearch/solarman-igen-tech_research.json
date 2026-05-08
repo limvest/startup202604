@@ -1,0 +1,28 @@
+{
+  "company_slug": "solarman-igen-tech",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Global leader in distributed PV monitoring software",
+    "2.5M+ systems deployed across 190+ countries",
+    "220 GW+ total capacity managed via platform",
+    "Founded 2013 (parent entity traces to 2009 in Wuxi, Jiangsu)",
+    "Listed entity: IGEN Tech Co., Ltd. (无锡英臻科技)",
+    "Platform: SOLARMAN Smart (end-user app) + SOLARMAN Business (installer/professional portal)",
+    "IoT-based: hardware data loggers (WiFi, 4G) + cloud analytics platform",
+    "OEM white-label offered to 20+ countries",
+    "As of Sept 2023: served installers in China, France, US, Italy, South Africa, India, Australia, Slovenia",
+    "De-facto industry standard for residential and C&I solar monitoring in China"
+  ],
+  "financial_metrics": {
+    "systems_deployed": 2500000,
+    "countries_covered": 190,
+    "gw_managed": 220,
+    "oem_white_label_countries": 20
+  },
+  "funding_history": [],
+  "business_model_notes": "Two-sided platform: (1) hardware data loggers sold through inverter OEM partnerships (embedded in Growatt, Chint, Deye, Goodwe products); (2) SaaS subscription via SOLARMAN Business for professional installers. Revenue: hardware sales margin + SaaS license fees. Key network effect: each inverter OEM partnership brings thousands of residential users into the platform captively. Separate from Hoymiles S-Miles Cloud (microinverter-specific) and SolisCloud (Ginlong-specific) which are OEM-captive.",
+  "competitive_position": "Independent monitoring leader vs OEM-captive competitors. SOLARMAN serves multiple OEM brands simultaneously, creating a cross-brand monitoring standard. Main threat: each major inverter OEM building its own captive platform (Sungrow iSolarCloud, Growatt ShinePhone, Ginlong SolisCloud). SOLARMAN's moat: installer loyalty + multi-brand compatibility.",
+  "research_notes": "High confidence. Company website data verified. 220 GW and 190+ countries from SOLARMAN corporate profile (Sept 2023). 2.5M systems from company website. Business model details from SOLARMAN.cn installer portal documentation. Note: SOLARMAN-CN (domestic) listed separately in companies.yaml as geothermal-solarman-cn for its marketplace function."
+}

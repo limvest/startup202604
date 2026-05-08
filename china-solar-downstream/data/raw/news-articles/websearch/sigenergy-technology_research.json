@@ -1,0 +1,52 @@
+{
+  "company_slug": "sigenergy-technology",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Founded 2022 by Xu Yingtong (23 years at Huawei, led Huawei's PV business and Ascend AI chip) and Zhang Xianmao (11 years at Huawei, led PV inverter division)",
+    "Pure-play tech-entrepreneur spinout — no parent conglomerate",
+    "Within one month of founding: raised seed round",
+    "By end-2022: Series A1-A3 totaling ~CNY 540M (Hillhouse Capital, Walden International, Yunhui Capital)",
+    "Listed on HKEX (6656.HK) April 2026, raising HK$4.4B with 1,000x oversubscription",
+    "Revenue 2024: USD 180M (22.8x year-over-year growth)",
+    "Revenue 2025: approximately RMB 9B (based on trajectory — verify)",
+    "Product: SigenStor all-in-one stackable distributed energy storage + solar system for residential/C&I",
+    "#1 globally in stackable all-in-one DESS (Distributed Energy Storage System) with 24% market share",
+    "Competes directly with Tesla Powerwall, Enphase IQ Battery, Sungrow SH-series"
+  ],
+  "financial_metrics": {
+    "revenue_usd_m_2024": 180,
+    "revenue_yoy_growth_factor_2024": 22.8,
+    "hkex_ipo_raise_hkd_b": 4.4,
+    "ipo_oversubscription_factor": 1000,
+    "global_stackable_dess_market_share_pct": 24,
+    "series_a_total_cny_m": 540
+  },
+  "funding_history": [
+    {
+      "event": "Seed round",
+      "year": 2022,
+      "month_approx": 1,
+      "amount_cny_m": null,
+      "notes": "Raised within 1 month of founding — investor confidence in Huawei pedigree of founding team"
+    },
+    {
+      "event": "Series A1-A3",
+      "year": 2022,
+      "amount_cny_m": 540,
+      "investors": ["Hillhouse Capital", "Walden International", "Yunhui Capital"],
+      "notes": "CNY 540M total in rapid succession through 2022"
+    },
+    {
+      "event": "HKEX IPO (6656.HK)",
+      "year": 2026,
+      "month": 4,
+      "amount_hkd_b": 4.4,
+      "notes": "1,000x oversubscribed; landmark exit for Chinese cleantech startup; validated ex-Huawei founder model"
+    }
+  ],
+  "business_model_notes": "Hardware-first DESS with integrated software: SigenStor all-in-one unit (PV optimizer + battery + inverter + EMS in one box) makes solar+storage installation plug-and-play for residential/C&I. Revenue: hardware sale margin (high ASP due to integrated design) + SigenOS cloud management subscription. Competitive moat: (1) ex-Huawei team = AI/software capability; (2) stackable modular design (3.6 kWh base unit, stack to 100+ kWh) enables residential to C&I in same product line; (3) 24% global stackable DESS share = network effect in installer trust.",
+  "competitive_position": "Disrupted incumbent BESS players (Sungrow, BYD, CATL) with AI-native, stackable, all-in-one approach from standing start in 2022. 22.8x revenue growth in 2024 shows China's fastest cleantech growth trajectory. IPO demonstrates HKEX appetite for AI-enabled energy storage plays. Main threat: Sungrow and BYD volume pricing; Enphase in US/European residential markets.",
+  "research_notes": "Highest confidence (★5). HKEX prospectus filed publicly. Revenue figures from SCMP, Bamboo Works, AsiaBits. Funding rounds confirmed via multiple investor sources. Xu Yingtong and Zhang Xianmao backgrounds verified through HKEX prospectus disclosure. 24% global DESS market share from Bamboo Works citing market research. This is the standout growth story of the 2020s in China downstream solar."
+}

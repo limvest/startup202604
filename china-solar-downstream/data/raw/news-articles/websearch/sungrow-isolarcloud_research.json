@@ -1,0 +1,28 @@
+{
+  "company_slug": "sungrow-isolarcloud",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Sungrow's (300274.SZ) cloud monitoring and O&M platform, built on Alibaba Cloud",
+    "As of August 2024: 1.98M global users across 170 countries",
+    "98 GW total capacity managed via platform",
+    "5.2M connected devices",
+    "Launched 2015; rebranded and expanded as iSolarCloud",
+    "iSolarCloud Web 3.0 launched February 2024",
+    "2024 Red Dot Design Award for product design",
+    "AI-powered energy management integrated",
+    "Revenue-sharing ('收益共享') model with asset owners disrupted traditional O&M market",
+    "Manages residential, C&I, and utility-scale plants globally"
+  ],
+  "financial_metrics": {
+    "global_users_aug2024": 1980000,
+    "countries_aug2024": 170,
+    "gw_managed_aug2024": 98,
+    "connected_devices_aug2024": 5200000
+  },
+  "funding_history": [],
+  "business_model_notes": "OEM-captive monitoring SaaS: every Sungrow inverter sold connects to iSolarCloud, creating automatic user acquisition proportional to inverter shipments (Sungrow is global #1/#2 inverter manufacturer). Revenue: premium monitoring subscription + AI energy management services + O&M contract management. The revenue-sharing model ('收益共享') for asset owners means Sungrow takes a percentage of electricity revenue in exchange for providing O&M services — aligning incentives vs traditional fee-for-service.",
+  "competitive_position": "Dominant in large utility-scale monitoring (Sungrow's core market); growing in residential via consumer inverter sales. 98 GW managed dwarfs SOLARMAN's 220 GW by count but Sungrow likely has more utility-scale. iSolarCloud Web 3.0 + AI integration is direct response to SOLARMAN's installer network. Main competitive threat to SOLARMAN: inverter OEM monitoring platforms tend to retain users once integrated.",
+  "research_notes": "Highest confidence (★5). 1.98M users and 98 GW from official Sungrow August 2024 press release (China Daily). Red Dot Award confirmed by official Red Dot Foundation records. iSolarCloud Web 3.0 launch documented. Alibaba Cloud partnership from Caijing.chinadaily article 2022."
+}

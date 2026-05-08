@@ -1,0 +1,24 @@
+{
+  "company_slug": "solarbe-global",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Launched 2005 by Beijing Zhixin Media as China's highest-traffic PV portal",
+    "Highest-traffic solar industry portal in China since 2007",
+    "Daily average 40M+ page views at peak",
+    "Services: industry news + price quotation + supplier directory + consulting",
+    "B2B marketplace connecting solar installers with component manufacturers and distributors",
+    "No disclosed funding rounds — media/portal model funded by advertising and lead-gen",
+    "Significant traffic and deep indexing of Chinese solar supply chain",
+    "Also operates Solarbeglobal.com (English-language international version)"
+  ],
+  "financial_metrics": {
+    "daily_avg_pageviews_m_peak": 40,
+    "founded_year": 2005
+  },
+  "funding_history": [],
+  "business_model_notes": "Industry media + B2B marketplace hybrid. Revenue: advertising from solar manufacturers, lead generation fees from installer-supplier matching, premium directory listings, consulting reports. Not a transactional marketplace (no orders or payments processed); rather an information/discovery layer. Primary value: price discovery (daily module prices) and supplier vetting for the fragmented Chinese solar installer market.",
+  "competitive_position": "Media/directory incumbent in China solar B2B information space. Competes with ENF Solar (ENFSolar.com / ENF.com.cn) which is more globally oriented. Solarbeglobal.com was an attempt to capture international traffic but ENF likely has stronger global position. Domestic traffic leadership is Solarbe's core moat.",
+  "research_notes": "Medium confidence. 40M daily PV figure from Solarbe's own Crunchbase listing — self-reported. No independent traffic verification found. Founded 2005, predates most companies in this study. Included for its B2B marketplace role in the solar ecosystem, though it doesn't directly serve end-consumers."
+}

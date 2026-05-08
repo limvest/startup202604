@@ -1,0 +1,41 @@
+{
+  "company_slug": "liansheng-unisun",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded 2013 by Han Xu; parent of Uper Energy (优得运维)",
+    "Series C: July 2023, led by Cathay Capital; follow-on from Source Code Capital",
+    "Total raised: $50.8M across all rounds",
+    "ENGIE (French state utility) invested in company",
+    "3,000+ power stations under management",
+    "10 GW+ capacity under operational management",
+    "Three subsidiaries: Liansheng Power (asset development), Uper Energy O&M, Aopu Storage (BESS)",
+    "Operations in SE Asia, Middle East, and Europe",
+    "China's largest third-party O&M service provider (by some measures)"
+  ],
+  "financial_metrics": {
+    "total_raised_usd_m": 50.8,
+    "power_stations_managed": 3000,
+    "gw_managed_min": 10
+  },
+  "funding_history": [
+    {
+      "event": "Series C",
+      "year": 2023,
+      "month": 7,
+      "amount_usd_m": null,
+      "investors": ["Cathay Capital", "Source Code Capital"],
+      "notes": "Lead by Cathay Capital (France-China crossover fund); ENGIE (French utility) also invested — signals European O&M market expansion"
+    },
+    {
+      "event": "Total disclosed rounds",
+      "year": 2023,
+      "total_usd_m": 50.8,
+      "notes": "Multiple rounds from inception to Series C"
+    }
+  ],
+  "business_model_notes": "Third-party O&M platform with ENGIE strategic backing for international expansion. Liansheng/Unisun is not tied to any single OEM (unlike Sungrow iSolarCloud or SolisCloud), enabling it to service multi-brand solar portfolios. Revenue: annual O&M service contracts per GW managed (industry benchmark: ~CNY 30,000–50,000/MW/year for C&I; ~CNY 15,000–25,000/MW/year for utility). 10 GW × CNY 30,000/MW = ~CNY 300M theoretical O&M revenue at lower bound. Aopu Storage subsidiary positions for BESS integration into managed assets.",
+  "competitive_position": "Independent third-party O&M leader. Key differentiator: ENGIE partnership opens European market; brand-agnostic serving is attractive to developers who installed mixed-brand solar. Competes with: Jinko Power (600 GW aspirations, integrated installer+O&M), Guoneng Rixin (software-only SaaS), and OEM-captive platforms.",
+  "research_notes": "High confidence on funding data (Cathay Capital press release, Source Code Capital portfolio page). ENGIE involvement confirmed via ENGIE investor relations. 10 GW and 3,000+ stations from company website and Tracxn database. Total $50.8M raised confirmed via Crunchbase. Founded 2013 by Han Xu confirmed via Unisun website About Us."
+}

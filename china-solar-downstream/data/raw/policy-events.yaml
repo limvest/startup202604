@@ -1,0 +1,572 @@
+---
+# China Solar Policy Timeline: Downstream Impact Analysis
+# Covers 2013-2026 | Focus: residential/consumer solar businesses
+# Generated: 2026-05-08
+
+events:
+
+  - date: "2013-08-30"
+    title_en: "NDRC Distributed PV Subsidy — 0.42 RMB/kWh National FIT"
+    title_cn: "国家发改委《关于发挥价格杠杆作用促进光伏产业健康发展的通知》"
+    issuer: "NDRC"
+    phase: "subsidy-boom"
+    impact_summary: >
+      The NDRC introduced China's first uniform national feed-in subsidy for distributed PV
+      at 0.42 CNY/kWh on top of local coal-benchmark prices, applicable for 20 years.
+      This created the financial foundation for a residential rooftop installation industry:
+      households could calculate predictable payback periods, triggering the first wave of
+      third-party financiers and residential installers. Utility-scale projects were split
+      into three regional pricing tiers (0.90, 0.95, 1.00 CNY/kWh).
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+    sources:
+      - url: "https://www.wri.org/insights/distributed-solar-pv-china-growth-and-challenges"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "World Resources Institute"
+      - url: "https://www.sciencedirect.com/science/article/pii/S0306261917307894"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "ScienceDirect / Applied Energy"
+    confidence: 4
+
+  - date: "2014-10"
+    title_en: "Solar Energy for Poverty Alleviation Program (光伏扶贫) Launch"
+    title_cn: "国家能源局《关于进一步落实分布式光伏发电有关政策的通知》/ 扶贫办光伏扶贫工作方案"
+    issuer: "NEA"
+    phase: "subsidy-boom"
+    impact_summary: >
+      The State Council's poverty alleviation program funneled distributed rooftop solar
+      into rural poor households, with government covering 70-80% of upfront costs.
+      By programme conclusion in 2020, 26.49 GW had been installed benefiting 4.18 million
+      households across 138,091 villages. This created a distinct rural installer channel
+      with government-backed revenue guarantees, insulating participants from subsidy
+      volatility and incubating O&M service businesses in township-level markets.
+    downstream_segments_affected:
+      - residential_installation
+      - om_monitoring
+    sources:
+      - url: "https://www.nature.com/articles/s41467-020-15826-4"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "Nature Communications"
+      - url: "https://www.wri.org/insights/distributed-solar-pv-china-growth-and-challenges"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "World Resources Institute"
+    confidence: 4
+
+  - date: "2015-06"
+    title_en: "Top Runner Program Launch (领跑者计划) — Technology-Linked Procurement"
+    title_cn: "国家能源局《关于促进先进光伏技术产品应用和产业升级的意见》"
+    issuer: "NEA"
+    phase: "subsidy-boom"
+    impact_summary: >
+      The Top Runner Program mandated that designated solar farms (starting at 1 GW in 2015,
+      scaling to 5.5 GW in 2016 and 8-10 GW in 2017) use only modules meeting efficiency
+      thresholds (polycrystalline ≥17.5%, monocrystalline ≥18%). This accelerated module
+      efficiency improvements that ultimately cut costs for all downstream segments. Installers
+      serving residential and C&I markets benefited from higher-efficiency panels becoming
+      standard, improving project economics and enabling smaller rooftop footprints.
+    downstream_segments_affected:
+      - residential_installation
+      - ecommerce_marketplace
+    sources:
+      - url: "https://www.solarquotes.com.au/blog/chinas-top-runner-program/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "SolarQuotes"
+      - url: "https://www.researchgate.net/publication/325966776_Top_runner_program_in_China_A_theoretical_analysis_for_potential_subsidies"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "ResearchGate"
+    confidence: 4
+
+  - date: "2016-12"
+    title_en: "13th Five-Year Plan for Solar Energy Development (2016-2020)"
+    title_cn: "国家能源局《太阳能发展\"十三五\"规划》"
+    issuer: "NEA"
+    phase: "subsidy-boom"
+    impact_summary: >
+      The 13th FYP set a 60 GW target for distributed solar by 2020 (10 GW/year), mandating
+      construction of 100 distributed PV demonstration zones and equipping 80% of new building
+      rooftops and 50% of existing rooftops in coastal provinces. This gave installers, financiers,
+      and equipment suppliers a five-year planning horizon. Provincial energy bureaus in Jiangsu,
+      Zhejiang, and Guangdong interpreted targets aggressively, adding local subsidies on top of
+      central government support and driving a regional boom in residential installer networks.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.iea.org/policies/6275-china-13th-solar-energy-development-five-year-plan-2016-2020"
+        accessed_at: "2026-05-08"
+        kind: "government"
+        publisher: "IEA (source: NEA)"
+      - url: "https://www.wri.org/insights/distributed-solar-pv-china-growth-and-challenges"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "World Resources Institute"
+    confidence: 5
+
+  - date: "2017-01"
+    title_en: "2017 Distributed PV Boom — Subsidy Rush Before Anticipated FIT Reduction"
+    title_cn: "（市场现象，非单一政策文件）"
+    issuer: "NEA"
+    phase: "subsidy-boom"
+    impact_summary: >
+      China installed 53 GW of solar in 2017 (a world record), including 19.44 GW of
+      distributed solar — 3.6x the 2016 figure. Residential household installations surged
+      more than 7x in the first half of 2017 year-on-year as homeowners, speculators, and
+      installers rushed to lock in the 0.42 CNY/kWh subsidy before a rumored rate cut.
+      The boom created an informal installer ecosystem of hundreds of small regional companies,
+      crowd-funded solar platforms, and leasing companies offering zero-upfront rooftop deals.
+      NDRC cut the residential subsidy by 0.05 CNY/kWh to 0.37 CNY/kWh effective January 2018.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+    sources:
+      - url: "https://www.mercomindia.com/china-2017-solar-report"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "Mercom India"
+      - url: "https://www.caixinglobal.com/2017-07-20/rooftops-power-china-solar-boom-101119574.html"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "Caixin Global"
+    confidence: 4
+
+  - date: "2018-05-31"
+    title_en: "531 New Policy — Emergency Subsidy Halt and Capacity Cap (531新政)"
+    title_cn: "国家发改委、财政部、国家能源局《关于2018年光伏发电有关事项的通知》(发改能源〔2018〕823号)"
+    issuer: "NDRC"
+    phase: "subsidy-reform"
+    impact_summary: >
+      With zero warning and no transition period, the joint notice suspended subsidy approval
+      for all new utility-scale projects for 2018 and capped new subsidized distributed solar
+      at 10 GW nationally — a quota nearly exhausted in Q1 alone (7.68 GW installed by March).
+      The distributed subsidy was slashed from 0.37 to 0.32 CNY/kWh. Annual installations
+      collapsed from an anticipated 55 GW to ~44 GW. Hundreds of small residential installers
+      lost signed contracts overnight, financing companies saw project IRRs turn negative,
+      and equipment prices crashed 30-40% within weeks. The abruptness earned the policy
+      the nickname "急刹车" (emergency brake).
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.climatechangenews.com/2018/08/15/china-solar-industry-struggles-sudden-subsidy-cuts/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "Climate Change News"
+      - url: "https://www.frontiersin.org/journals/energy-research/articles/10.3389/fenrg.2024.1486351/full"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "Frontiers in Energy Research"
+      - url: "https://www.pv-tech.org/chinas-pv-manufacturers-after-531-what-makes-a-winner-in-overseas-market/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Tech"
+    confidence: 5
+
+  - date: "2019-01"
+    title_en: "Grid-Parity Project Initiative — First Subsidy-Free Solar Pilots"
+    title_cn: "国家发改委、国家能源局《关于积极推进风电、光伏发电无补贴平价上网有关工作的通知》(发改能源〔2019〕19号)"
+    issuer: "NDRC"
+    phase: "subsidy-reform"
+    impact_summary: >
+      The NDRC invited provinces to nominate utility-scale and distributed solar projects
+      capable of achieving grid parity (priced at or below local coal benchmark) with 20-year
+      fixed-price purchase guarantees but zero central subsidy. By May 2019, 16 provinces
+      submitted 14.78 GW of solar grid-parity projects plus 26 distributed market-trading
+      pilot zones. For downstream companies, this signaled the end of the subsidy era:
+      only low-cost installers and financiers could survive; smaller residential-focused
+      companies with higher per-project costs faced structural pressure to consolidate or exit.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+    sources:
+      - url: "https://chinaenergyportal.org/en/notice-on-the-first-batch-of-2019-of-non-subsidized-wind-and-pv-power-generation-projects-grid-parity-projects/"
+        accessed_at: "2026-05-08"
+        kind: "government"
+        publisher: "China Energy Portal (source: NDRC/NEA)"
+      - url: "https://www.pv-magazine.com/2019/01/10/china-unveils-an-ambitious-new-push-on-grid-parity-solar/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 5
+
+  - date: "2019-04-30"
+    title_en: "2019 FIT Revision — Continued Stepdown, Household Solar Gets 0.18 CNY/kWh"
+    title_cn: "国家发改委《关于完善光伏发电上网电价机制有关问题的通知》"
+    issuer: "NDRC"
+    phase: "subsidy-reform"
+    impact_summary: >
+      The NDRC published regional benchmark prices for centralized PV (0.40, 0.45, 0.55 CNY/kWh
+      by zone) and cut the residential household (户用光伏) national subsidy from 0.32 to
+      0.18 CNY/kWh — a 44% reduction in a single year. This directly reduced homeowner ROI,
+      with payback periods extending by 2-3 years in many regions. Leasing models that had
+      guaranteed homeowners fixed payments faced negative cash flow pressure; some platforms
+      renegotiated contracts or exited. Residential installer consolidation accelerated sharply.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+    sources:
+      - url: "https://www.sciencedirect.com/science/article/abs/pii/S0140988323007685"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "ScienceDirect / Energy Economics"
+      - url: "https://apricum-group.com/towards-a-subsidy-free-era-for-chinas-solar-pv-market/"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "Apricum Group"
+    confidence: 4
+
+  - date: "2020-04-09"
+    title_en: "2020 Solar Subsidy Policy — Final CNY1.5B Budget, Residential at 0.08 CNY/kWh"
+    title_cn: "国家发改委、国家能源局《关于2020年光伏发电上网电价政策有关事项的通知》"
+    issuer: "NDRC"
+    phase: "subsidy-reform"
+    impact_summary: >
+      The 2020 subsidy budget was halved to CNY1.5 billion (from CNY3B), with CNY500M
+      earmarked for residential rooftops and the household subsidy slashed again to 0.08 CNY/kWh
+      (down 56% from 2019). Residential projects were exempt from competitive bidding, allowing
+      faster deployment, but the subsidy level barely justified system investments in lower-solar-
+      resource provinces. This was widely understood to be the last year of meaningful central
+      subsidies — installers began preparing for a pure self-consumption model, and leasing
+      platforms began transitioning to ownership-sale models with electricity self-use as the ROI driver.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+    sources:
+      - url: "https://www.pv-magazine.com/2020/04/09/china-finalizes-2020-solar-subsidy-policy/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 4
+
+  - date: "2020-09-22"
+    title_en: "Xi Jinping's Carbon Neutrality Pledge — Peak 2030, Neutral 2060 (双碳目标)"
+    title_cn: "习近平在第七十五届联合国大会一般性辩论上的讲话"
+    issuer: "State Council"
+    phase: "market-parity"
+    impact_summary: >
+      Xi Jinping's surprise announcement at the UN General Assembly — CO2 peak before 2030
+      and carbon neutrality before 2060 — transformed the solar industry's strategic context
+      overnight. Solar equipment manufacturers, project developers, and downstream installers
+      gained a decade-long political mandate. Investor confidence surged; solar company stock
+      prices rose sharply. More concretely, central and provincial governments were now obligated
+      to design policies enabling massive solar scale-up, directly motivating the 整县推进 program
+      (2021) and the 14th FYP renewable targets.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.climatechangenews.com/2020/09/22/xi-jinping-china-will-achieve-carbon-neutrality-2060/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "Climate Change News"
+      - url: "https://www.iea.org/reports/an-energy-sector-roadmap-to-carbon-neutrality-in-china"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "IEA"
+    confidence: 5
+
+  - date: "2020-12"
+    title_en: "Grid-Parity Transition Complete — National FIT Ends for New Utility-Scale Solar"
+    title_cn: "国家发改委《关于2021年新能源上网电价政策有关事项的通知》前奏"
+    issuer: "NDRC"
+    phase: "market-parity"
+    impact_summary: >
+      By end-2020, China approved 33.1 GW of subsidy-free solar projects — more than any
+      prior year. The phase-out of utility-scale feed-in tariffs was confirmed: projects
+      not grid-connected by end-2020 would not receive central subsidies under the old system.
+      This removed utility-scale competitors from the subsidy queue, concentrating remaining
+      budget on residential distributed. For downstream companies, this was a pivotal shift:
+      profitability now depended entirely on installation cost competitiveness and electricity
+      market arrangements, not subsidy capture.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+    sources:
+      - url: "https://chinaenergyportal.org/en/notice-on-2020-grid-parity-wind-and-pv-power-generation-projects/"
+        accessed_at: "2026-05-08"
+        kind: "government"
+        publisher: "China Energy Portal (source: NDRC/NEA)"
+      - url: "https://energyiceberg.com/china-renewable-power-price/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "Energy Iceberg"
+    confidence: 4
+
+  - date: "2021-06"
+    title_en: "Whole-County Rooftop Solar Pilot Launch (整县屋顶分布式光伏开发试点)"
+    title_cn: "国家能源局《关于报送整县（市、区）屋顶分布式光伏开发试点方案的通知》"
+    issuer: "NEA"
+    phase: "market-parity"
+    impact_summary: >
+      The NEA called for provinces to nominate county-level pilots for whole-county rooftop
+      solar with mandated targets: ≥20% of residential rooftops, ≥30% commercial/industrial,
+      ≥40% public buildings, ≥50% government buildings. By September 2021, 676 counties
+      (representing ~50% of China's county-level jurisdictions) were listed. The policy's
+      key innovation was enabling a single county-wide tender to select one development partner,
+      slashing customer acquisition and soft costs. State-owned enterprises (SPIC, CGN, CHN
+      Energy) swept most tenders, disadvantaging smaller private installers but creating
+      large-scale O&M and equipment supply opportunities in formerly fragmented markets.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2021/07/01/china-set-to-mandate-solar-on-at-least-20-of-residential-roofs-in-pilot-counties/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+      - url: "https://taiyangnews.info/markets/china-676-counties-for-rooftop-solar-pilot/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "TaiyangNews"
+      - url: "https://www.carbonbrief.org/guest-post-how-chinas-rural-solar-policy-could-also-boost-heat-pumps/"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "Carbon Brief"
+    confidence: 5
+
+  - date: "2022-03"
+    title_en: "14th Five-Year Plan for Renewable Energy — Distributed Solar Targets (2021-2025)"
+    title_cn: "国家发展改革委、国家能源局《\"十四五\"可再生能源发展规划》"
+    issuer: "NDRC"
+    phase: "market-parity"
+    impact_summary: >
+      The 14th FYP for Renewable Energy formalized the distributed solar expansion, targeting
+      renewable electricity at 33% of consumption by 2025 and reiterating 1,200 GW combined
+      wind+solar by 2030. The plan prioritized distributed solar in industrial parks, public
+      buildings, agrivoltaics, and fishery-solar hybrid systems. In 2022, distributed PV
+      reached 51.11 GW of new installations (58% of total solar additions). This drove
+      rapid growth in O&M services and remote monitoring platforms, as the installed base
+      requiring ongoing maintenance surpassed 200 GW.
+    downstream_segments_affected:
+      - residential_installation
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://climatecooperation.cn/climate/china-released-its-14th-five-year-plan-for-renewable-energy-with-quantitative-targets-for-2025/"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "Sino-German Cooperation on Climate Change"
+      - url: "https://usercontent.one/wp/www.cet.energy/wp-content/uploads/2022/06/14-fyp-re.pdf"
+        accessed_at: "2026-05-08"
+        kind: "government"
+        publisher: "CET Energy (source: NDRC/NEA)"
+    confidence: 4
+
+  - date: "2022-07"
+    title_en: "NDRC Scales Up Distributed PV in Industrial Parks and Rural Areas"
+    title_cn: "国家发改委《关于促进新时代新能源高质量发展的实施方案》"
+    issuer: "NDRC"
+    phase: "market-parity"
+    impact_summary: >
+      The State Council-backed NDRC implementation plan pushed distributed PV into
+      industrial parks and agricultural/rural settings, prioritizing self-consumption models.
+      This expanded the downstream installer market beyond purely residential into C&I rooftop,
+      agrivoltaics, and fishery-solar. Companies offering integrated EPC+O&M services for
+      industrial rooftop clients saw strong growth; ecommerce platforms specializing in
+      equipment sourcing for distributed projects recorded rising transaction volumes.
+    downstream_segments_affected:
+      - residential_installation
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://en.ndrc.gov.cn/news/mediarusources/202207/t20220729_1332322.html"
+        accessed_at: "2026-05-08"
+        kind: "government"
+        publisher: "NDRC"
+    confidence: 4
+
+  - date: "2023-01"
+    title_en: "Post-Subsidy Residential Boom — Market-Driven Growth Surges to 43.5 GW"
+    title_cn: "（市场现象 — 政策组合效果）"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      With essentially zero central subsidies remaining, residential solar additions soared to
+      43.5 GW in 2023 (up from 5.3 GW in 2019), driven purely by electricity price appreciation,
+      falling module costs (below USD0.15/W), and established installer networks from the
+      整县推进 program. The residential segment outpaced C&I in some provinces. Financing shifted
+      to personal loans and BNPL products. O&M companies managing large rural installation
+      portfolios became key industry infrastructure. This validated the hypothesis that
+      the subsidy era was a launch pad, not a permanent crutch.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2024/08/03/grid-shortages-fuel-chinas-small-scale-solar-boom/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+      - url: "https://www.aiib.org/en/news-events/media-center/blog/2024/Harvesting-Sunlight-The-Dynamics-of-Rooftop-Solar-in-Rural-China.html"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "AIIB"
+    confidence: 4
+
+  - date: "2023-06"
+    title_en: "Grid Connection Restrictions Spread — 20+ Provinces Limit Distributed Solar"
+    title_cn: "各省电网接入限制通知（多省联合现象）"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      Over 20 provinces began designating "red" and "yellow" grid-restriction zones,
+      suspending new distributed solar grid connections in areas with transmission congestion.
+      Shandong, Hebei, and Henan — all top residential solar markets — imposed broad
+      restrictions. Residential installations in restricted zones stalled; installers who
+      had built regional franchises faced project cancellations. This geographic variability
+      forced downstream companies to develop real-time provincial policy monitoring capabilities
+      and diversify their geographic footprint to manage grid-access risk.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2024/08/03/grid-shortages-fuel-chinas-small-scale-solar-boom/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+      - url: "https://www.pv-magazine.com/2025/03/28/digging-into-chinas-solar-capacity-numbers/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 3
+
+  - date: "2024-04"
+    title_en: "NEA Increases PV Curtailment Cap from 5% to 8-10% to Ease Grid Pressure"
+    title_cn: "国家能源局关于光伏弃光率上限调整通知"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      Facing grid saturation from record solar deployment, NEA relaxed the 5% curtailment
+      ceiling to allow 8-10% of PV output to be curtailed without penalty. While this gave
+      grid operators flexibility, it directly reduced revenue certainty for residential system
+      owners and financed-portfolio operators. Leasing companies and financing platforms needed
+      to revise yield projections downward; O&M providers gained new business selling curtailment
+      monitoring and storage integration services. The policy signaled that grid absorption
+      — not just installation — would be the binding constraint for downstream growth.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2024/04/04/china-to-increase-pv-curtailment/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 3
+
+  - date: "2024-10"
+    title_en: "NEA Draft Rules for Distributed Solar — New Project Classifications and Market Trading Requirements"
+    title_cn: "国家能源局《分布式光伏发电开发建设管理办法（征求意见稿）》"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      NEA's draft rules (consultation Oct 9–Nov 8, 2024) replaced the 2013 framework and
+      introduced tiered project categories: residential, C&I general (≤6 MW), C&I large-scale
+      (6-50 MW), and ground-mounted (>50 MW, no longer "distributed"). Critically, the rules
+      eliminated guaranteed grid access for distributed solar and required all projects to
+      participate in electricity market trading. Large-scale C&I projects were restricted to
+      full self-consumption with anti-reverse-flow systems. A queue system for grid connections
+      replaced first-come-first-served access. For installers and financiers, this fundamentally
+      changed project bankability analysis, requiring electricity market forecasting rather than
+      simple feed-in tariff math.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2024/10/22/chinas-nea-unveils-new-draft-rules-to-reshape-distributed-solar-market/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 4
+
+  - date: "2025-01"
+    title_en: "NEA Issues Final Distributed Solar Rules — Effective May 2025"
+    title_cn: "国家能源局《分布式光伏发电开发建设管理办法》（正式稿）"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      Final rules (largely unchanged from October 2024 draft) took effect May 1, 2025,
+      applying to all new grid connections while grandfathering existing systems under
+      the old framework. The green certificate system became mandatory for all distributed
+      solar; unique project identification codes enabled trading and monitoring. Residential
+      solar remained largely protected with fewer market-trading burdens than C&I. The
+      rules created a two-speed market: simpler rules for homeowners, complex compliance
+      for commercial operators — effectively professionalizing the downstream industry.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.pv-magazine.com/2025/01/24/chinese-pv-industry-brief-nea-issues-final-rules-for-distributed-solar/"
+        accessed_at: "2026-05-08"
+        kind: "news"
+        publisher: "PV Magazine"
+    confidence: 4
+
+  - date: "2025-02"
+    title_en: "Document 136 — Grid Connection Agreement Required Before Construction"
+    title_cn: "国家能源局等《关于促进新能源高质量消纳的实施方案》（136号文）"
+    issuer: "NEA"
+    phase: "post-subsidy"
+    impact_summary: >
+      Document 136 required all new solar and wind projects to secure formal grid connection
+      and electricity absorption agreements before breaking ground — ending speculative
+      construction practices that had contributed to the grid-connection backlog. For
+      residential installers, this introduced new pre-sales compliance steps; for C&I project
+      developers, it imposed meaningful upfront grid-capacity due diligence costs. Financing
+      companies gained clarity on grid-connected project certainty but faced a longer
+      pre-disbursement timeline. The policy effectively cleaned up the pipeline of stranded
+      projects built without grid offtake.
+    downstream_segments_affected:
+      - residential_installation
+      - financing_leasing
+      - om_monitoring
+    sources:
+      - url: "https://www.mandg.com/investments/institutional/en-gb/insights/2025/q4/how-chinas-anti-involution-policy-is-rewiring-global-green-tech"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "M&G Investments"
+    confidence: 3
+
+  - date: "2025-04"
+    title_en: "Anti-Involution National Strategy — Quality Over Quantity for Solar Industry"
+    title_cn: "国家层面反内卷政策（2025年战略方向）"
+    issuer: "State Council"
+    phase: "post-subsidy"
+    impact_summary: >
+      Beijing elevated anti-involution (反内卷) to a national industrial strategy in early 2025,
+      targeting the destructive price competition that had pushed solar module prices to
+      unsustainable lows (below USD0.10/W by late 2024). Downstream installers benefited
+      from anticipated price floor stabilization, which improved project margin predictability.
+      For ecommerce platforms and equipment distributors, the policy threatened to reduce
+      the commodity-like price competition that had driven volume. The strategy signaled
+      a deliberate market structure shift — fewer, larger, more profitable participants —
+      affecting consolidation dynamics across the entire downstream value chain.
+    downstream_segments_affected:
+      - residential_installation
+      - ecommerce_marketplace
+      - om_monitoring
+    sources:
+      - url: "https://www.mandg.com/investments/institutional/en-gb/insights/2025/q4/how-chinas-anti-involution-policy-is-rewiring-global-green-tech"
+        accessed_at: "2026-05-08"
+        kind: "research_report"
+        publisher: "M&G Investments"
+    confidence: 3

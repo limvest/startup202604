@@ -1,0 +1,33 @@
+{
+  "company_slug": "chint-anneng",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "China's #1 residential rooftop solar installer by cumulative users",
+    "2M+ households served across 29 provinces by 2024",
+    "Revenue CNY 13.7B (2022)",
+    "Filed for SSE main-board IPO in 2023 at CNY 36–60B valuation",
+    "Spun out of Chint Group in 2015 to capture rural household solar wave",
+    "Founded as Chint Anneng Digital Power (Zhejiang) Co., Ltd.",
+    "Operates as downstream brand distinct from Chint Power Systems (inverter OEM)"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_2022": 13.7,
+    "ipo_valuation_cny_b_range_low": 36,
+    "ipo_valuation_cny_b_range_high": 60,
+    "cumulative_users_households": 2000000,
+    "provinces_covered": 29
+  },
+  "funding_history": [
+    {
+      "event": "SSE main-board IPO filing",
+      "year": 2023,
+      "amount_cny_b": null,
+      "notes": "IPO at CNY 36–60B valuation range; most-watched downstream listing in China at the time"
+    }
+  ],
+  "business_model_notes": "Residential rooftop solar EPC and digital energy platform spun from Chint Group. Leverages Chint's manufacturing supply chain (modules, inverters, monitoring hardware) to offer vertically integrated household solar. Revenue model: upfront EPC sale + recurring O&M subscription + digital energy management.",
+  "competitive_position": "Market leader in residential installation segment by cumulative user count. Main rivals: Skyworth Solar (300x revenue growth, consumer brand approach), Trinapower Richome (#2 by users), Sungrow New Energy.",
+  "research_notes": "High confidence. Multiple sources corroborate IPO filing (EqualOcean, Dealroom, company website). Revenue figure from equalocean 2023-09-20 article. IPO valuation range from public SSE filing documents."
+}

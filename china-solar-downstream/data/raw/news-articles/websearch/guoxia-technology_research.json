@@ -1,0 +1,39 @@
+{
+  "company_slug": "guoxia-technology",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Founded January 4, 2019 in Wuxi, Jiangsu — independent energy storage system integrator",
+    "Not a subsidiary of any panel or inverter manufacturer",
+    "Revenue: CNY 142M (2022) → CNY 2.057B (2025) — approximately 15x in 3 years",
+    "Listed on HKEX main board (2655.HK) December 2025",
+    "HKEX IPO: 1,800x oversubscribed; HKD 810M raised",
+    "Ranked among top-10 global energy storage system suppliers in 2024 (3% market share by new installed capacity)",
+    "Integrates large-scale, C&I, and residential BESS solutions",
+    "AI-powered platform: Guoxia AI + HANCHU (汉初) AI assistant",
+    "Cell suppliers: CALB and others (independent integrator, not manufacturer)",
+    "Strategy: AI-driven energy management as differentiator vs pure-play hardware BESS"
+  ],
+  "financial_metrics": {
+    "revenue_cny_m_2022": 142,
+    "revenue_cny_b_2025": 2.057,
+    "revenue_growth_3yr_factor": 14.5,
+    "hkex_ipo_oversubscription_factor": 1800,
+    "hkex_ipo_raise_hkd_m": 810,
+    "global_bess_market_share_pct_2024": 3,
+    "global_bess_rank_2024_max": 10
+  },
+  "funding_history": [
+    {
+      "event": "HKEX main board IPO (2655.HK)",
+      "year": 2025,
+      "month": 12,
+      "amount_hkd_m": 810,
+      "notes": "1,800x oversubscribed — record for China BESS IPOs; demonstrates HKEX enthusiasm for AI-enabled energy storage integrators"
+    }
+  ],
+  "business_model_notes": "Independent BESS system integrator: aggregates battery cells from tier-1 suppliers (CALB etc.), designs and installs large-scale, C&I, and residential energy storage systems. Value-add: Guoxia AI platform and HANCHU AI assistant for intelligent energy dispatch (optimize charge/discharge against electricity spot prices), predictive maintenance, and grid services. Revenue: hardware+integration margin + recurring AI platform subscription. AI-pivot strategy: avoid commoditization race-to-bottom in BESS hardware by providing software layer that justifies price premium.",
+  "competitive_position": "Fastest-growing independent BESS integrator in China. 15x revenue growth in 3 years achieved without being an incumbent cell manufacturer (unlike BYD, CATL). 1,800x IPO oversubscription demonstrates exceptional investor demand for the 'AI-enabled BESS integrator' narrative. Main threat: BYD, Sungrow, and CATL are vertically integrated and can undercut on hardware cost. Guoxia's AI moat needs to be demonstrably superior for customers to pay premium.",
+  "research_notes": "Highest confidence (★5). HKEX prospectus (2655.HK) is public record. Revenue trajectory confirmed via prospectus financial statements. 1,800x oversubscription from energy-storage.news and Bamboo Works reporting. Baike.baidu.com confirmed Wuxi founding details. Market share figure (3%) from prospectus citing third-party market research."
+}

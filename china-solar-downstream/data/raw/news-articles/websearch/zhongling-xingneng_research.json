@@ -1,0 +1,36 @@
+{
+  "company_slug": "zhongling-xingneng",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Founded March 2023 in Beijing (Tongzhou district) as pure independent residential solar platform",
+    "No panel/inverter parent company",
+    "Raised ~CNY 100M angel round at founding",
+    "Lead investor: Xinmingzhu Group (新名主集团)",
+    "Follow-on: Insurtech Long Green (绿长科技), Xuannis Industrial (宣尼实业)",
+    "Full-lifecycle residential rooftop PV: investment consulting, design, EPC, O&M, storage integration",
+    "Plans to expand into energy storage and wind post-solar market maturity",
+    "Management team cited: nationwide residential PV penetration only ~3.5% across 100M+ rooftop resources",
+    "Reported by 36Kr as first-disclosed angel round for a pure-play residential distributed solar platform in 2023 funding landscape"
+  ],
+  "financial_metrics": {
+    "angel_round_cny_m_approx": 100,
+    "founding_year": 2023,
+    "residential_pv_penetration_china_pct": 3.5,
+    "total_addressable_rooftops_m": 100
+  },
+  "funding_history": [
+    {
+      "event": "Angel round",
+      "year": 2023,
+      "month": 3,
+      "amount_cny_m_approx": 100,
+      "investors": ["Xinmingzhu Group (新名主集团)", "Long Green (绿长科技)", "Xuannis Industrial (宣尼实业)"],
+      "notes": "Xinmingzhu Group is a real estate / property developer entering solar — strategic rationale: developer owns rooftop access. '第一个纯住宅分布式太阳能平台' framing from 36Kr confirms market significance."
+    }
+  ],
+  "business_model_notes": "Full-lifecycle residential rooftop service platform aiming to be the one-stop provider from initial consultation to O&M. Revenue: EPC installation margin + annual O&M subscription + storage integration upsell. The 3.5% penetration framing identifies the whitespace thesis: 100M+ rooftops barely tapped. Xinmingzhu Group (property developer) as lead investor provides strategic access to residential communities where solar installation rights negotiation is key barrier.",
+  "competitive_position": "Very early stage (March 2023 founding, 36Kr 2023 coverage only). Positioned as VC-backed challenger to large-corp installers (Chint Anneng, Skyworth Solar). The CNY 100M angel round is meaningful for a March 2023 founding — indicates strong investor conviction in the whitespace thesis. Risk: competing against large-corp brands with established installer networks and supply chain advantages.",
+  "research_notes": "Medium confidence. 36Kr article from 2023 confirmed the founding, investors, and thesis. Crunchbase pitchhub entry corroborates details. Status as of 2026 (3 years post-founding) unclear — limited subsequent press coverage found. The company may have successfully grown quietly or struggled with sales-cycle headwinds. The 3.5% penetration figure is a valuable market data point cited by the founding team."
+}

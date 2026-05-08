@@ -1,0 +1,25 @@
+{
+  "company_slug": "jnengyun-jinengcloud",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Founded circa 2016–2018 ('7+ years' clean energy digitalization company as of 2025)",
+    "500+ enterprise customers including TCL PV, Huarun Finance Leasing, State Power Investment Group, Huaneng",
+    "Manages TCL's 50+ projects (~500 MW)",
+    "SaaS platform covering full PV project lifecycle: registration → O&M",
+    "Also serves EVTEC energy storage clients",
+    "Headquarters: Hangzhou, Zhejiang",
+    "Platform spans: monitoring, work-order management, revenue tracking",
+    "Operates on marketplace/O&M boundary — aggregates solar service buyers and providers"
+  ],
+  "financial_metrics": {
+    "enterprise_customers_min": 500,
+    "mw_managed_for_tcl": 500,
+    "tcl_projects_managed": 50
+  },
+  "funding_history": [],
+  "business_model_notes": "B2B SaaS for solar asset management. Target customers: financial leasing companies (Huarun), utilities (Huaneng, SPIC), corporate solar owners (TCL). Revenue: SaaS subscription license + customization fees. Positioned as the 'enterprise solar ERP' — bringing enterprise software management discipline to solar project portfolios. The TCL relationship (500 MW, 50+ projects) validates the platform for managing large distributed portfolios.",
+  "competitive_position": "Mid-tier B2B SaaS competitor in solar O&M management software space. Competes with Guoneng Rixin (301162.SZ, publicly listed, more advanced AI forecasting) and Getech-PVOM (TCL-incubated, also serves TCL portfolio). The overlap with Getech for TCL clients is notable and may indicate JninengCloud is the older/more basic tool being displaced.",
+  "research_notes": "Medium confidence. Data from tech.china.com article (Nov 2025) and company website. No funding disclosed — may be bootstrapped or PE-backed without public disclosure. The TCL relationship is key anchor customer reference but limited independent data on market position vs Guoneng Rixin."
+}

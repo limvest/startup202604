@@ -1,0 +1,34 @@
+{
+  "company_slug": "cyberlink-iot",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Founded 2020 by a team with 15+ years in electrical measurement technology",
+    "Pivoted from industrial energy management into distributed PV monitoring and household energy management",
+    "Product suite: high-precision electrical sensors + cloud-based monitoring platform + household energy management SaaS",
+    "Angel+ round (September 2023): tens of millions of yuan",
+    "Lead investor: Seven Seas Capital (七海资本)",
+    "Follow-on investor: Shenzhen Capital Group (深创投 / Shenzhen Venture Capital)",
+    "Partners: State Grid, China Electrical Equipment Group (CEEG), Huaneng Group, Tongwei Inc.",
+    "Focus: distributed PV monitoring standards development with state utility partners",
+    "Headquarters: Beijing"
+  ],
+  "financial_metrics": {
+    "angel_plus_cny_m_approx_min": 10,
+    "founded_year": 2020
+  },
+  "funding_history": [
+    {
+      "event": "Angel+ round",
+      "year": 2023,
+      "month": 9,
+      "amount_cny_m_approx": "tens of millions",
+      "investors": ["Seven Seas Capital (七海资本)", "Shenzhen Capital Group (深创投)"],
+      "notes": "深创投 (Shenzhen Venture Capital) is one of China's most prestigious government-backed VC funds — validates the company's technology credentials. Seven Seas is a specialist deep-tech fund."
+    }
+  ],
+  "business_model_notes": "Sensor-first IoT platform for distributed solar monitoring. Revenue model: hardware (high-precision electrical sensors sold to solar installers/station operators) + SaaS subscription for the monitoring and energy management platform. The state-utility partnerships (State Grid, Huaneng, Tongwei) serve dual purpose: (1) commercial contracts for piloting monitoring technology; (2) credibility/standard-setting influence. Independent of any single OEM, positioned as infrastructure provider for smarter PV monitoring.",
+  "competitive_position": "Early-stage company in a niche within the O&M monitoring segment. Focus on 'high-precision electrical sensors' suggests more granular data than consumer-grade monitoring (SOLARMAN, SolisCloud). State-utility partnerships differentiate from venture-only competitors. Main uncertainty: can they scale beyond the State Grid pilot projects into the commercial distributed market?",
+  "research_notes": "Medium confidence. Funding round confirmed via Sina Finance article (2023-09-05) and 36Kr. Seven Seas Capital portfolio page lists the company. Shenzhen Capital Group press release confirms investment. Technology description from solar.in-en.com profile. Status as of 2026 uncertain — early stage with one disclosed round."
+}
