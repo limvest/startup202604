@@ -39,7 +39,7 @@ Emergency brake (531新政) eliminated speculative installers. Survivors: low-co
 The carbon neutrality pledge (Sept 2020) and 整县推进 (June 2021) relaunched the market at greater scale and structural concentration. Critical development: Skyworth Solar entered 2020, TCL Solar entered 2021. Both leveraged existing appliance dealer networks for solar customer acquisition. County-wide tenders further concentrated value at the top of the market.
 
 ### Phase 4: Volume Scale + Grid Constraints (2023–2026)
-Record installation volumes (43.5 GW distributed 2023; 50+ GW 2024) coexist with grid absorption constraints in 20+ provinces. Business model evolution: installers adding storage integration, digital O&M services (Chint Anneng's 小安到家 brand), and captive e-commerce (安能商城). The EPC pure-play model is being replaced by integrated platform models that capture lifecycle value.
+Record distributed installation volumes (96.29 GW in 2023; 118.18 GW in 2024) coexist with grid absorption constraints in 20+ provinces; within that total, household additions peaked at 43.48 GW in 2023 and fell to 29.55 GW in 2024. Business model evolution: installers adding storage integration, digital O&M services (Chint Anneng's 小安到家 brand), and captive e-commerce (安能商城). The EPC pure-play model is being replaced by integrated platform models that capture lifecycle value.
 
 ## Critical Structural Patterns
 1. **Consumer brand transfer:** Skyworth's 300x growth demonstrates that appliance dealer networks + brand trust can substitute for solar-specific installer channel-building. Key mechanism: rural households trust brand they recognize from TV/appliances more than unfamiliar solar brands.
@@ -53,6 +53,6 @@ Record installation volumes (43.5 GW distributed 2023; 50+ GW 2024) coexist with
 
 ## Korea Applicability
 **Transferability: ★★★/★5**  
-Korea's residential installation market is ~1/20th the size (2.5 GW/year residential vs China's 43.5 GW/year distributed). The consumer-brand-transfer mechanism (Skyworth model) has a Korean equivalent: Samsung, LG, and Hyundai have nationwide service networks and rural brand recognition comparable to Skyworth's. None have entered residential solar at scale as of 2026. The window for a Korean Skyworth equivalent is open but narrowing as dedicated solar installers establish market positions.
+Korea is much smaller on the relevant metrics: total Korean PV additions were roughly 2.5-3.1 GW in 2024, and the residential subset is about 2.5 GW cumulative, versus China's 43.48 GW of household additions in 2023 and 29.55 GW in 2024. The consumer-brand-transfer mechanism (Skyworth model) has a Korean equivalent: Samsung, LG, and Hyundai have nationwide service networks and rural brand recognition comparable to Skyworth's. None have entered residential solar at scale as of 2026. The window for a Korean Skyworth equivalent is open but constrained by market size and regulatory economics.
 
 Key difference: Korea's net metering cap (10 kW residential) and apartment-dominant housing stock (65% of households) restrict the rural single-family market to ~5.7M detached-house households — meaningful but far smaller than China's 100M+ rural rooftops.

@@ -63,7 +63,7 @@ This sets a hard ceiling on the "Chinese rural rooftop boom" model in Korea: eve
 
 ### Total Addressable Market: Capacity Estimates
 
-Korea's cumulative installed PV capacity stood at approximately 29.5 GW at end-2024 (KEA), with various estimates placing 2025 cumulative around 32 GW. Distributed/rooftop solar represents a contested share — IEA-PVPS Korea reports identify a residential subset of approximately 2.5 GW (8% of total), with a broader rooftop segment (including C&I) estimated at ~18 GW by end-2025. The MOTIE 10th Basic Plan for Electricity Supply (2023) targets:
+Korea's cumulative installed PV capacity stood around 29.5-32 GW at end-2024 depending on whether provisional KEA or IEA-PVPS country-page definitions are used. Distributed/rooftop solar represents a contested share — IEA-PVPS Korea identifies a residential subset of approximately 2.5 GW (about 8% of total), with a broader rooftop segment (including C&I) estimated at ~18 GW by end-2025. The MOTIE 10th Basic Plan for Electricity Supply (2023) targets:
 - 55.7 GW total solar by 2030
 - 77.2 GW total solar by 2038
 - Rooftop solar projected at 45+ GW cumulative by 2035

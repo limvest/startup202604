@@ -58,7 +58,7 @@ On the **S-curve / industry lifecycle** framework, Yuexiu's entry pattern is cha
 | New distributed installations | 10.60 GW | 2024 | ★4 |
 | Total managed PV capacity | 14.08 GW | end-2024 | ★4 |
 | Farmers served | 450,000+ | end-2024 | ★4 |
-| New-energy investment | CNY 161B | 2023 | ★3 |
+| New-energy investment / new deployment | CNY 15.2-16.1B | 2023 | ★4 |
 | Three-year investment plan | CNY 200B | 2023–2026 | ★3 |
 | Founding date | June 2022 | — | ★5 |
 
@@ -71,5 +71,5 @@ The deeper lesson concerns the *speed of state capital* as a strategic lever. Th
 ## Unresolved Questions
 
 - What is Yuexiu's debt-to-equity structure and average cost of funds? The state-capital-arbitrage thesis depends on the spread between funding cost and asset IRR, which public sources do not disclose at the subsidiary level.
-- How are the CNY 161B (2023) "new energy investment" figure and the CNY 200B three-year plan defined — are these on-balance-sheet leasing assets, total project capex including co-investors, or non-binding commitments? The reporting unit ambiguity is the largest source of metric uncertainty.
+- How is the frequently cited CNY 200B three-year plan defined — on-balance-sheet leasing assets, total project capex including co-investors, or non-binding ambition? The audited/reported 2023 deployment is closer to CNY 15.2-16.1B, so the plan figure should not be read as 2023 deployed capital.
 - How does Yuexiu's 14.08 GW reconcile with reported 10.60 GW added in 2024 plus 4.25 GW added in 2023? The numbers are internally consistent (~14.85 GW gross), suggesting modest divestment or definitional difference, but transparent reconciliation is absent from public sources.

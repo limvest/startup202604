@@ -79,7 +79,7 @@ Chinese financial figures reported in 亿元 (100M CNY) were sometimes transcrib
 | Huaxia Financial Leasing | "320B invested" | 320亿 = CNY 32B ✓ |
 | Huaxia Financial Leasing | "390B cumulative" | 390亿 = CNY 39B ✓ |
 | Huaxia Financial Leasing | "520B invested end-2024" | 520亿 = CNY 52B ✓ |
-| Yuexiu New Energy | "161B new energy investment 2023" | 1,610亿 = CNY 161B ✓ (this one IS billions) |
+| Yuexiu New Energy | Prior erroneous "CNY 161B new-energy investment 2023" | Corrected: reported 2023 new-energy deployment is roughly CNY 15.2-16.1B, not CNY 161B; prior note confused 160.95亿 with 1,610亿. |
 | Sungrow New Energy | "247B revenue" | Likely 247亿 = CNY 24.7B (consolidated Sungrow) ✓ |
 
 **Status:** Unit conversions corrected in research JSON files. All report documents should use explicit "CNY XB" format, not bare "XB."
@@ -94,7 +94,7 @@ Chinese financial figures reported in 亿元 (100M CNY) were sometimes transcrib
 
 ### Data Validated (from WebSearch 2026-05-08):
 - Korea 2024 solar additions: 3.1 GW (PV Magazine April 2025) ★4
-- Korea residential additions 2024: 2.5 GW / 8% of total ★4
+- Korea total PV additions 2024: roughly 2.5-3.1 GW; residential capacity is roughly 2.5 GW cumulative / about 8% of total, not 2.5 GW annual residential additions ★4
 - Korea RPS quota 2024: 17%; 2025: 20.5% ★5 (IEA policy database)
 - Korea net metering cap: 50 kW residential, 1 MW commercial ★4
 - Korea grid curtailment: 205+ substations designated May 2024, 347 MW cancelled April 2025 ★5

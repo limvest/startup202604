@@ -77,7 +77,7 @@ Key insight: the financing S-curve is bifurcated — the P2P/startup financing S
 **O&M and Monitoring:**
 - 2013–2016: Pre-commercial (monitoring was a feature, not a product)
 - 2017–2019: Early commercialization (SOLARMAN, iSolarCloud launched as products)
-- 2020–2022: Growth (整县推进 adds 50+ GW of new managed assets per year)
+- 2020–2022: Growth (整县推进 creates county-scale managed-asset origination)
 - 2023–present: Growth/consolidation (OEM-captive vs independent platform war; AI-powered energy management as next S-curve)
 
 The monitoring segment may be entering a secondary S-curve inflection: the commodity monitoring layer is maturing (SOLARMAN 220 GW, Sungrow 98 GW are large numbers relative to total distributed base) while AI-powered energy management (Sigenergy SigenStor, Guoxia HANCHU) is at the base of a new S-curve. This technology-within-technology nested S-curve is characteristic of platform markets.
