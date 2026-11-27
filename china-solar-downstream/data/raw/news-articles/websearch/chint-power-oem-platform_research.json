@@ -1,0 +1,23 @@
+{
+  "company_slug": "chint-power-oem-platform",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 2,
+  "key_facts": [
+    "Chint Group's inverter and power-systems arm, founded 2009 (established before residential solar boom)",
+    "Smart PV O&M Platform integrated with Chint Anneng's 2M+ installed systems",
+    "CPS monitoring app available on iOS and Android",
+    "WiFi COMBOX data logger for residential inverter connectivity",
+    "No revenue or funding data found",
+    "Serves as the tech stack underpinning the Chint residential solar ecosystem",
+    "One of the largest proprietary residential solar monitoring datasets in China (via 2M+ Chint Anneng installs)"
+  ],
+  "financial_metrics": {
+    "captive_systems_via_chint_anneng_min": 2000000,
+    "founded_year": 2009
+  },
+  "funding_history": [],
+  "business_model_notes": "Inverter OEM + captive monitoring platform. Chint Power Systems makes inverters for Chint Anneng installations; CPS monitoring app provides the data layer. Model: hardware (inverter + COMBOX data logger) embedded in every Chint Anneng installation → automatic onboarding to CPS platform → recurring monitoring data and upsell opportunity for maintenance contracts. Effectively an internal B2B2C: Chint Group → Chint Anneng installer → end-user homeowner.",
+  "competitive_position": "Internal platform, not competing independently in the monitoring SaaS market. Value is as the data backbone for Chint Group's residential solar empire. 2M+ system dataset is one of China's largest residential solar datasets, providing value for: (a) predictive maintenance ML training, (b) future energy management products, (c) potential monetization as third-party monitoring services for non-Chint installers.",
+  "research_notes": "LOW CONFIDENCE. Very limited public data on Chint Power's standalone monitoring platform. Revenue and user metrics not disclosed separately from Chint Group consolidated accounts. CPS app and COMBOX product confirmed from company product page. The platform's significance is inferred from Chint Anneng's 2M user scale rather than independently verified monitoring SaaS metrics."
+}

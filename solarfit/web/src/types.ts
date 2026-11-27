@@ -1,0 +1,146 @@
+export interface TerrainInfo {
+  elevation_m: number | null;
+  slope_deg: number | null;
+  aspect_deg: number | null;
+  is_south_facing: boolean | null;
+}
+
+export interface ParcelInfo {
+  pnu: string | null;
+  jimok: string | null;
+  jimok_name: string | null;
+  area_m2: number | null;
+  address: string | null;
+}
+
+export interface LandValueInfo {
+  official_price_per_m2: number | null;
+  ownership_type: string | null;
+  slope_grade: string | null;
+}
+
+export interface RegulatoryInfo {
+  agri_promotion: boolean;
+  agri_unfavorable: boolean;
+  natural_conservation: boolean;
+  wetland_protection: boolean;
+  forest_protection: boolean;
+  greenbelt: boolean;
+  water_source: boolean;
+  wildlife_protection: boolean;
+  steep_slope_hazard: boolean;
+  disaster_risk: boolean;
+}
+
+export interface SubstationInfo {
+  name: string | null;
+  distance_km: number | null;
+  voltage_kv: string | null;
+  remaining_kw: string | null;
+}
+
+export interface ScoreResult {
+  total: number;
+  grade: 'A' | 'B' | 'C' | 'D' | 'F';
+  passed_hard_filter: boolean;
+  breakdown: Record<string, number>;
+}
+
+export interface AnalysisResult {
+  lat: number;
+  lon: number;
+  annual_ghi_kwh: number | null;
+  terrain: TerrainInfo;
+  parcel: ParcelInfo;
+  land_value: LandValueInfo;
+  regulatory: RegulatoryInfo;
+  substation: SubstationInfo;
+  score: ScoreResult | null;
+}
+
+export interface SearchResult {
+  title: string;
+  address: string | null;
+  lat: number;
+  lon: number;
+}
+
+export interface ScanTile {
+  lat_min: number;
+  lat_max: number;
+  lon_min: number;
+  lon_max: number;
+  prob: number;
+  detected: boolean;
+}
+
+export interface ScanDetection {
+  lat: number;
+  lon: number;
+  prob: number;
+}
+
+export interface SolarInstallation {
+  lat: number;
+  lon: number;
+  tile_count: number;
+  area_m2: number;
+  capacity_kw: number;
+  annual_kwh: number;
+  revenue_krw: number;
+  max_prob: number;
+  address: string | null;
+}
+
+export interface ScanResult {
+  detections: ScanDetection[];
+  installations: SolarInstallation[];
+  tiles: ScanTile[];
+  tiles_scanned: number;
+  tiles_positive: number;
+  total_area_m2: number;
+  total_capacity_kw: number;
+  total_revenue_krw: number;
+}
+
+export interface IndustrialArea {
+  id: string;
+  name: string;
+  region: string;
+  city: string;
+  type: '국가산업단지' | '일반산업단지' | '도시첨단산업단지' | '농공단지';
+  lat: number;
+  lon: number;
+  boundary: [number, number][];
+  ghiKwhM2Year: number;
+  pvoutKwhKwpYear: number;
+  availableRoofM2: number;
+  recommendedCapacityMw: number;
+  gridDistanceKm: number;
+  landUseNote: string;
+  industries: string[];
+  selectedAreaM2?: number;
+  isCustomSelection?: boolean;
+  basePvoutKwhKwpYear?: number;
+  effectiveGhiKwhM2Year?: number;
+  shadingLossPct?: number;
+  incidenceAdjustmentPct?: number;
+  shapeEfficiencyPct?: number;
+}
+
+export interface IndustrialAreaAnalysis {
+  capacityMw: number;
+  annualGenerationMwh: number;
+  annualRevenueKrw: number;
+  installCostKrw: number;
+  paybackYears: number;
+  co2ReductionTon: number;
+  smpKrwKwh: number;
+  recKrwKwh: number;
+  performanceRatio: number;
+  effectivePvoutKwhKwpYear: number;
+  effectiveGhiKwhM2Year: number;
+  shadingLossPct: number;
+  incidenceAdjustmentPct: number;
+  shapeEfficiencyPct: number;
+}

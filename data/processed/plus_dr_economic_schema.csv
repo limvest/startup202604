@@ -1,0 +1,5 @@
+﻿field_name_ko,field_name_en,field_description,domain_category,data_type,max_length,unit,format_expression,source_system,db_name,table_name,etc,code,code_name,source_file
+거래일,,거래일,,가변문자형(VARCHAR),10,,,,,,,,,플러스DR_경제성DR_입낙찰.xlsx
+거래시간,,거래시간,,가변문자형(VARCHAR),2,,,,,,,,,플러스DR_경제성DR_입낙찰.xlsx
+경제성DR입찰량,,경제성DR입찰량,,가변문자형(VARCHAR),20,,,,,,,,,플러스DR_경제성DR_입낙찰.xlsx
+경제성DR낙찰량,,경제성DR낙찰량,,가변문자형(VARCHAR),20,,,,,,,,,플러스DR_경제성DR_입낙찰.xlsx

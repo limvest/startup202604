@@ -1,0 +1,39 @@
+{
+  "company_slug": "jinko-power-technology",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Spun off from JinkoSolar in late 2016; listed on Shanghai Stock Exchange (601778.SH) May 2020",
+    "IPO: raised CNY 2.6B; 461x oversubscribed",
+    "2023 revenue: CNY 4.37B (+36.7% YoY)",
+    "2023 net profit: CNY 383M (+77% YoY)",
+    "H1 2024 own installed capacity: 6.02 GW",
+    "H1 2024 green power transactions: CNY 24.5B",
+    "Operates distributed solar EPC, O&M, power station asset management",
+    "Energy services: PPA, EMC contracts",
+    "Key signal: O&M becoming standalone financial product in China"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_2023": 4.37,
+    "revenue_yoy_pct_2023": 36.7,
+    "net_profit_cny_m_2023": 383,
+    "net_profit_yoy_pct_2023": 77,
+    "installed_capacity_gw_h1_2024": 6.02,
+    "green_power_transactions_cny_b_h1_2024": 24.5,
+    "ipo_raise_cny_b": 2.6,
+    "ipo_oversubscription_factor": 461
+  },
+  "funding_history": [
+    {
+      "event": "SSE IPO (601778.SH)",
+      "year": 2020,
+      "month": 5,
+      "amount_cny_b": 2.6,
+      "notes": "461x oversubscribed — highest oversubscription for a solar downstream IPO at the time"
+    }
+  ],
+  "business_model_notes": "Integrated downstream platform: EPC (engineering, procurement, construction) for distributed and utility-scale solar → O&M management of owned and third-party assets → green power trading (H1 2024: CNY 24.5B in green power transactions). Revenue stream diversification: construction margin + recurring O&M fee + power trading commission + PPA yield from owned plants. The CNY 24.5B green power transaction volume in H1 2024 shows Jinko Power is also a major green energy trading house, not just an installer.",
+  "competitive_position": "Mid-to-large downstream solar company. CNY 4.37B revenue (2023) makes it larger than most pure-play installers. The 461x IPO oversubscription (2020) confirms market enthusiasm for O&M as a recurring-revenue model. Competes against Chint Anneng (residential focus), Sungrow New Energy (development focus), and utility-scale IPPs.",
+  "research_notes": "Highest confidence (★5). All financial data from SSE (601778.SH) public annual report and H1 2024 semi-annual report. IPO details confirmed via SSE filing. Green power trading figure (CNY 24.5B) is a standout metric showing diversification into energy trading beyond pure O&M."
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 서울 햇빛지도 iframe — 데스크톱 */
+.solar-iframe {
+  top: -340px;
+  height: 1330px;
+}
+
+/* 모바일: 스택 레이아웃이라 상단 잘라내기 조정 */
+@media (max-width: 767px) {
+  .solar-iframe {
+    top: -380px;
+    height: calc(100% + 380px);
+  }
+}

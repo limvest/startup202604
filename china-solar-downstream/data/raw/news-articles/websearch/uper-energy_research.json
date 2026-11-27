@@ -1,0 +1,26 @@
+{
+  "company_slug": "uper-energy",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Core O&M subsidiary of Unisun New Energy Group (联盛新能源), formally established 2018",
+    "2,000+ power stations under service",
+    "10 GW+ cumulative capacity under management",
+    "100+ county-level O&M service centers in China",
+    "Operations in SE Asia, Middle East, and Europe",
+    "~1,000 engineers in field",
+    "Third-party O&M provider — not tied to a single panel or inverter brand",
+    "Parent: Liansheng Unisun (liansheng-unisun), founded 2013"
+  ],
+  "financial_metrics": {
+    "power_stations_managed": 2000,
+    "gw_managed_min": 10,
+    "county_service_centers": 100,
+    "field_engineers_approx": 1000
+  },
+  "funding_history": [],
+  "business_model_notes": "O&M subsidiary model: Liansheng/Unisun Group develops and acquires solar projects; Uper Energy provides the O&M services layer. Revenue: annual service contracts (per GW managed) + emergency/corrective maintenance calls. 100 county-level centers enable rapid response time for distributed residential and C&I assets — critical for customer retention. The hardware-agnostic approach means Uper can service Sungrow, Growatt, or Chint Anneng installations equally, giving broader TAM than OEM-captive teams.",
+  "competitive_position": "Dedicated third-party O&M arm with parent-company project pipeline. 1,000 field engineers + 100+ county centers represent substantial fixed-cost investment creating barriers to entry. Competitive threat: major installers (Chint Anneng, Skyworth Solar) increasingly manage their own O&M for their 2M+ installed base, potentially crowding out independent third-party O&M.",
+  "research_notes": "Medium confidence. Data from Uper Energy website and Tracxn. 2,000 stations and 1,000 engineers from website; independently corroborated by Liansheng corporate disclosure. County-level center count from Uper-energy.com About page. Listed separately from Liansheng-Unisun to track the distinct O&M operational entity."
+}

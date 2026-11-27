@@ -1,0 +1,39 @@
+{
+  "company_slug": "yuexiu-new-energy",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Established June 2022 as wholly-owned subsidiary of Yuexiu Capital (Guangzhou city SASAC)",
+    "2024 full year revenue: CNY 2.734B (+673% YoY)",
+    "2024 net profit: CNY 608M (+1,279% YoY)",
+    "2024 new distributed installations: 10.60 GW (primary rural/farmer segment)",
+    "Served 450K+ farmers by end-2024",
+    "Managed PV capacity: 14.08 GW by end-2024",
+    "2024 electricity revenue: CNY 3.069B (+552% YoY)",
+    "CNY 161B (1,610亿) new energy investment in 2023; plans CNY 200B over 3 years",
+    "State-backed: controlled by Guangzhou city government via Yuexiu Capital"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_2024": 2.734,
+    "revenue_growth_yoy_pct_2024": 673,
+    "net_profit_cny_m_2024": 608,
+    "net_profit_growth_yoy_pct_2024": 1279,
+    "electricity_revenue_cny_b_2024": 3.069,
+    "new_gw_installed_2024": 10.60,
+    "gw_managed_end2024": 14.08,
+    "farmers_served_end2024": 450000
+  },
+  "funding_history": [
+    {
+      "event": "Established as SASAC-backed subsidiary",
+      "year": 2022,
+      "month": 6,
+      "amount_cny_b": null,
+      "notes": "Capitalized by Guangzhou city SASAC via Yuexiu Capital; uses state credit rating for cheap capital"
+    }
+  ],
+  "business_model_notes": "State-backed financial capital entering distributed solar via purpose-built leasing vehicle. Yuexiu acts as the developer and long-term owner of distributed PV assets installed on farmer rooftops. Revenue: electricity sales (PPA with grid or merchant), government FiT, O&M service fees. Strategy: deploy massive state capital at scale (10+ GW/year) to capture rural distributed solar asset ownership before market consolidates. This is state capitalism responding to carbon neutrality pledge (2020) and整县推进 (2021).",
+  "competitive_position": "Fastest-growing entity in financing/leasing segment. State capital cost advantage (AAA parent) vs private competitors. 14.08 GW managed by end-2024 makes it larger than most independent O&M companies by managed capacity. 450K+ farmers served rivals Chint Anneng's 2M user base trajectory.",
+  "research_notes": "High confidence. Annual report figures from OFWeek Solar (June 2024) and CLBA. The explosive growth (673% revenue, 1,279% profit YoY) reflects the 2022 startup year as base — meaningful absolute numbers are the 14.08 GW managed and CNY 2.734B revenue which are large in absolute terms. Confirmed state-SASAC ownership via public corporate records."
+}

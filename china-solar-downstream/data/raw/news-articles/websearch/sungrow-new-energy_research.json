@@ -1,0 +1,32 @@
+{
+  "company_slug": "sungrow-new-energy",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Established December 23, 2014 as Sungrow Power's (300274.SZ) downstream development platform",
+    "Covers 30 provinces",
+    "54 GW+ cumulative PV capacity developed as of 2023",
+    "2024 new installations approximately 14 GW (+55% YoY)",
+    "Filed for separate IPO listing (distinct from Sungrow Power's existing listing)",
+    "Claims status as world's largest PV power station developer",
+    "Spans residential, C&I, and utility-scale segments"
+  ],
+  "financial_metrics": {
+    "cumulative_gw_developed": 54,
+    "new_gw_2024": 14,
+    "yoy_growth_2024_pct": 55,
+    "provinces_covered": 30
+  },
+  "funding_history": [
+    {
+      "event": "Planned IPO filing (separate listing from Sungrow Power 300274.SZ)",
+      "year": 2023,
+      "amount_cny_b": null,
+      "notes": "Would separate the development/O&M downstream business from the inverter manufacturing parent"
+    }
+  ],
+  "business_model_notes": "Vertical integration downstream extension from inverter leader Sungrow. Uses inverter market position (top-3 global) to cross-sell EPC and O&M to homeowners. Revenue model: EPC margin + O&M fee + power-station asset management. Claims 'world's largest PV power station developer' by cumulative GW, though this includes utility-scale alongside distributed.",
+  "competitive_position": "Dominant through parent inverter brand (Sungrow 300274.SZ is global #1 or #2 in inverters). iSolarCloud monitoring platform embedded in all Sungrow inverters creates organic captive user base for downstream services. Primary competitor for monitoring/O&M: SOLARMAN, SolisCloud.",
+  "research_notes": "Medium confidence. 54 GW figure needs verification — includes utility-scale which may inflate residential narrative. IPO filing details not yet confirmed in public records as of search date. Revenue figure of 'RMB 247B' found by agent almost certainly is 247亿 = CNY 24.7B for broader Sungrow entity, not specifically New Energy subsidiary."
+}

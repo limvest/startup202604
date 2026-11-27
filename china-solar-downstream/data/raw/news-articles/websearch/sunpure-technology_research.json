@@ -1,0 +1,48 @@
+{
+  "company_slug": "sunpure-technology",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded 2019 in Hefei as an independent robotics + O&M platform startup — no parent conglomerate",
+    "Developed autonomous PV cleaning robots: railed, trackless, multi-terrain variants",
+    "Smart energy management SaaS platform for power-plant detection and operations",
+    "Pre-A funding (August 2022): led by Hillhouse Ventures",
+    "Series A (January 2024): exceeded CNY 100M, led by Hengxu Capital with Hillhouse Ventures, Guoyuan Fund, Yuantai Investment Partners",
+    "13+ GW capacity contracted",
+    "Deployed in 14 countries",
+    "330+ patents held",
+    "AMP Energy India contract: 300 MW",
+    "Co-drafted China's first PV dry-cleaning robot product specification standard",
+    "Won 'Top 10 PV O&M Brands 2023' award",
+    "Headquarters: Hefei, Anhui"
+  ],
+  "financial_metrics": {
+    "gw_capacity_contracted": 13,
+    "countries_deployed": 14,
+    "patents_held": 330,
+    "series_a_cny_m_min": 100,
+    "india_contract_mw": 300
+  },
+  "funding_history": [
+    {
+      "event": "Pre-A",
+      "year": 2022,
+      "month": 8,
+      "amount_cny_m": null,
+      "investors": ["Hillhouse Ventures"],
+      "notes": "Hillhouse's early backing validates robotics O&M as a category; Hillhouse tends to lead Series A follow-ons"
+    },
+    {
+      "event": "Series A",
+      "year": 2024,
+      "month": 1,
+      "amount_cny_m": 100,
+      "investors": ["Hengxu Capital", "Hillhouse Ventures", "Guoyuan Fund", "Yuantai Investment Partners"],
+      "notes": "CNY 100M+ raised; Hillhouse follow-on confirms conviction; Guoyuan is state-backed fund"
+    }
+  ],
+  "business_model_notes": "Hardware-enabled O&M startup: autonomous cleaning robots reduce soiling loss (5–15% energy loss from dust) without human labor. Revenue: robot sale/lease + SaaS for remote fleet management and power-plant detection. The 330+ patents create IP moat for hardware design; co-drafting China's national standard for dry-cleaning robots creates regulatory moat. International expansion (14 countries including India 300MW) shows non-China addressable market for robotics O&M.",
+  "competitive_position": "Leading Chinese PV cleaning robot manufacturer and smart O&M platform provider. Competes in hardware-enabled O&M vs pure-software competitors (SOLARMAN, Guoneng Rixin). Hillhouse + Hengxu investor pedigree validates the category. The India contract (300 MW with AMP Energy) shows real cross-border commercial traction, not just domestic success.",
+  "research_notes": "High confidence. Series A from Mercom India (Jan 2024 report) and Tracxn database. Hillhouse Pre-A from Hillhouse portfolio page. 330+ patents from company website. India 300MW AMP Energy contract from AMP Energy press release corroborated by Mercom. Standard co-drafting from Chinese solar media sources. 14 countries and 13 GW from Sunpure official site."
+}

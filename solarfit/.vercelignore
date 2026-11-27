@@ -1,0 +1,12 @@
+data/
+models/
+tests/
+api/
+*.parquet
+*.csv
+*.pkl
+*.pt
+*.pth
+__pycache__/
+.venv/
+*.pyc

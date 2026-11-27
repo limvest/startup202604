@@ -1,0 +1,47 @@
+{
+  "company_slug": "getech-pvom",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "TCL-incubated industrial AI company founded 2018 in Shenzhen",
+    "Launched dedicated PV smart monitoring and O&M platform",
+    "Platform covers: real-time analytics, predictive fault detection, digital-twin power station management",
+    "Series A: CNY 100M (2020)",
+    "Series B: hundreds of millions CNY (2022, led by SAIC Capital)",
+    "Series C: hundreds of millions CNY (2025, Optical Valley Finance)",
+    "Revenue exceeded CNY 1B (10亿)",
+    "HKU (Hong Kong University) joint AI lab established April 2025",
+    "Backed by TCL's manufacturing credibility"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_exceeded": 1.0,
+    "series_a_cny_m": 100,
+    "founded_year": 2018
+  },
+  "funding_history": [
+    {
+      "event": "Series A",
+      "year": 2020,
+      "amount_cny_m": 100,
+      "notes": "Early growth capital following TCL incubation"
+    },
+    {
+      "event": "Series B",
+      "year": 2022,
+      "amount_cny_m": null,
+      "investors": ["SAIC Capital"],
+      "notes": "Hundreds of millions CNY; SAIC = Shanghai Automotive Industry Corp, signals auto-energy convergence interest"
+    },
+    {
+      "event": "Series C",
+      "year": 2025,
+      "amount_cny_m": null,
+      "investors": ["Optical Valley Finance"],
+      "notes": "Late-stage growth; HKU AI lab established same year"
+    }
+  ],
+  "business_model_notes": "Industrial AI platform pivoting into solar O&M. Getech's core competency is AI-driven predictive maintenance for manufacturing (TCL factories); the solar O&M product extends this capability to distributed PV assets. Digital-twin model: create a virtual replica of each power station for predictive failure analysis. Revenue: B2B SaaS license + data analytics services. SAIC investment suggests interest in solar O&M for automotive-adjacent (factory rooftop, EV charging integration).",
+  "competitive_position": "AI-differentiated O&M platform competing with simpler monitoring tools. Getech's industrial AI pedigree (from TCL manufacturing) gives it credibility for large enterprise solar portfolios. Main competition: Guoneng Rixin (301162.SZ, forecasting-focused) and SOLARMAN (scale player). Revenue of CNY 1B+ puts it in the same tier as Guoneng Rixin (CNY 550M in 2024).",
+  "research_notes": "Medium confidence. Series A and revenue data from 36Kr article on Getech. SAIC investment confirmed via news sources. HKU AI lab from company press release. Revenue of 'exceeded CNY 1B' from company disclosure — year unclear (likely 2024). Getech's connection to TCL's supply chain makes it a strategic solar tech company even without standalone market leadership."
+}

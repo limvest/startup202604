@@ -1,0 +1,36 @@
+{
+  "company_slug": "huaxia-financial-leasing-solar",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded April 2013 by Huaxia Bank; solar leasing strategy launched 2015",
+    "By June 2023: CNY 32B+ (320亿) cumulative investment in residential PV leasing",
+    "By end-2023: CNY 39B+ (390亿) cumulative, 400K+ household stations",
+    "By end-2024: CNY 52B+ (520亿) invested, 14 GW installed, 500K+ stations, 250亿 kWh generated",
+    "Holds #1 market position among financial lessors in residential solar in China",
+    "Pioneer of 'zero-capex rooftop' financing model that unlocked rural solar adoption at scale",
+    "Operates across 22+ provinces"
+  ],
+  "financial_metrics": {
+    "cumulative_investment_cny_b_jun2023": 32,
+    "cumulative_investment_cny_b_end2023": 39,
+    "cumulative_investment_cny_b_end2024": 52,
+    "gw_installed_end2024": 14,
+    "household_stations_end2023": 400000,
+    "household_stations_end2024": 500000,
+    "kwh_generated_100m_end2024": 250,
+    "provinces_covered_min": 22
+  },
+  "funding_history": [
+    {
+      "event": "Founded as subsidiary of Huaxia Bank",
+      "year": 2013,
+      "amount_cny_b": null,
+      "notes": "Bank-capitalized financial leasing company; capital raised via bond issuance and interbank funding, not VC"
+    }
+  ],
+  "business_model_notes": "Financial lessor model: Huaxia provides the capital for 100% upfront solar installation; household signs leasing contract (typically 20 years) paying monthly from electricity savings. Huaxia receives: (a) electricity revenue sharing or fixed lease payment, (b) REC/carbon credit revenues, (c) government FiT subsidies passed through. Key risk: rural household credit, grid connection delays, panel degradation. Scale advantage: financial institution's balance sheet can outgrow VC-backed solar startups.",
+  "competitive_position": "#1 financial lessor for residential solar in China. Main competitors: Yuexiu New Energy (state-SASAC backed, CNY 16.1B in 2023 alone), other bank-affiliated leasing companies. Structurally different from independent solar companies — competes on cost of capital (Huaxia Bank's AAA rating = cheap funding).",
+  "research_notes": "High confidence. CLBA (China Leasing Business Association) annual reports provide the primary data. Note: figures reported in 亿元 (100M CNY) — '320亿' = CNY 32B not 320B. This is important for cross-source comparison. End-2024 figures from solar.in-en.com report corroborated by company press releases."
+}

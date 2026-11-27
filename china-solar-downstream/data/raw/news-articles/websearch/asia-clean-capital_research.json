@@ -1,0 +1,31 @@
+{
+  "company_slug": "asia-clean-capital",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded 2007; entered China distributed solar PPA in late 2014",
+    "First wholly foreign-owned enterprise (WFOE) to develop distributed solar business in China",
+    "Serves Fortune 500 multinationals: P&G, Danone, Nestlé, Volkswagen, Unilever",
+    "Zero-upfront rooftop solar PPA contracts — company self-finances the solar installation",
+    "EDF partnership (2016): joint venture for rooftop solar in China — 77MW+ confirmed deal",
+    "Model: multinational factory-owner signs 20-year PPA at 10–15% electricity discount vs grid tariff",
+    "ACC retains ownership of solar assets; earns from electricity sales minus installation/O&M costs"
+  ],
+  "financial_metrics": {
+    "jv_with_edf_mw": 77,
+    "customer_electricity_savings_pct": 15,
+    "ppa_contract_duration_years": 20
+  },
+  "funding_history": [
+    {
+      "event": "EDF-ACC China JV for rooftop solar",
+      "year": 2016,
+      "amount_cny_b": null,
+      "notes": "EDF (French state utility) invested into JV; confirms international institutional interest in China C&I solar PPA model. 77MW announced as initial pipeline."
+    }
+  ],
+  "business_model_notes": "China's first C&I rooftop solar PPA operator. Template for commercial-rooftop PPA that was subsequently copied by domestic players. Business logic: multinationals need verifiable renewable energy for Scope 2 reporting; factory rooftops are idle capital; ACC takes development risk in exchange for long-term contracted cashflows. First mover advantage in corporate sustainability buyer market, but vulnerable to domestic competition post-2016 when the model was well-understood.",
+  "competitive_position": "Template innovator, not scale leader. Domestic competitors (Sungrow New Energy, Jinko Power) replicated PPA model at far greater scale with cheaper capital. ACC's competitive moat: foreign-brand trust for multinational procurement decisions + deep relationships with Fortune 500 sustainability teams.",
+  "research_notes": "High confidence. EDF JV documented in PV-Tech 2016 article. ACC website and interviews confirm Fortune 500 customer list. Model well-documented in academic literature on China distributed solar finance."
+}

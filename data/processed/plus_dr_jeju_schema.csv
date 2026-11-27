@@ -1,0 +1,14 @@
+﻿field_name_ko,field_name_en,field_description,domain_category,data_type,max_length,unit,format_expression,source_system,db_name,table_name,etc,code,code_name,source_file
+연도,,연도,,숫자형(NUMERIC),4,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+연차,,연차,,가변문자형(VARCHAR),10,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+연월,,연월,,가변문자형(VARCHAR),6,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+기준출력 제어량(MWh),,기준출력 제어량(MWh),,가변문자형(VARCHAR),2,MWh,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+증대일,,증대일,,가변문자형(VARCHAR),10,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+요일,,요일,,가변문자형(VARCHAR),1,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+증대시간,,증대시간,,가변문자형(VARCHAR),2,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+입찰량(MWh),,입찰량(MWh),,가변문자형(VARCHAR),6,MWh,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+낙찰량(MWh),,낙찰량(MWh),,가변문자형(VARCHAR),6,MWh,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+증대량(MWh),,증대량(MWh),,가변문자형(VARCHAR),6,MWh,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+발전계획 출력제어량,,발전계획 출력제어량,,가변문자형(VARCHAR),3,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+제주SMP,,제주SMP,,가변문자형(VARCHAR),6,,,,,,,,,플러스DR_제주플러스DR실적.xlsx
+증대 이행률,,증대 이행률,,가변문자형(VARCHAR),6,,,,,,,,,플러스DR_제주플러스DR실적.xlsx

@@ -1,0 +1,35 @@
+{
+  "company_slug": "qingtian-solar",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded January 2015 by 22-year-old dropout Ding Yibo",
+    "Revenue: CNY 100M (2015) → CNY 300M (2016) in first 2 years",
+    "Filed for Shenzhen Stock Exchange IPO in February 2023",
+    "IPO fundraising target: CNY 650M",
+    "O&M services covering 4.5 GW across 19 provinces",
+    "Notable pure-play independent (no large-corp parent)",
+    "Headquarters: Jinhua, Zhejiang Province",
+    "Covers distributed EPC + O&M without panel/inverter manufacturing"
+  ],
+  "financial_metrics": {
+    "revenue_cny_m_2015": 100,
+    "revenue_cny_m_2016": 300,
+    "ipo_target_cny_m": 650,
+    "gw_under_om_management": 4.5,
+    "provinces_covered": 19
+  },
+  "funding_history": [
+    {
+      "event": "Shenzhen Stock Exchange IPO filing",
+      "year": 2023,
+      "month": 2,
+      "amount_cny_m": 650,
+      "notes": "Pure-play independent installer — no parent conglomerate; IPO is primary exit event"
+    }
+  ],
+  "business_model_notes": "Traditional EPC + O&M model for distributed residential and C&I solar, operating without manufacturing vertical integration. Revenue: installation contracts (EPC) + annual O&M fees on 4.5 GW under management. Founder Ding Yibo's youth-entrepreneurship story garnered significant media attention and early brand awareness.",
+  "competitive_position": "Key pure-play independent in residential installation segment. IPO filing at CNY 650M target positions it as mid-tier vs Chint Anneng's CNY 36–60B valuation. Significant because it shows the ceiling for independent installers without OEM parent support.",
+  "research_notes": "High confidence. IPO filing documents are public record (SZSE). Revenue figures from 21Jingji article 2023-09-20. Founder background well-documented in Chinese media."
+}

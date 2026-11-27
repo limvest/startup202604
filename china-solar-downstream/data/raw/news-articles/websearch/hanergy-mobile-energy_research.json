@@ -1,0 +1,33 @@
+{
+  "company_slug": "hanergy-mobile-energy",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Hanergy Holding's consumer-facing unit for thin-film solar products launched ~2015",
+    "Products: HanTile (solar roofing tiles), HanWall (BIPV facade), HanCar (solar car), HanPack (portable solar charger)",
+    "Hanergy Thin Film Power stock crashed 47% and was suspended May 2015",
+    "HK$144.3B in market value was erased in the stock suspension event",
+    "60–75% of Hanergy Thin Film's revenue came from parent Hanergy Holding (related-party transactions)",
+    "Li Hejun (founder) was disqualified from HK boards for 8 years by SFC",
+    "Li Hejun detained in mainland China in 2022",
+    "By 2019–2020: global subsidiaries (Alta Devices/US, MiaSolé/US, Solibro/Germany) were shuttered",
+    "Mass layoffs at acquired global thin-film labs 2019–2020 (PV Magazine documented)",
+    "Cautionary tale of: over-leveraged solar dreams, inflated inter-company revenues, governance collapse"
+  ],
+  "financial_metrics": {
+    "market_cap_erased_hkd_b_2015": 144.3,
+    "related_party_revenue_pct_peak": 75,
+    "li_hejun_disqualification_years": 8
+  },
+  "failure_analysis": {
+    "primary_cause": "Related-party transaction fraud: Hanergy Holding was both the 100% shareholder of Hanergy Thin Film AND its largest customer (75% of revenues). The 'revenues' were fake orders from parent to inflate the listed subsidiary's financials.",
+    "secondary_cause": "Thin-film solar technology (CIGS/GaAs) was commercially unproven for large-scale deployment; consumer BIPV products (HanTile, HanCar) were premature relative to market readiness",
+    "tertiary_cause": "Governance failure at board level; SFC found Li Hejun exercised control over stock trades that artificially inflated the share price before the crash",
+    "outcome": "Stock permanently suspended on HKEx. Alta Devices (semiconductor solar), MiaSolé (CIGS), Solibro (CIGS) all closed or sold. Li Hejun detained 2022. Hanergy Mobile Energy as consumer brand is effectively defunct.",
+    "contrast": "vs Solarbao (P2P fraud): Hanergy failed on technology + governance; Solarbao on finance model + governance. Both destroyed by related-party abuse."
+  },
+  "business_model_notes": "BIPV (Building-Integrated Photovoltaic) consumer brand model: install thin-film solar cells into everyday building materials (roof tiles, glass facades) and consumer products (car roofs, backpacks). Theoretically elegant — aesthetic solar without bolt-on panels. Commercially failed because: (a) GaAs thin-film efficiency was overstated, (b) installation complexity and cost far exceeded conventional panel systems, (c) the entire revenue model rested on Hanergy Holding placing fake orders.",
+  "historical_significance": "The largest corporate governance scandal in China's solar industry history. The 2015 crash erased HK$144.3B — more than the entire 2015 market cap of many large solar companies combined. Documents the danger of: (a) listing solar companies where related parties dominate revenues, (b) BIPV consumer narratives that are ahead of manufacturing reality, (c) regulatory arbitrage between HK and mainland listing rules.",
+  "research_notes": "Highest confidence (★5). Wikipedia, PV Magazine, SCMP, Bloomberg all extensively document the collapse. SFC enforcement action is public record (Li Hejun disqualification). PV Magazine December 2019 article confirms subsidiary shutdowns. Hanergy case is one of the most thoroughly documented collapses in global clean energy."
+}

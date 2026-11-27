@@ -1,0 +1,25 @@
+{
+  "company_slug": "soliscloud-ginlong",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "SolisCloud is Ginlong Technologies' (605118.SH) cloud monitoring platform",
+    "Launched 2018 as 2nd-generation monitoring SaaS upgrade",
+    "Ginlong H1 2021 revenue: RMB 1.454B (+99.8% YoY)",
+    "600K+ inverter installations globally give organic SolisCloud user base",
+    "Features: real-time monitoring, smart alarms, remote firmware upgrades, O&M work-orders",
+    "Ginlong is world's #3 PV inverter manufacturer by volume",
+    "SolisCloud competes with SOLARMAN, Sungrow iSolarCloud as monitoring platform"
+  ],
+  "financial_metrics": {
+    "ginlong_revenue_cny_b_h1_2021": 1.454,
+    "ginlong_revenue_yoy_pct_h1_2021": 99.8,
+    "global_inverter_installs": 600000,
+    "ginlong_global_inverter_rank": 3
+  },
+  "funding_history": [],
+  "business_model_notes": "OEM-captive monitoring SaaS identical to Sungrow iSolarCloud model. Ginlong sells Solis-branded inverters worldwide; SolisCloud is the free (with paid premium features) monitoring layer. User acquisition = inverter shipments. Revenue: premium monitoring features, remote O&M service contracts. Ginlong's strategy: compete on inverter price + bundle SolisCloud free to retain installer loyalty vs SOLARMAN's multi-brand approach.",
+  "competitive_position": "Third-tier captive platform (after Sungrow iSolarCloud and Growatt ShinePhone) in OEM-embedded monitoring. Ginlong's #3 global inverter position provides meaningful captive user base (600K+) but smaller than Sungrow's 98 GW managed. SolisCloud is particularly strong in European residential market where Ginlong Solis inverters have strong installer adoption.",
+  "research_notes": "High confidence. Ginlong financial data from 605118.SH semi-annual report H1 2021. SolisCloud platform features from company documentation. 600K+ installs from Tracxn database. Note: Ginlong's rapid revenue growth (99.8% in H1 2021) coincides with China's 整县推进 residential solar boom."
+}

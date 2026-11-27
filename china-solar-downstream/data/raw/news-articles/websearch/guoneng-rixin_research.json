@@ -1,0 +1,37 @@
+{
+  "company_slug": "guoneng-rixin",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 5,
+  "key_facts": [
+    "Founded 2008; listed on ChiNext (301162.SZ) April 2022",
+    "2024 revenue: CNY 550M (+20.5% YoY)",
+    "2024 net profit: CNY 93.6M (+11.1% YoY)",
+    "As of end-2022: 2,958 customer power plants under management",
+    "CAGR 24.19% from 2018–2022",
+    "Specializes in wind/solar power forecasting SaaS and distributed PV monitoring management systems",
+    "AI-powered new energy forecasting LLM released (name not disclosed)",
+    "Serves grid operators and asset managers primarily",
+    "Distributed monitoring product manages provincial and prefecture-level new energy portfolios"
+  ],
+  "financial_metrics": {
+    "revenue_cny_m_2024": 550,
+    "revenue_yoy_pct_2024": 20.5,
+    "net_profit_cny_m_2024": 93.6,
+    "net_profit_yoy_pct_2024": 11.1,
+    "customer_power_plants_end2022": 2958,
+    "cagr_2018_2022_pct": 24.19
+  },
+  "funding_history": [
+    {
+      "event": "ChiNext IPO (301162.SZ)",
+      "year": 2022,
+      "month": 4,
+      "amount_cny_b": null,
+      "notes": "IPO provides liquidity and growth capital for SaaS expansion"
+    }
+  ],
+  "business_model_notes": "B2B SaaS for power grid operators and solar asset managers. Core product: AI-powered renewable energy output forecasting (next-day, next-hour predictions) that grid operators need for dispatch planning. Secondary product: distributed PV monitoring and management for large portfolios. Revenue: SaaS subscription based on GW under management and forecast accuracy. The LLM for energy forecasting (2024) shows investment in AI differentiation vs simpler monitoring tools.",
+  "competitive_position": "Listed market leader in solar monitoring SaaS segment for enterprise/grid customers. Revenue of CNY 550M (2024) and 24.19% CAGR establish it as one of the largest pure-play solar O&M software companies in China. Main differentiator vs SOLARMAN: serves grid operators who need forecasting (not just real-time monitoring); serves utility-scale + large distributed portfolios rather than individual residential systems.",
+  "research_notes": "Highest confidence (★5). All figures from ChiNext (301162.SZ) publicly disclosed annual reports. CAGR calculation verifiable from multi-year revenue data. AI LLM release from company investor relations announcement. 2,958 customer plants figure from year-end 2022 prospectus supplement."
+}

@@ -1,0 +1,23 @@
+{
+  "company_slug": "trinapower-richome",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "1.2M+ cumulative users as of H1 2024",
+    "3.2 GW distributed solar under management as of H1 2024",
+    "Ranked #2 in residential solar in China by user count",
+    "Founded October 2016 as Trina Solar's residential-solar spinout under '天合富家' brand",
+    "Positioned as 'China's first original residential PV system brand'",
+    "Digital omni-channel ecosystem: R&D + installation + after-sales + O&M"
+  ],
+  "financial_metrics": {
+    "cumulative_users_households": 1200000,
+    "gw_managed": 3.2,
+    "rank_in_segment": 2
+  },
+  "funding_history": [],
+  "business_model_notes": "Integrated residential solar system brand. Parent Trina Solar (688599.SH) supplies modules; Trinapower handles downstream EPC, O&M, and energy management. Competes on brand trust borrowed from parent's global panel reputation.",
+  "competitive_position": "#2 in China residential installation by users. Main rival: Chint Anneng (#1 at 2M users). Strategy: leverage Trina's module manufacturing for lower BOM cost.",
+  "research_notes": "Medium-high confidence. User count and GW figures from Trinapower investor deck (H1 2024). Independent verification limited — Trina Solar 688599.SH filings are Chinese-language only."
+}

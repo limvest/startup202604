@@ -1,0 +1,35 @@
+{
+  "company_slug": "enf-solar-china",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 3,
+  "key_facts": [
+    "Founded 2005 in UK; ENF.com.cn is the China-facing directory",
+    "65,000+ verified solar companies listed globally",
+    "91,000+ products indexed",
+    "Annual revenue approximately $8.7M (company disclosure)",
+    "5 disclosed funding rounds from 10 investors",
+    "October 2022: Seed funding from Qingsong Fund and CoStone Capital (Shenzhen-based)",
+    "ENF installer directory is primary B2B marketplace for matching solar buyers with Chinese suppliers",
+    "Used globally by project developers, installers, and buyers to vet Chinese manufacturers"
+  ],
+  "financial_metrics": {
+    "companies_listed": 65000,
+    "products_indexed": 91000,
+    "annual_revenue_usd_m": 8.7,
+    "funding_rounds": 5,
+    "investors_count": 10
+  },
+  "funding_history": [
+    {
+      "event": "Seed funding",
+      "year": 2022,
+      "month": 10,
+      "investors": ["Qingsong Fund", "CoStone Capital"],
+      "notes": "China-focused seed round suggesting expansion of China-market services beyond directory listing"
+    }
+  ],
+  "business_model_notes": "Directory + qualification marketplace. Revenue: premium supplier listings, lead generation (buyers pay for verified contact info), advertising. The 'verified' badge system (factory audits, certification checks) creates a quality signal that is valuable to international buyers who cannot easily audit Chinese manufacturers directly. ENF.com.cn domestic China version primarily serves Chinese project developers looking for domestic supplier comparisons.",
+  "competitive_position": "Global multilingual solar B2B directory leader. Solarbe.com dominates Chinese-language domestic traffic; ENF dominates international buyer traffic sourcing from China. With 2022 Chinese institutional investment (Qingsong + CoStone), expanding domestic China services.",
+  "research_notes": "Medium confidence. Revenue figure is company self-reported. Funding round confirmed via multiple VC database sources. ENF's 65,000 company and 91,000 product figures are from company website. The 2022 China-investor seed round is analytically interesting — suggests ENF positioning as a China-to-world B2B platform, not just a Western buyers' guide to China."
+}

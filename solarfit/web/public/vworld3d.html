@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body, #map { width: 100%; height: 100%; overflow: hidden; }
+    #overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <canvas id="overlay"></canvas>
+  <script>
+    (async function () {
+      var params  = new URLSearchParams(location.search);
+      var key     = params.get('key') || '';
+      var initLat = parseFloat(params.get('lat') || '37.5');
+      var initLon = parseFloat(params.get('lon') || '127.0');
+      var center = { lat: initLat, lon: initLon };
+      var overlay = document.getElementById('overlay');
+      var ctx = overlay.getContext('2d');
+      var renderedAreas = [];
+      var renderedSelectedId = null;
+      var hitAreas = [];
+      var selectedHandles = [];
+      var dragState = null;
+      var didDrag = false;
+
+      if (!key) { document.body.textContent = 'API 키 없음'; return; }
+
+      function resizeOverlay() {
+        var dpr = window.devicePixelRatio || 1;
+        overlay.width = Math.floor(window.innerWidth * dpr);
+        overlay.height = Math.floor(window.innerHeight * dpr);
+        overlay.style.width = window.innerWidth + 'px';
+        overlay.style.height = window.innerHeight + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        drawIndustrialAreas();
+      }
+
+      function project(lon, lat) {
+        var scale = Math.min(window.innerWidth, window.innerHeight) * 7.5;
+        var x = window.innerWidth / 2 + (lon - center.lon) * scale;
+        var y = window.innerHeight / 2 - (lat - center.lat) * scale * 1.25;
+        return [x, y];
+      }
+
+      function unproject(x, y) {
+        var scale = Math.min(window.innerWidth, window.innerHeight) * 7.5;
+        var lon = center.lon + (x - window.innerWidth / 2) / scale;
+        var lat = center.lat - (y - window.innerHeight / 2) / (scale * 1.25);
+        return [lon, lat];
+      }
+
+      function colorForGhi(ghi, alpha) {
+        var t = Math.max(0, Math.min(1, (ghi - 1300) / 190));
+        var r = Math.round(42 + t * 238);
+        var g = Math.round(169 + t * 54);
+        var b = Math.round(224 - t * 190);
+        return 'rgba(' + r + ',' + g + ',' + b + ',' + alpha + ')';
+      }
+
+      function drawPolygon(points, fillStyle, strokeStyle, lineWidth) {
+        if (!points.length) return;
+        ctx.beginPath();
+        ctx.moveTo(points[0][0], points[0][1]);
+        for (var i = 1; i < points.length; i++) ctx.lineTo(points[i][0], points[i][1]);
+        ctx.closePath();
+        if (fillStyle) {
+          ctx.fillStyle = fillStyle;
+          ctx.fill();
+        }
+        if (strokeStyle) {
+          ctx.strokeStyle = strokeStyle;
+          ctx.lineWidth = lineWidth || 1;
+          ctx.stroke();
+        }
+      }
+
+      function pointInPolygon(point, polygon) {
+        var x = point[0], y = point[1];
+        var inside = false;
+        for (var i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+          var xi = polygon[i][0], yi = polygon[i][1];
+          var xj = polygon[j][0], yj = polygon[j][1];
+          var intersect = ((yi > y) !== (yj > y))
+            && (x < (xj - xi) * (y - yi) / ((yj - yi) || 0.000001) + xi);
+          if (intersect) inside = !inside;
+        }
+        return inside;
+      }
+
+      function getSelectedArea() {
+        for (var i = 0; i < renderedAreas.length; i++) {
+          if (renderedAreas[i].id === renderedSelectedId) return renderedAreas[i];
+        }
+        return null;
+      }
+
+      function updateSelectedBoundary(boundary) {
+        var area = getSelectedArea();
+        if (!area) return;
+        area.boundary = boundary;
+        var lonSum = 0;
+        var latSum = 0;
+        boundary.forEach(function(point) {
+          lonSum += point[0];
+          latSum += point[1];
+        });
+        area.lon = lonSum / boundary.length;
+        area.lat = latSum / boundary.length;
+        drawIndustrialAreas();
+        window.parent.postMessage({
+          type: 'vworld3d:areaBoundaryChanged',
+          areaId: area.id,
+          boundary: boundary
+        }, '*');
+      }
+
+      function drawHandle(point, cursor, index) {
+        ctx.fillStyle = '#facc15';
+        ctx.strokeStyle = '#111827';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.rect(point[0] - 5, point[1] - 5, 10, 10);
+        ctx.fill();
+        ctx.stroke();
+        selectedHandles.push({
+          index: index,
+          x: point[0],
+          y: point[1],
+          cursor: cursor
+        });
+      }
+
+      function drawIndustrialAreas() {
+        if (!ctx) return;
+        ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+        hitAreas = [];
+        selectedHandles = [];
+        renderedAreas.forEach(function(area) {
+          var points = (area.boundary || []).map(function(coord) {
+            return project(coord[0], coord[1]);
+          });
+          var selected = area.id === renderedSelectedId;
+          drawPolygon(
+            points,
+            colorForGhi(area.ghiKwhM2Year || 1380, selected ? 0.42 : 0.24),
+            selected ? 'rgba(250, 204, 21, 0.98)' : 'rgba(255, 255, 255, 0.65)',
+            selected ? 3 : 1.5
+          );
+          var centerPoint = project(area.lon, area.lat);
+          var gradient = ctx.createRadialGradient(
+            centerPoint[0], centerPoint[1], 4,
+            centerPoint[0], centerPoint[1], selected ? 80 : 56
+          );
+          gradient.addColorStop(0, colorForGhi(area.ghiKwhM2Year || 1380, selected ? 0.58 : 0.36));
+          gradient.addColorStop(1, 'rgba(0,0,0,0)');
+          ctx.fillStyle = gradient;
+          ctx.beginPath();
+          ctx.arc(centerPoint[0], centerPoint[1], selected ? 80 : 56, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.fillStyle = selected ? '#facc15' : '#e5e7eb';
+          ctx.font = selected ? '700 13px system-ui, sans-serif' : '600 11px system-ui, sans-serif';
+          ctx.textAlign = 'center';
+          ctx.shadowColor = 'rgba(0,0,0,0.85)';
+          ctx.shadowBlur = 4;
+          ctx.fillText(area.name, centerPoint[0], centerPoint[1] - 12);
+          ctx.shadowBlur = 0;
+          if (selected) {
+            drawHandle(points[0], 'nesw-resize', 0);
+            drawHandle(points[1], 'nwse-resize', 1);
+            drawHandle(points[2], 'nesw-resize', 2);
+            drawHandle(points[3], 'nwse-resize', 3);
+          }
+          hitAreas.push({ id: area.id, points: points });
+        });
+      }
+
+      window.addEventListener('resize', resizeOverlay);
+      overlay.addEventListener('mousedown', function(e) {
+        var area = getSelectedArea();
+        var point = [e.clientX, e.clientY];
+        for (var i = 0; i < selectedHandles.length; i++) {
+          var handle = selectedHandles[i];
+          if (Math.abs(point[0] - handle.x) <= 10 && Math.abs(point[1] - handle.y) <= 10) {
+            dragState = {
+              mode: 'vertex',
+              handleIndex: handle.index,
+              start: point,
+              boundary: area.boundary.map(function(coord) { return [coord[0], coord[1]]; })
+            };
+            didDrag = false;
+            e.preventDefault();
+            return;
+          }
+        }
+        var selectedPoints = area
+          ? (area.boundary || []).map(function(coord) { return project(coord[0], coord[1]); })
+          : [];
+        if (area && pointInPolygon(point, selectedPoints)) {
+          dragState = {
+            mode: 'move',
+            start: point,
+            boundary: area.boundary.map(function(coord) { return [coord[0], coord[1]]; })
+          };
+          didDrag = false;
+          e.preventDefault();
+        }
+      });
+
+      overlay.addEventListener('mousemove', function(e) {
+        if (!dragState) {
+          var point = [e.clientX, e.clientY];
+          var cursor = 'default';
+          for (var i = 0; i < selectedHandles.length; i++) {
+            var handle = selectedHandles[i];
+            if (Math.abs(point[0] - handle.x) <= 10 && Math.abs(point[1] - handle.y) <= 10) {
+              cursor = handle.cursor;
+              break;
+            }
+          }
+          if (cursor === 'default') {
+            var selected = getSelectedArea();
+            if (selected) {
+              var selectedPoints = (selected.boundary || []).map(function(coord) {
+                return project(coord[0], coord[1]);
+              });
+              if (pointInPolygon(point, selectedPoints)) cursor = 'move';
+            }
+          }
+          overlay.style.cursor = cursor;
+          return;
+        }
+        didDrag = true;
+        var currentGeo = unproject(e.clientX, e.clientY);
+
+        if (dragState.mode === 'move') {
+          var startGeo = unproject(dragState.start[0], dragState.start[1]);
+          var lonDelta = currentGeo[0] - startGeo[0];
+          var latDelta = currentGeo[1] - startGeo[1];
+          updateSelectedBoundary(dragState.boundary.map(function(coord) {
+            return [coord[0] + lonDelta, coord[1] + latDelta];
+          }));
+          return;
+        }
+
+        if (dragState.mode === 'vertex') {
+          var nextBoundary = dragState.boundary.map(function(coord) {
+            return [coord[0], coord[1]];
+          });
+          nextBoundary[dragState.handleIndex] = currentGeo;
+          updateSelectedBoundary(nextBoundary);
+        }
+      });
+
+      window.addEventListener('mouseup', function() {
+        dragState = null;
+        setTimeout(function() { didDrag = false; }, 0);
+      });
+
+      overlay.addEventListener('click', function(e) {
+        if (didDrag) return;
+        var point = [e.clientX, e.clientY];
+        for (var i = hitAreas.length - 1; i >= 0; i--) {
+          if (pointInPolygon(point, hitAreas[i].points)) {
+            window.parent.postMessage({ type: 'vworld3d:areaSelected', areaId: hitAreas[i].id }, '*');
+            return;
+          }
+        }
+      });
+      resizeOverlay();
+
+      /* ── 스크립트 로더 ── */
+      function loadScript(src) {
+        return new Promise(function(res, rej) {
+          if (document.querySelector('script[src="' + src + '"]')) { res(); return; }
+          var s = document.createElement('script');
+          s.src = src; s.onload = res; s.onerror = rej;
+          document.head.appendChild(s);
+        });
+      }
+
+      await loadScript('https://code.jquery.com/jquery-3.7.1.min.js');
+
+      var queue = [];
+      var _w = document['write'].bind(document);
+      document['write'] = function(html) {
+        // script src
+        var sm = html.match(/src=["']([^"']+)["']/);
+        if (sm) {
+          var url = new URL(sm[1], 'https://map.vworld.kr').href.replace(/^http:\/\//, 'https://');
+          queue.push(url);
+          return;
+        }
+        // link href (CSS)
+        var lm = html.match(/href=["']([^"']+)["']/);
+        if (lm) {
+          var cssUrl = new URL(lm[1], 'https://map.vworld.kr').href.replace(/^http:\/\//, 'https://');
+          var link = document.createElement('link');
+          link.rel = 'stylesheet'; link.href = cssUrl;
+          document.head.appendChild(link);
+        }
+      };
+      try {
+        await loadScript(
+          'https://map.vworld.kr/js/webglMapInit.js.do?version=3.0&apiKey='
+          + encodeURIComponent(key)
+        );
+      } finally { document['write'] = _w; }
+      for (var i = 0; i < queue.length; i++) { await loadScript(queue[i]); }
+
+      if (!window.vw || !window.vw.Map) {
+        document.body.textContent = 'VWorld 로드 실패 — API 키/도메인 확인';
+        return;
+      }
+
+      function makePos(lon, lat) {
+        if (!vw.CameraPosition || !vw.CoordZ || !vw.Direction) return null;
+        try {
+          return new vw.CameraPosition(
+            new vw.CoordZ(lon, lat, 500),
+            new vw.Direction(0, -80, 0)
+          );
+        } catch(e) { return null; }
+      }
+
+      var initPos = makePos(initLon, initLat);
+      var map = new vw.Map();
+      map.setOption({ mapId: 'map', initPosition: initPos, logo: false, navigation: true });
+      map.setMapId('map');
+      if (initPos) map.setInitPosition(initPos);
+      if (map.setLogoVisible) map.setLogoVisible(false);
+      if (map.setNavigationZoomVisible) map.setNavigationZoomVisible(false);
+      map.start();
+
+      function waitReady(cb, tries) {
+        tries = tries || 0;
+        if (tries > 50) return;
+        var pos = makePos(initLon, initLat);
+        if (pos) { cb(); return; }
+        setTimeout(function() { waitReady(cb, tries + 1); }, 100);
+      }
+
+      /* ── draw mode UI ── */
+      var hint = document.createElement('div');
+      hint.style.cssText = 'position:fixed;top:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.75);color:#facc15;padding:8px 18px;border-radius:8px;font-size:14px;font-family:sans-serif;display:none;z-index:9999;pointer-events:none;';
+      document.body.appendChild(hint);
+
+      var rectEl = document.createElement('div');
+      rectEl.style.cssText = 'position:fixed;border:2px dashed #facc15;background:rgba(250,204,21,.08);pointer-events:none;display:none;z-index:9998;';
+      document.body.appendChild(rectEl);
+
+      /* ── 타일 오버레이 캔버스 ── */
+      var overlayCanvas = document.createElement('canvas');
+      overlayCanvas.style.cssText = 'position:fixed;top:0;left:0;pointer-events:none;z-index:500;';
+      document.body.appendChild(overlayCanvas);
+      var octx = overlayCanvas.getContext('2d');
+      var scanTiles = [];
+
+      function resizeTileCanvas() {
+        overlayCanvas.width  = window.innerWidth;
+        overlayCanvas.height = window.innerHeight;
+      }
+      resizeTileCanvas();
+      window.addEventListener('resize', resizeTileCanvas);
+
+      function drawTileOverlay(cViewer) {
+        octx.clearRect(0, 0, overlayCanvas.width, overlayCanvas.height);
+        if (!scanTiles.length) return;
+
+        scanTiles.forEach(function(tile) {
+          var corners = [
+            [tile.lat_min, tile.lon_min],
+            [tile.lat_min, tile.lon_max],
+            [tile.lat_max, tile.lon_max],
+            [tile.lat_max, tile.lon_min],
+          ];
+          var pts = [];
+          for (var i = 0; i < 4; i++) {
+            var cart = Cesium.Cartesian3.fromDegrees(corners[i][1], corners[i][0]);
+            var sc = cViewer.scene.cartesianToCanvasCoordinates(cart);
+            if (!sc) return; // 화면 밖 → 건너뜀
+            pts.push(sc);
+          }
+          if (pts.length < 4) return;
+
+          octx.beginPath();
+          octx.moveTo(pts[0].x, pts[0].y);
+          for (var j = 1; j < 4; j++) octx.lineTo(pts[j].x, pts[j].y);
+          octx.closePath();
+
+          if (tile.detected) {
+            var alpha = (0.45 + tile.prob * 0.45).toFixed(2);
+            octx.fillStyle   = 'rgba(251,191,36,' + alpha + ')';
+            octx.strokeStyle = '#fbbf24';
+            octx.lineWidth   = 2;
+            octx.setLineDash([]);
+            octx.fill();
+            octx.stroke();
+          } else {
+            octx.fillStyle   = 'rgba(255,255,255,0.07)';
+            octx.strokeStyle = 'rgba(255,255,255,0.35)';
+            octx.lineWidth   = 1;
+            octx.setLineDash([3, 3]);
+            octx.fill();
+            octx.stroke();
+            octx.setLineDash([]);
+          }
+        });
+      }
+
+      function setupTileOverlay(cViewer) {
+        cViewer.scene.postRender.addEventListener(function() {
+          drawTileOverlay(cViewer);
+        });
+      }
+
+      /* ── Cesium 뷰어 탐색 ── */
+      function findCesiumViewer() {
+        var names = ['_viewer', 'viewer', '_cesiumViewer', '_map', '_cesium', 'context'];
+        for (var i = 0; i < names.length; i++) {
+          var v = map[names[i]];
+          if (v && v.scene && v.camera) return v;
+        }
+        try {
+          var keys = Object.keys(map);
+          for (var i = 0; i < keys.length; i++) {
+            var v = map[keys[i]];
+            if (v && typeof v === 'object' && v.scene && v.camera) return v;
+          }
+        } catch(e) {}
+        return null;
+      }
+
+      /* ── 클릭 핸들러 ── */
+      var drawActive = false;
+      var corner1 = null;
+      var corner1px = null;
+
+      function attachClickHandler() {
+        try {
+          if (typeof map.onClick === 'function') {
+            var origClick = map.onClick.bind(map);
+            map.onClick = function(coord) { origClick(coord); handleGeoClick(coord); };
+            return;
+          }
+          if (window.Cesium) {
+            var cViewer = findCesiumViewer();
+            if (cViewer) {
+              var handler = new Cesium.ScreenSpaceEventHandler(cViewer.scene.canvas);
+              handler.setInputAction(function(movement) {
+                if (!drawActive) return;
+                var cartesian = null;
+                try {
+                  var ray = cViewer.camera.getPickRay(movement.position);
+                  cartesian = cViewer.scene.globe.pick(ray, cViewer.scene);
+                } catch(e) {}
+                if (!cartesian) {
+                  try { cartesian = cViewer.camera.pickEllipsoid(movement.position); } catch(e) {}
+                }
+                if (cartesian) {
+                  var carto = Cesium.Cartographic.fromCartesian(cartesian);
+                  handleGeoClick({
+                    lat: Cesium.Math.toDegrees(carto.latitude),
+                    lon: Cesium.Math.toDegrees(carto.longitude)
+                  });
+                }
+              }, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+              return;
+            }
+          }
+          var canvas = document.querySelector('#map canvas');
+          if (canvas) {
+            canvas.addEventListener('click', function(e) {
+              if (!drawActive) return;
+              var geo = canvasToGeo(e);
+              if (geo) handleGeoClick(geo);
+            });
+          }
+        } catch(ex) { console.warn('click handler attach failed', ex); }
+      }
+
+      function canvasToGeo(e) {
+        try {
+          if (map.getView && map.getView()) {
+            var view = map.getView();
+            if (view.getCoordinateFromPixel) {
+              var rect = e.target.getBoundingClientRect();
+              var px = [e.clientX - rect.left, e.clientY - rect.top];
+              var coord = view.getCoordinateFromPixel(px);
+              if (coord && vw && vw.ol && vw.ol.proj) {
+                var wgs = vw.ol.proj.transform(coord, 'EPSG:3857', 'EPSG:4326');
+                return { lon: wgs[0], lat: wgs[1] };
+              }
+            }
+          }
+        } catch(ex) {}
+        return null;
+      }
+
+      function handleGeoClick(coord) {
+        if (!drawActive || !coord) return;
+        var geo = coord.lon !== undefined ? coord
+                : (coord.x !== undefined ? { lon: coord.x, lat: coord.y } : null);
+        if (!geo) return;
+        if (!corner1) {
+          corner1 = geo;
+          hint.textContent = '두 번째 꼭짓점을 클릭하세요';
+        } else {
+          window.parent.postMessage({
+            type: 'vworld3d:bbox',
+            bbox: {
+              lat_min: Math.min(corner1.lat, geo.lat),
+              lat_max: Math.max(corner1.lat, geo.lat),
+              lon_min: Math.min(corner1.lon, geo.lon),
+              lon_max: Math.max(corner1.lon, geo.lon),
+            }
+          }, '*');
+          stopDraw();
+        }
+      }
+
+      document.addEventListener('mousemove', function(e) {
+        if (!drawActive || !corner1px) return;
+        var x = Math.min(e.clientX, corner1px.x);
+        var y = Math.min(e.clientY, corner1px.y);
+        rectEl.style.left   = x + 'px'; rectEl.style.top    = y + 'px';
+        rectEl.style.width  = Math.abs(e.clientX - corner1px.x) + 'px';
+        rectEl.style.height = Math.abs(e.clientY - corner1px.y) + 'px';
+        rectEl.style.display = 'block';
+      });
+
+      document.addEventListener('click', function(e) {
+        if (!drawActive) return;
+        if (!corner1px) {
+          corner1px = { x: e.clientX, y: e.clientY };
+        } else {
+          corner1px = null; rectEl.style.display = 'none';
+        }
+      });
+
+      function stopDraw() {
+        drawActive = false; corner1 = null; corner1px = null;
+        hint.style.display = 'none';
+        rectEl.style.display = 'none';
+        document.body.style.cursor = '';
+      }
+
+      waitReady(function() {
+        var pos = makePos(initLon, initLat);
+        if (pos) try { map.moveTo(pos); } catch(e) {}
+        attachClickHandler();
+
+        // Cesium 뷰어 찾으면 tile overlay 설정
+        if (window.Cesium) {
+          var cViewer = findCesiumViewer();
+          if (cViewer) setupTileOverlay(cViewer);
+        }
+
+        window.parent.postMessage({ type: 'vworld3d:ready' }, '*');
+      });
+
+      /* ── 부모 메시지 수신 ── */
+      window.addEventListener('message', function(e) {
+        if (!e.data) return;
+        if (e.data.type === 'flyTo') {
+          center = { lat: e.data.lat, lon: e.data.lon };
+          var pos = makePos(e.data.lon, e.data.lat);
+          if (pos) try { map.moveTo(pos); } catch(ex) {}
+          drawIndustrialAreas();
+        } else if (e.data.type === 'startDraw') {
+          drawActive = true; corner1 = null; corner1px = null;
+          rectEl.style.display = 'none';
+          hint.style.display = 'block';
+          hint.textContent = '첫 번째 꼭짓점을 클릭하세요';
+          document.body.style.cursor = 'crosshair';
+        } else if (e.data.type === 'cancelDraw') {
+          stopDraw();
+        } else if (e.data.type === 'showTiles') {
+          scanTiles = e.data.tiles || [];
+        } else if (e.data.type === 'renderIndustrialAreas') {
+          renderedAreas = Array.isArray(e.data.areas) ? e.data.areas : [];
+          renderedSelectedId = e.data.selectedAreaId;
+          drawIndustrialAreas();
+        }
+      });
+
+    })();
+  </script>
+</body>
+</html>

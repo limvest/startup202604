@@ -1,0 +1,256 @@
+# 2026-11 재검증 기록 (Re-verification log, 2026-11-27)
+# 2026년 5월 데이터셋의 핵심 수치를 공개 자료로 다시 확인한 결과.
+# status: verified(확인) | corrected(정정) | updated(새 사실 추가) | unverified(이번에 확인 못함)
+# 출처는 모두 2026-11-27 접속 기준.
+
+checked_at: "2026-11-27"
+
+market:
+  - claim: "중국 2025년 신규 태양광 315.07GW(AC), 누적 1.2TW"
+    status: verified
+    source: https://www.pv-magazine.com/2026/01/28/china-adds-315-gw-of-solar-in-2025/
+  - claim: "2025년 주택용 45.95GW(+55.5%), 상공업용 107.05GW, 누적 주택용 205.83GW"
+    status: updated
+    source: https://taiyangnews.info/markets/china-solar-pv-news-snippets-february-24-2026
+  - claim: "2025년 5월 한 달 92.92GW (136호 문건 시행 전 서두른 설치)"
+    status: updated
+    source: https://taiyangnews.info/markets/china-installed-over-315-gw-ac-new-solar-pv-capacity-in-2025
+  - claim: "2026년 1~9월 110.83GW, 전년 대비 -54%"
+    status: updated
+    source: https://taiyangnews.info/markets/china-9m-2026-solar-installations
+  - claim: "2026년 상반기 분산형 42.22GW(-62.6%), 상공업용 -77%; 5개 성이 신규 상공업용 분산형을 보호가격(机制电价)에서 제외"
+    status: updated
+    source: https://m.thepaper.cn/newsDetail_forward_33804340
+  - claim: "주택용 신규 중 분산형 비중: 2021년 약 3/4 → 2023년 45.2% → 2024년 약 25% → 2025년 상반기 23%. 2024년 주택용 신규는 약 1/3 감소"
+    status: updated
+    source: https://cj.sina.com.cn/articles/view/2442012107/918e25cb00101pvae
+  - claim: "국가전력망(国家电网) '光e宝' 주택용 전기요금 귀속 플랫폼 2025년 2월 해지 통보; 웨슈신에너지(越秀新能源) 신규 관리 용량 2023년 4.25GW → 2024년 7.47GW → 2025년 1.44GW"
+    status: updated
+    source: https://m.sohu.com/a/1091332572_146940
+  - claim: "2025년 12월 상공업 분산형 태양광 기반 첫 기관 간 REIT, 3.2억 위안, 약 130MW(평균 약 3MW)"
+    status: updated
+    source: https://www.caixinglobal.com/2025-12-30/china-approves-new-reit-structure-to-tap-distributed-solar-assets-102398633.html
+  - claim: "VPP 지침(发改能源〔2025〕357号): 조절 능력 2027년 20GW 이상, 2030년 50GW 이상"
+    status: updated
+    source: https://taiyangnews.info/markets/china-targets-50-gw-virtual-power-plant-capacity
+  - claim: "136호는 재생에너지 ESS 병설 의무 폐지, 2026년 1월 114호는 독립형 ESS에 용량 보상"
+    status: updated
+    source: https://ember-energy.org/?p=25523
+
+companies:
+  chint-anneng:
+    status: corrected
+    facts:
+      - "매출 2022년 137.04억, 2023년 296.06억, 2024년 318.26억 위안; 순이익 17.53억/26.04억/28.61억 위안"
+      - "2024년 말 누적 주택용 발전소 160만 곳 이상, 29개 성, 1,900개 이상 구·현"
+      - "2025-09-01 상하이 상장 신청 철회(심사 종료). 모회사 설명은 '사업 성장이 빨라 통합 관리'"
+      - "2026년 3월 누적 가동 주택용 200만 곳 돌파 발표"
+      - "정태전기 2026년 상반기: 보유 발전소 28.95GW 중 주택용 26.02GW, 평균 판매단가 0.38→0.33위안/kWh"
+    corrections:
+      - "기존 '2024년 200만 가구 이상' → 2024년 말 160만 곳, 200만 돌파는 2026년 3월"
+      - "기존 상태 'IPO 신청 중' → 2025년 9월 철회"
+      - "기존 'IPO 가치 360~600억 위안'은 확인 못함. 후룬 2025 유니콘 순위 기준 440억 위안"
+    sources:
+      - https://www.yicai.com/news/102812256.html
+      - https://www.lanjinger.com/d/1757930995367507778
+      - https://taiyangnews.info/markets/china-solar-pv-news-snippets-march-4-2026
+      - https://wallstreetcn.com/articles/3779814
+  sigenergy-technology:
+    status: corrected
+    facts:
+      - "매출 2023년 5,830만 위안 → 2025년 90억 위안; 2025년 이익 29억 위안"
+      - "매출총이익률 31.3% → 50.1%(2023→2025), 조정 순이익률 35.9%(2025)"
+      - "2025년 해외 매출 99%(아시아태평양 45.9%, 유럽 44.6%)"
+      - "2026-04-16 홍콩 상장(06656.HK), 44억 홍콩달러 조달, 개인 청약 1,102배"
+      - "호주 가정용 배터리 2025년 점유율 25%로 1위(SunWiz)"
+    corrections:
+      - "기존 '2024년 매출 1.8억 달러, 22.8배'는 확인 못함 → 투자설명서 수치로 교체"
+      - "기존 '청약 1,000배' → 개인 청약 1,102배"
+      - "기존 '세계 점유율 24%' → 투자설명서 인용 28.6%(2024)"
+    sources:
+      - https://www.energy-storage.news/sigenergy-lists-on-hong-kong-stock-exchange-raises-hk4-4-billion/
+      - https://www.mercomindia.com/sigenergy-technology-raises-562-million-in-hong-kong-ipo
+      - https://www.pv-magazine.com/2026/04/08/sigenergy-launches-hong-kong-ipo
+      - https://www.caixinglobal.com/2026-04-16/energy-storage-startup-sigenergy-surges-103-in-hong-kong-debut-102434871.html
+      - https://reneweconomy.com.au/want-a-cheaper-home-battery-federal-rebate-now-offers-1259-models-to-choose-from/amp/?nb=1
+  guoxia-technology:
+    status: corrected
+    facts:
+      - "매출 2022년 1.42억, 2023년 3.14억, 2024년 10.26억 위안; 2025년 상반기 6.91억 위안"
+      - "2024년 대형 ESS 매출 비중 76.6%, 내수 79.9%"
+      - "2025-12-16 홍콩 상장(02655.HK), 공모가 20.1홍콩달러, 순조달 7.006억 홍콩달러, 개인 청약 1,890.73배"
+    corrections:
+      - "기존 '2025년 매출 20.57억 위안'은 확인 못함"
+      - "기존 '8.1억 홍콩달러 조달' → 순조달 7.006억 홍콩달러"
+    sources:
+      - https://www.energy-storage.news/system-integrator-guoxia-technology-to-go-public-in-hong-kong-on-16-december/
+      - https://www.itiger.com/news/2591067622
+      - https://www.energytrend.com/print/50552
+  hoymiles-smiles-cloud:
+    status: updated
+    facts:
+      - "2025년 매출 19.32억 위안(-3.06%), 순손실 1.61억 위안(흑자→적자)"
+      - "마이크로인버터·모니터링 매출 7.57억(-38.27%), ESS 매출 5.03억(+61.06%)"
+      - "화룽금융리스와의 10억 위안 주택용 리스 협력이 1.62억 위안만 실행된 채 조기 종료"
+    sources:
+      - https://m.jiemian.com/article/14369949.html
+      - https://pdf.dfcfw.com/pdf/H3_AP202605051821968973_1.pdf
+      - https://m.sohu.com/a/1091332572_146940
+  growatt-shinephone:
+    status: corrected
+    facts:
+      - "매출 2023년 53.63억, 2024년 44.76억, 2025년 52.33억 위안; 이익 8.43억/0.20억/4.13억 위안"
+      - "2025년 ESS 매출 비중 63.4%, 태양광 인버터 29.8%, AI 에너지관리 1.2%; 해외 82.3%"
+      - "2026-06-16 홍콩 상장 세 번째 신청(2022·2023년 심사 통과 후 상장 미완료)"
+      - "세계 3위 가정용 ESS 인버터 업체(2025년 출하 기준, 투자설명서)"
+    corrections:
+      - "기존 '외부 투자 0회'는 틀림: 세쿼이아가 2021년 엑시트, IDG가 2022년 9억 위안 투자"
+      - "기존 '2022년 매출 70.9억 위안', '세계 1위 가정용 인버터'는 이번에 확인 못함"
+    sources:
+      - https://cj.sina.com.cn/articles/view/5835524730/15bd30a7a020026kp2
+      - https://news.qq.com/rain/a/20260702A09SH100
+      - https://m.jiemian.com/article/14668380.html
+  skyworth-solar:
+    status: corrected
+    facts:
+      - "창웨이광푸 매출 2022년 119.30억, 2023년 232.17억, 2024년 201.46억, 2025년 상반기 137.76억 위안"
+      - "순이익 2022년 3.56억, 2023년 8.65억, 2024년 7.93억, 2025년 상반기 5.32억 위안"
+      - "2025년 상반기 누적 주택용 발전소 80만 곳 이상, 운영 용량 27GW 이상, 주택용 2위"
+      - "2025년 말 누적 계통연계 29.3GW 이상"
+      - "2026년 1월 창웨이그룹 홍콩 상장 폐지(사유화) + 창웨이광푸 별도 홍콩 상장 계획 발표"
+    corrections:
+      - "기존 '2024년 매출 234억 위안' → 201.46억 위안"
+      - "기존 '2024년 누적 29.3GW' → 29.3GW는 2025년 말 기준"
+      - "기존 '4년 300배 성장'은 2020년 매출 근거를 확인 못해 삭제"
+    sources:
+      - https://www.jiemian.com/article/13964863.html
+      - https://www.lanjinger.com/d/1776211756574609945
+      - https://finance.sina.cn/2026-06-19/detail-inicwxpf9859295.d.html?vt=4
+  guoneng-rixin:
+    status: updated
+    facts:
+      - "2025년 매출 7.17억 위안(+30.49%), 순이익 1.30억 위안(+39.18%), 매출총이익률 61.82%"
+      - "출력 예측 서비스 발전소 2025년 말 6,029곳(연간 +1,684곳)"
+      - "전력거래 제품 19개 성 개발·적용, 자회사 통해 VPP·발전소 운영 진출"
+    sources:
+      - https://stock.stockstar.com/RB2026041100000939.shtml
+      - https://m.gelonghui.com/news/5236619
+      - https://data.eastmoney.com/report/info/AP202605051821973278.html
+  jinko-power-technology:
+    status: updated
+    facts:
+      - "매출 2023년 43.70억, 2024년 47.75억, 2025년 39.00억 위안; 순이익 3.83억/3.24억/3.30억 위안"
+      - "2025년 상반기 발전소 729MW 매각(주택용 652MW 포함), 자체 보유 약 5,953MW(2025년 6월)"
+    sources:
+      - https://epaper.cs.com.cn/zgzqb/images/2026-04/29/B760/zqB76029.pdf
+      - https://pdf.dfcfw.com/pdf/H3_AP202509041738724050_1.pdf
+  yuexiu-new-energy:
+    status: updated
+    facts:
+      - "신규 관리 용량 2023년 4.25GW → 2024년 7.47GW → 2025년 1.44GW(신규 지배 용량 1.27GW)"
+    corrections:
+      - "기존 '2024년 신규 10.60GW'는 위 수치와 정의가 달라 충돌, 미해결로 표시"
+    sources:
+      - https://m.sohu.com/a/1091332572_146940
+  huaxia-financial-leasing-solar:
+    status: updated
+    facts:
+      - "2024년 말 누적 주택용 발전소 52만 곳, 약 15GW, 24개 성(총재 인터뷰)"
+      - "중국품질인증센터와 '분산형 태양광 시스템 등급 인증' 공동 발표"
+      - "2025년 말 총자산 2,000억 위안"
+    corrections:
+      - "기존 '22개 성 이상' → 24개 성"
+    sources:
+      - https://paper.people.com.cn/zgnyb/pc/content/202509/15/content_30105405.html
+      - https://www.news.cn/money/20260122/5fa0086f889948d3ad387808ffc06c7c/c.html
+  sungrow-isolarcloud:
+    status: updated
+    facts:
+      - "모회사 썬그로우 2025년 매출 891.84억 위안, 순이익 134.61억 위안; ESS 매출(372.87억)이 인버터(311.36억)를 처음 넘음"
+      - "iSolarCloud가 베네룩스 Frank Energy와 VPP 디스패치 협력"
+      - "iSolarCloud 최신 공개 규모는 2024년 8월 수치(198만 사용자, 98GW)가 마지막"
+    sources:
+      - https://www.pv-magazine.com/?p=338103
+      - https://taiyangnews.info/pressreleases/integrating-into-european-power-trading-isolarcloud-partners-with-frank-energy
+  soliscloud-ginlong:
+    status: updated
+    facts:
+      - "진랑커지 2025년 매출 69.52억 위안(+6.26%), 순이익 7.43억 위안(+7.53%)"
+      - "2026년 1분기 매출 14.19억(-6.5%), 순이익 0.61억(-68.6%)"
+    sources:
+      - https://finance.eastmoney.com/a/202604273719475391.html
+  sunpure-technology:
+    status: corrected
+    facts:
+      - "중국명 仁洁智能科技(합페이), 2019-11-14 설립, CEO 胡羽然"
+      - "엔젤(2020-12) 투자자 仁发投资는 썬그로우 창업자 曹仁贤의 '仁'계열 투자 플랫폼"
+      - "Pre-A 2022-08 힐하우스 주도, A 2024-01 1억 위안 이상 恒旭资本 주도"
+      - "누적 계약 13GW 이상, 14개국, 특허 160건 이상(2024년 1월)"
+    corrections:
+      - "기존 '특허 330건 이상'은 2024년 1월 발표(160건 이상)와 충돌"
+      - "썬그로우 창업자 계열과의 관계가 기존 프로필에 빠져 있었음"
+    sources:
+      - https://pitchhub.36kr.com/project/1917355288802563
+      - https://www.36kr.com/p/2601579579832962
+      - https://news.mydrivers.com/1/960/960109.htm
+  trinapower-richome:
+    status: updated
+    facts:
+      - "2025년 3월 기준 130만 가구 이상, 국내 점유율 약 20%, 2위권"
+      - "2025년 3월 高纪凡·高海纯 공동 총재 체제"
+    sources:
+      - https://www.cls.cn/detail/1959465
+  zhonglai-solar-distributed:
+    status: updated
+    facts:
+      - "중라이구펀(中来股份) 2025년 매출 44.49억 위안, 순손실 13.72억 위안(2024년 순손실 8.56억), 2년 연속 적자"
+    sources:
+      - https://static.weeklyonstock.com/26/0427/zbf203811.html
+      - https://caifuhao.eastmoney.com/news/20260417150654042663980
+  zhongling-xingneng:
+    status: corrected
+    facts:
+      - "정식 명칭 中瓴星能(北京)新能源科技(기존 표기 '中领'은 오타), 2023-03-06 설립"
+      - "엔젤 2023-06 약 1억 위안, 新明珠集团 주도, 险峰长青·轩尼斯 참여"
+    corrections:
+      - "투자 시점 2023년 3월 → 2023년 6월"
+    sources:
+      - https://pitchhub.36kr.com/project/2307968564529667
+  tcl-solar-tech:
+    status: updated
+    facts:
+      - "'光富宝' 주택용 브랜드 2022년 8월 출시"
+      - "2025년 상업용·주택용·해외·운영·전력탄소 5개 사업, IFA 2025에 SunPower 브랜드로 출품"
+      - "총경리 何雁飚: 2020~2025년 리스사가 주택용 태양광의 핵심 투자자가 됨(2026-09 발언)"
+    sources:
+      - https://www.tcl.com/cn/zh/guangfu/news/guangfubao
+      - https://www.tcl.com/cn/zh/guangfu/news/tcl-photovoltaic-technology-shines-at-ifa-2025
+      - https://www.yicai.com/news/103373840.html
+  asia-clean-capital:
+    status: updated
+    facts:
+      - "베트남 자회사(Asia Clean Capital Vietnam)를 Gresham House에 매각(2026-03)"
+      - "중국 내 새 공개 규모 자료는 찾지 못함"
+    sources:
+      - https://vietnamnews.vn/economy/1767121/asia-clean-capital-vietnam-acquired-by-gresham-house-accelerates-expansion.html
+
+unverified:
+  note: "아래 기업은 2026-11 점검에서 새 공개 자료를 찾지 못했거나 비상장·자체 발표 수치만 있음. 기존 수치를 출처 등급과 함께 유지."
+  slugs:
+    - solarman-igen-tech
+    - geothermal-solarman-cn
+    - chint-power-oem-platform
+    - enf-solar-china
+    - solarbe-global
+    - zheguyun-solar-saas
+    - jnengyun-jinengcloud
+    - s2b2c-pv-platform
+    - seeder-clean-energy
+    - cyberlink-iot
+    - getech-pvom
+    - qingtian-solar
+    - liansheng-unisun
+    - uper-energy
+    - sungrow-new-energy
+    - hanergy-mobile-energy
+    - solarbao-spi

@@ -1,0 +1,34 @@
+{
+  "company_slug": "growatt-shinephone",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 4,
+  "key_facts": [
+    "Founded May 2011 by David Ding and PV industry pioneers — independent company, no conglomerate backing",
+    "Global #1 residential inverter manufacturer by 2022/2023",
+    "2022 revenue: CNY 7.09B",
+    "5th globally in total PV inverter shipments by 2023 (Wood Mackenzie data)",
+    "ShinePhone: proprietary monitoring SaaS serving millions of rooftop solar owners worldwide",
+    "Online Service System (OSS) enables remote diagnostics, improving operational efficiency 60%+",
+    "Bootstrapped growth — no disclosed VC rounds",
+    "ShinePhone competes with Sungrow iSolarCloud and SOLARMAN as monitoring platform",
+    "Revenue model: hardware (inverter) sales + monitoring software subscriptions"
+  ],
+  "financial_metrics": {
+    "revenue_cny_b_2022": 7.09,
+    "global_rank_residential_inverter": 1,
+    "global_rank_total_inverter_2023": 5,
+    "om_efficiency_improvement_pct": 60
+  },
+  "funding_history": [
+    {
+      "event": "Bootstrapped — no disclosed external funding",
+      "year": 2011,
+      "amount_cny_b": null,
+      "notes": "Entirely self-funded through inverter product sales; David Ding led growth without VC"
+    }
+  ],
+  "business_model_notes": "Hardware-first, software-second model. Growatt built global distribution through aggressive pricing on string inverters (residential/small commercial); ShinePhone is the monitoring SaaS layer that creates sticky recurring relationships. Every Growatt inverter owner is a potential ShinePhone subscriber. OSS (Online Service System) for remote management reduces O&M site visits, enabling after-sales service at scale. The monitoring platform creates data that Growatt uses to upsell battery storage (Growatt ARK battery line).",
+  "competitive_position": "Dominant in affordable residential inverter tier globally; ShinePhone extends the relationship post-installation. Main inverter competitor: Sungrow. Main monitoring competitor: Sungrow iSolarCloud, SOLARMAN. Growatt's edge: price competitiveness in emerging markets (SE Asia, Africa, India) where iSolarCloud has less presence.",
+  "research_notes": "High confidence. Revenue figure from Growatt investor relations and Wood Mackenzie analysis cited in Roth Capital report. ShinePhone launch and features from Growatt website. Global #1 residential ranking confirmed by multiple industry reports (BloombergNEF, WoodMac). Bootstrapped status notable — one of few large-scale solar tech companies without VC/PE backing in formative years."
+}

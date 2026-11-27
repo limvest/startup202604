@@ -1,0 +1,29 @@
+{
+  "company_slug": "tcl-solar-tech",
+  "research_date": "2026-05-08",
+  "search_method": "websearch",
+  "confidence_grade": 2,
+  "key_facts": [
+    "Established December 2021 after TCL Group acquired Tianjin Zhonghuan semiconductor (wafer manufacturer)",
+    "Accumulated ~1.891 GW of residential and commercial distributed solar by end-2022",
+    "Primarily through financing-lease models ('光富宝' brand targets rural household solar)",
+    "Big-tech cross-industry disruption backed by TCL's consumer-brand reach and wafer supply-chain",
+    "TCL Group revenue: semiconductor + solar modules + TV brand portfolio",
+    "Financing-lease model: zero-upfront for rural households, EMC repayment from electricity savings"
+  ],
+  "financial_metrics": {
+    "cumulative_gw_distributed_end2022": 1.891,
+    "founded_year": 2021
+  },
+  "funding_history": [
+    {
+      "event": "Internal corporate capitalization via TCL Group / Zhonghuan merger",
+      "year": 2021,
+      "amount_cny_b": null,
+      "notes": "TCL acquired Tianjin Zhonghuan for CNY 25B in 2020; TCL Solar Tech leverages this supply chain"
+    }
+  ],
+  "business_model_notes": "Vertical integration model: TCL controls wafer manufacturing (Zhonghuan), modules (TCL Zhonghuan), and downstream installation (TCL Solar Tech). Consumer solar under '光富宝' brand uses EMC/leasing model: 0 upfront, pay from electricity savings. Targets rural household market.",
+  "competitive_position": "Smaller than Chint Anneng and Skyworth Solar in cumulative users but stronger supply-chain integration. 1.891 GW by end-2022 was early growth signal in first year of operation.",
+  "research_notes": "LOW CONFIDENCE on residential segment specifics. Websearch returned mostly Zhonghuan wafer financials and TCL group semiconductor results. Residential solar performance data sparse in English press. The 1.891 GW figure is from Vzkoo article (April 2023). Recommend additional Chinese-language search for '光富宝' brand performance data."
+}
