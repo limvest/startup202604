@@ -9,6 +9,7 @@ This repository now keeps a compact, analysis-oriented data layout.
 - `data/docs/README.md`: document index with `current` and `legacy` separation.
 - `data/docs/current/data_reference/현재_보유자료_및_분석각도.md`: current inventory and analysis directions in Korean.
 - `data/docs/current/research/연구노트_actual_pvout_생성_20260427.md`: how regional actual PVOUT was derived from KPX generation and capacity data.
+- Note: the `scripts/` ETL files mentioned below are not included in this public copy; the processed CSVs are.
 - `scripts/process_all_raw.py`: rebuilds the processed CSV layer from raw files.
 - `scripts/build_analysis_table.py`: rebuilds the hourly master table.
 - `scripts/build_sqlite_db.py`: creates `data/processed/startup202604.sqlite` on demand.
